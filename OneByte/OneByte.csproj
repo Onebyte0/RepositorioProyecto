@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8B28648-EF45-440B-92EA-03F9CD5D68B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OneByte</RootNamespace>
+    <AssemblyName>OneByte</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteAgendaRutinasAsignadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteAgendaRutinasAsignadas.Designer.cs">
+      <DependentUpon>UsuarioClienteAgendaRutinasAsignadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteDatosDeportista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteDatosDeportista.Designer.cs">
+      <DependentUpon>UsuarioClienteDatosDeportista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteDescripcionEjercicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteDescripcionEjercicios.Designer.cs">
+      <DependentUpon>UsuarioClienteDescripcionEjercicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteEstadoDeportista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteEstadoDeportista.Designer.cs">
+      <DependentUpon>UsuarioClienteEstadoDeportista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteEstadoPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteEstadoPago.Designer.cs">
+      <DependentUpon>UsuarioClienteEstadoPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteGrupoPerteneciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteGrupoPerteneciente.Designer.cs">
+      <DependentUpon>UsuarioClienteGrupoPerteneciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteMain.Designer.cs">
+      <DependentUpon>UsuarioClienteMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioClienteRendimientoDeportista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioClienteRendimientoDeportista.Designer.cs">
+      <DependentUpon>UsuarioClienteRendimientoDeportista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAgendaDisponibilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAgendaDisponibilidad.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorAgendaDisponibilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAgendaRutinasAsignadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAgendaRutinasAsignadas.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorAgendaRutinasAsignadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAgruparDeportistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAgruparDeportistas.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorAgruparDeportistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorDescripcionEjercicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorDescripcionEjercicios.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorDescripcionEjercicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAsignarEjerciciosRutinas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAsignarEjerciciosRutinas.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorAsignarEjerciciosRutinas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorEstadoDeportistaLesionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorEstadoDeportistaLesionado.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorEstadoDeportistaLesionado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorEstadoDeportistaSano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorEstadoDeportistaSano.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorEstadoDeportistaSano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorGruposMusculares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorGruposMusculares.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorGruposMusculares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorInfoDeportista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorInfoDeportista.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorInfoDeportista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorMain.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorRutinasDeportistasLesionados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorRutinasDeportistasLesionados.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorRutinasDeportistasLesionados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorRutinasDeportistasSanos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorRutinasDeportistasSanos.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorRutinasDeportistasSanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioSeleccionadorEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioSeleccionadorEquipo.Designer.cs">
+      <DependentUpon>UsuarioSeleccionadorEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleccionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionUsuarios.Designer.cs">
+      <DependentUpon>SeleccionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoControlDeAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoControlDeAsistencia.Designer.cs">
+      <DependentUpon>UsuarioAdministrativoControlDeAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoControlDePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoControlDePago.Designer.cs">
+      <DependentUpon>UsuarioAdministrativoControlDePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoDarDeBaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoDarDeBaja.Designer.cs">
+      <DependentUpon>UsuarioAdministrativoDarDeBaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAdministrativoMain.Designer.cs">
+      <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoGestionDeClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoGestionDeClientes.Designer.cs">
+      <DependentUpon>UsuarioAvanzadoGestionDeClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoGestionDeEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoGestionDeEmpleados.Designer.cs">
+      <DependentUpon>UsuarioAvanzadoGestionDeEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoIngresoEjercicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoIngresoEjercicios.Designer.cs">
+      <DependentUpon>UsuarioAvanzadoIngresoEjercicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoMain.Designer.cs">
+      <DependentUpon>UsuarioAvanzadoMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoOpcionalidadDeportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioAvanzadoOpcionalidadDeportes.Designer.cs">
+      <DependentUpon>UsuarioAvanzadoOpcionalidadDeportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioSeleccionadorConsultaEvolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioSeleccionadorConsultaEvolucion.Designer.cs">
+      <DependentUpon>UsuarioSeleccionadorConsultaEvolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioSeleccionadorMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioSeleccionadorMain.Designer.cs">
+      <DependentUpon>UsuarioSeleccionadorMain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteAgendaRutinasAsignadas.resx">
+      <DependentUpon>UsuarioClienteAgendaRutinasAsignadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteDatosDeportista.resx">
+      <DependentUpon>UsuarioClienteDatosDeportista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteDescripcionEjercicios.resx">
+      <DependentUpon>UsuarioClienteDescripcionEjercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteEstadoDeportista.resx">
+      <DependentUpon>UsuarioClienteEstadoDeportista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteEstadoPago.resx">
+      <DependentUpon>UsuarioClienteEstadoPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteGrupoPerteneciente.resx">
+      <DependentUpon>UsuarioClienteGrupoPerteneciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteMain.resx">
+      <DependentUpon>UsuarioClienteMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioClienteRendimientoDeportista.resx">
+      <DependentUpon>UsuarioClienteRendimientoDeportista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorAgendaDisponibilidad.resx">
+      <DependentUpon>UsuarioEntrenadorAgendaDisponibilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorAgendaRutinasAsignadas.resx">
+      <DependentUpon>UsuarioEntrenadorAgendaRutinasAsignadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorAgruparDeportistas.resx">
+      <DependentUpon>UsuarioEntrenadorAgruparDeportistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorDescripcionEjercicios.resx">
+      <DependentUpon>UsuarioEntrenadorDescripcionEjercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorAsignarEjerciciosRutinas.resx">
+      <DependentUpon>UsuarioEntrenadorAsignarEjerciciosRutinas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorEstadoDeportistaLesionado.resx">
+      <DependentUpon>UsuarioEntrenadorEstadoDeportistaLesionado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorEstadoDeportistaSano.resx">
+      <DependentUpon>UsuarioEntrenadorEstadoDeportistaSano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorGruposMusculares.resx">
+      <DependentUpon>UsuarioEntrenadorGruposMusculares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorInfoDeportista.resx">
+      <DependentUpon>UsuarioEntrenadorInfoDeportista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorMain.resx">
+      <DependentUpon>UsuarioEntrenadorMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorRutinasDeportistasLesionados.resx">
+      <DependentUpon>UsuarioEntrenadorRutinasDeportistasLesionados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorRutinasDeportistasSanos.resx">
+      <DependentUpon>UsuarioEntrenadorRutinasDeportistasSanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioSeleccionadorEquipo.resx">
+      <DependentUpon>UsuarioSeleccionadorEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SeleccionUsuarios.resx">
+      <DependentUpon>SeleccionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAdministrativoControlDeAsistencia.resx">
+      <DependentUpon>UsuarioAdministrativoControlDeAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAdministrativoControlDePago.resx">
+      <DependentUpon>UsuarioAdministrativoControlDePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAdministrativoDarDeBaja.resx">
+      <DependentUpon>UsuarioAdministrativoDarDeBaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAdministrativoMain.resx">
+      <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAvanzadoGestionDeClientes.resx">
+      <DependentUpon>UsuarioAvanzadoGestionDeClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAvanzadoGestionDeEmpleados.resx">
+      <DependentUpon>UsuarioAvanzadoGestionDeEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAvanzadoIngresoEjercicios.resx">
+      <DependentUpon>UsuarioAvanzadoIngresoEjercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAvanzadoMain.resx">
+      <DependentUpon>UsuarioAvanzadoMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioAvanzadoOpcionalidadDeportes.resx">
+      <DependentUpon>UsuarioAvanzadoOpcionalidadDeportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioSeleccionadorConsultaEvolucion.resx">
+      <DependentUpon>UsuarioSeleccionadorConsultaEvolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioSeleccionadorMain.resx">
+      <DependentUpon>UsuarioSeleccionadorMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoradoOnebyte-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoradoOnebyte-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down-arrow-icon-sign-symbol-logo-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-arrow-computer-icons-logo-white-down-arrow-miscellaneous-angle-rectangle-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-arrow-computer-icons-logo-white-down-arrow-miscellaneous-angle-rectangle-thumbnail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31BeKrgtq5L._AC_UF894,1000_QL80_.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
