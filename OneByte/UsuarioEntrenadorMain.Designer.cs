@@ -48,7 +48,6 @@
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
             this.textBox27 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
@@ -92,6 +91,7 @@
             this.pdeportista = new System.Windows.Forms.Panel();
             this.infodepor = new System.Windows.Forms.Button();
             this.agrupardepor = new System.Windows.Forms.Button();
+            this.textBox28 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.pevolucion.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -142,7 +142,7 @@
             // 
             this.deportista.FlatAppearance.BorderSize = 0;
             this.deportista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deportista.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deportista.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deportista.ForeColor = System.Drawing.Color.White;
             this.deportista.Location = new System.Drawing.Point(852, 33);
             this.deportista.Name = "deportista";
@@ -158,7 +158,7 @@
             // 
             this.agenda.FlatAppearance.BorderSize = 0;
             this.agenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agenda.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agenda.ForeColor = System.Drawing.Color.White;
             this.agenda.Location = new System.Drawing.Point(645, 33);
             this.agenda.Name = "agenda";
@@ -174,7 +174,7 @@
             // 
             this.evolucion.FlatAppearance.BorderSize = 0;
             this.evolucion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.evolucion.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.evolucion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.evolucion.ForeColor = System.Drawing.Color.White;
             this.evolucion.Location = new System.Drawing.Point(396, 33);
             this.evolucion.Name = "evolucion";
@@ -190,7 +190,7 @@
             // 
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(165, 33);
             this.button1.Name = "button1";
@@ -216,7 +216,7 @@
             // estadolesionado
             // 
             this.estadolesionado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.estadolesionado.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estadolesionado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estadolesionado.ForeColor = System.Drawing.Color.White;
             this.estadolesionado.Location = new System.Drawing.Point(19, 62);
             this.estadolesionado.Name = "estadolesionado";
@@ -229,7 +229,7 @@
             // estadodeportista
             // 
             this.estadodeportista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.estadodeportista.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estadodeportista.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estadodeportista.ForeColor = System.Drawing.Color.White;
             this.estadodeportista.Location = new System.Drawing.Point(19, 17);
             this.estadodeportista.Name = "estadodeportista";
@@ -247,7 +247,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 163F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 152F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 143F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 148F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 149F));
             this.tableLayoutPanel1.Controls.Add(this.textBox36, 5, 5);
             this.tableLayoutPanel1.Controls.Add(this.textBox35, 4, 5);
             this.tableLayoutPanel1.Controls.Add(this.textBox34, 3, 5);
@@ -298,7 +298,7 @@
             // 
             // textBox36
             // 
-            this.textBox36.Location = new System.Drawing.Point(803, 257);
+            this.textBox36.Location = new System.Drawing.Point(802, 257);
             this.textBox36.Multiline = true;
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(132, 49);
@@ -306,7 +306,7 @@
             // 
             // textBox35
             // 
-            this.textBox35.Location = new System.Drawing.Point(660, 257);
+            this.textBox35.Location = new System.Drawing.Point(659, 257);
             this.textBox35.Multiline = true;
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(137, 49);
@@ -314,7 +314,7 @@
             // 
             // textBox34
             // 
-            this.textBox34.Location = new System.Drawing.Point(508, 257);
+            this.textBox34.Location = new System.Drawing.Point(507, 257);
             this.textBox34.Multiline = true;
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(146, 49);
@@ -322,7 +322,7 @@
             // 
             // textBox33
             // 
-            this.textBox33.Location = new System.Drawing.Point(345, 257);
+            this.textBox33.Location = new System.Drawing.Point(344, 257);
             this.textBox33.Multiline = true;
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(157, 49);
@@ -330,7 +330,7 @@
             // 
             // textBox32
             // 
-            this.textBox32.Location = new System.Drawing.Point(160, 257);
+            this.textBox32.Location = new System.Drawing.Point(159, 257);
             this.textBox32.Multiline = true;
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(179, 49);
@@ -341,12 +341,12 @@
             this.textBox31.Location = new System.Drawing.Point(3, 257);
             this.textBox31.Multiline = true;
             this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(151, 49);
+            this.textBox31.Size = new System.Drawing.Size(150, 49);
             this.textBox31.TabIndex = 30;
             // 
             // textBox30
             // 
-            this.textBox30.Location = new System.Drawing.Point(803, 205);
+            this.textBox30.Location = new System.Drawing.Point(802, 205);
             this.textBox30.Multiline = true;
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(132, 46);
@@ -354,23 +354,15 @@
             // 
             // textBox29
             // 
-            this.textBox29.Location = new System.Drawing.Point(660, 205);
+            this.textBox29.Location = new System.Drawing.Point(659, 205);
             this.textBox29.Multiline = true;
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(137, 46);
             this.textBox29.TabIndex = 28;
             // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(508, 205);
-            this.textBox28.Multiline = true;
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(146, 46);
-            this.textBox28.TabIndex = 27;
-            // 
             // textBox27
             // 
-            this.textBox27.Location = new System.Drawing.Point(345, 205);
+            this.textBox27.Location = new System.Drawing.Point(344, 205);
             this.textBox27.Multiline = true;
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(157, 46);
@@ -378,7 +370,7 @@
             // 
             // textBox26
             // 
-            this.textBox26.Location = new System.Drawing.Point(160, 205);
+            this.textBox26.Location = new System.Drawing.Point(159, 205);
             this.textBox26.Multiline = true;
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(179, 46);
@@ -389,12 +381,12 @@
             this.textBox25.Location = new System.Drawing.Point(3, 205);
             this.textBox25.Multiline = true;
             this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(151, 46);
+            this.textBox25.Size = new System.Drawing.Size(150, 46);
             this.textBox25.TabIndex = 24;
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(803, 157);
+            this.textBox24.Location = new System.Drawing.Point(802, 157);
             this.textBox24.Multiline = true;
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(132, 42);
@@ -402,7 +394,7 @@
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(660, 157);
+            this.textBox23.Location = new System.Drawing.Point(659, 157);
             this.textBox23.Multiline = true;
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(137, 42);
@@ -410,7 +402,7 @@
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(508, 157);
+            this.textBox22.Location = new System.Drawing.Point(507, 157);
             this.textBox22.Multiline = true;
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(146, 42);
@@ -418,7 +410,7 @@
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(345, 157);
+            this.textBox21.Location = new System.Drawing.Point(344, 157);
             this.textBox21.Multiline = true;
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(157, 42);
@@ -426,7 +418,7 @@
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(160, 157);
+            this.textBox20.Location = new System.Drawing.Point(159, 157);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(179, 42);
@@ -437,12 +429,12 @@
             this.textBox19.Location = new System.Drawing.Point(3, 157);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(151, 42);
+            this.textBox19.Size = new System.Drawing.Size(150, 42);
             this.textBox19.TabIndex = 18;
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(803, 101);
+            this.textBox18.Location = new System.Drawing.Point(802, 101);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(132, 50);
@@ -450,7 +442,7 @@
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(660, 101);
+            this.textBox17.Location = new System.Drawing.Point(659, 101);
             this.textBox17.Multiline = true;
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(137, 50);
@@ -458,7 +450,7 @@
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(508, 101);
+            this.textBox16.Location = new System.Drawing.Point(507, 101);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(146, 50);
@@ -466,7 +458,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(345, 101);
+            this.textBox15.Location = new System.Drawing.Point(344, 101);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(157, 50);
@@ -474,7 +466,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(160, 101);
+            this.textBox14.Location = new System.Drawing.Point(159, 101);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(179, 50);
@@ -485,12 +477,12 @@
             this.textBox13.Location = new System.Drawing.Point(3, 101);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(151, 50);
+            this.textBox13.Size = new System.Drawing.Size(150, 50);
             this.textBox13.TabIndex = 12;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(803, 46);
+            this.textBox12.Location = new System.Drawing.Point(802, 46);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(132, 49);
@@ -498,7 +490,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(660, 46);
+            this.textBox11.Location = new System.Drawing.Point(659, 46);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(137, 49);
@@ -506,7 +498,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(508, 46);
+            this.textBox10.Location = new System.Drawing.Point(507, 46);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(146, 49);
@@ -514,7 +506,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(160, 46);
+            this.textBox8.Location = new System.Drawing.Point(159, 46);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(179, 49);
@@ -525,12 +517,12 @@
             this.textBox7.Location = new System.Drawing.Point(3, 46);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(151, 49);
+            this.textBox7.Size = new System.Drawing.Size(150, 49);
             this.textBox7.TabIndex = 6;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(803, 3);
+            this.textBox6.Location = new System.Drawing.Point(802, 3);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(131, 37);
@@ -538,7 +530,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(660, 3);
+            this.textBox5.Location = new System.Drawing.Point(659, 3);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(137, 37);
@@ -546,7 +538,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(508, 3);
+            this.textBox4.Location = new System.Drawing.Point(507, 3);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(146, 37);
@@ -554,7 +546,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(345, 3);
+            this.textBox3.Location = new System.Drawing.Point(344, 3);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(157, 37);
@@ -562,7 +554,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 3);
+            this.textBox2.Location = new System.Drawing.Point(159, 3);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(179, 37);
@@ -573,12 +565,12 @@
             this.textBox1.Location = new System.Drawing.Point(3, 3);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 37);
+            this.textBox1.Size = new System.Drawing.Size(150, 37);
             this.textBox1.TabIndex = 0;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(345, 46);
+            this.textBox9.Location = new System.Drawing.Point(344, 46);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(157, 49);
@@ -643,7 +635,7 @@
             // deporlesionado
             // 
             this.deporlesionado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deporlesionado.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deporlesionado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deporlesionado.ForeColor = System.Drawing.Color.White;
             this.deporlesionado.Location = new System.Drawing.Point(19, 62);
             this.deporlesionado.Name = "deporlesionado";
@@ -656,7 +648,7 @@
             // ejerarutinas
             // 
             this.ejerarutinas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ejerarutinas.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ejerarutinas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ejerarutinas.ForeColor = System.Drawing.Color.White;
             this.ejerarutinas.Location = new System.Drawing.Point(19, 129);
             this.ejerarutinas.Name = "ejerarutinas";
@@ -669,7 +661,7 @@
             // grupomuscular
             // 
             this.grupomuscular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.grupomuscular.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grupomuscular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grupomuscular.ForeColor = System.Drawing.Color.White;
             this.grupomuscular.Location = new System.Drawing.Point(19, 260);
             this.grupomuscular.Name = "grupomuscular";
@@ -682,7 +674,7 @@
             // descripejer
             // 
             this.descripejer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.descripejer.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descripejer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descripejer.ForeColor = System.Drawing.Color.White;
             this.descripejer.Location = new System.Drawing.Point(19, 205);
             this.descripejer.Name = "descripejer";
@@ -695,7 +687,7 @@
             // deporsanos
             // 
             this.deporsanos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deporsanos.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deporsanos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deporsanos.ForeColor = System.Drawing.Color.White;
             this.deporsanos.Location = new System.Drawing.Point(19, 17);
             this.deporsanos.Name = "deporsanos";
@@ -719,7 +711,7 @@
             // agendarutina
             // 
             this.agendarutina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agendarutina.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agendarutina.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agendarutina.ForeColor = System.Drawing.Color.White;
             this.agendarutina.Location = new System.Drawing.Point(19, 62);
             this.agendarutina.Name = "agendarutina";
@@ -732,7 +724,7 @@
             // agendadispo
             // 
             this.agendadispo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agendadispo.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agendadispo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agendadispo.ForeColor = System.Drawing.Color.White;
             this.agendadispo.Location = new System.Drawing.Point(19, 17);
             this.agendadispo.Name = "agendadispo";
@@ -756,7 +748,7 @@
             // infodepor
             // 
             this.infodepor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.infodepor.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infodepor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.infodepor.ForeColor = System.Drawing.Color.White;
             this.infodepor.Location = new System.Drawing.Point(19, 62);
             this.infodepor.Name = "infodepor";
@@ -769,7 +761,7 @@
             // agrupardepor
             // 
             this.agrupardepor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.agrupardepor.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agrupardepor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.agrupardepor.ForeColor = System.Drawing.Color.White;
             this.agrupardepor.Location = new System.Drawing.Point(19, 17);
             this.agrupardepor.Name = "agrupardepor";
@@ -778,6 +770,14 @@
             this.agrupardepor.Text = "Agrupar deportista";
             this.agrupardepor.UseVisualStyleBackColor = true;
             this.agrupardepor.Click += new System.EventHandler(this.agrupardepor_Click);
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(507, 205);
+            this.textBox28.Multiline = true;
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(146, 46);
+            this.textBox28.TabIndex = 27;
             // 
             // UsuarioEntrenadorMain
             // 
@@ -824,7 +824,6 @@
         private System.Windows.Forms.TextBox textBox31;
         private System.Windows.Forms.TextBox textBox30;
         private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox28;
         private System.Windows.Forms.TextBox textBox27;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.TextBox textBox25;
@@ -875,5 +874,6 @@
         private System.Windows.Forms.Panel pdeportista;
         private System.Windows.Forms.Button infodepor;
         private System.Windows.Forms.Button agrupardepor;
+        private System.Windows.Forms.TextBox textBox28;
     }
 }

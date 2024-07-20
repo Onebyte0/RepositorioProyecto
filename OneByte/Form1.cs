@@ -25,8 +25,7 @@ namespace OneByte
 
         private void registro_Click(object sender, EventArgs e)
         {
-            var menuForm = new Form2();
-            menuForm.Show();
+            
 
         }
 

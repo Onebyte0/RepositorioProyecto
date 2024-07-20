@@ -33,7 +33,6 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.confirmar = new System.Windows.Forms.Button();
-            this.volver = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.docCliente = new System.Windows.Forms.TextBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -43,12 +42,20 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.controlDePago = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.darDeAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.controlAsistenciaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deshabilitarUsuarioUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.habilitarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDePagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(479, 327);
+            this.button2.Location = new System.Drawing.Point(551, 345);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 34);
             this.button2.TabIndex = 68;
@@ -58,7 +65,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightGreen;
-            this.button3.Location = new System.Drawing.Point(595, 327);
+            this.button3.Location = new System.Drawing.Point(667, 345);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 34);
             this.button3.TabIndex = 67;
@@ -69,7 +76,7 @@
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.dateTimePicker1.Location = new System.Drawing.Point(394, 121);
+            this.dateTimePicker1.Location = new System.Drawing.Point(488, 118);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker1.TabIndex = 94;
@@ -79,7 +86,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(356, 86);
+            this.label1.Location = new System.Drawing.Point(334, 118);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 18);
             this.label1.TabIndex = 95;
@@ -87,22 +94,12 @@
             // 
             // confirmar
             // 
-            this.confirmar.Location = new System.Drawing.Point(431, 165);
+            this.confirmar.Location = new System.Drawing.Point(551, 159);
             this.confirmar.Name = "confirmar";
             this.confirmar.Size = new System.Drawing.Size(75, 23);
             this.confirmar.TabIndex = 96;
             this.confirmar.Text = "Confirmar";
             this.confirmar.UseVisualStyleBackColor = true;
-            // 
-            // volver
-            // 
-            this.volver.Location = new System.Drawing.Point(22, 241);
-            this.volver.Name = "volver";
-            this.volver.Size = new System.Drawing.Size(75, 23);
-            this.volver.TabIndex = 0;
-            this.volver.Text = "Volver";
-            this.volver.UseVisualStyleBackColor = true;
-            this.volver.Click += new System.EventHandler(this.button1_Click);
             // 
             // label25
             // 
@@ -165,7 +162,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(152, 79);
+            this.button1.Location = new System.Drawing.Point(172, 78);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 97;
@@ -182,8 +179,7 @@
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.docCliente);
             this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.volver);
-            this.panel1.Location = new System.Drawing.Point(15, 86);
+            this.panel1.Location = new System.Drawing.Point(12, 106);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(291, 293);
             this.panel1.TabIndex = 93;
@@ -191,19 +187,90 @@
             // controlDePago
             // 
             this.controlDePago.AutoSize = true;
-            this.controlDePago.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlDePago.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.controlDePago.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.controlDePago.Location = new System.Drawing.Point(22, 35);
+            this.controlDePago.Location = new System.Drawing.Point(252, 46);
             this.controlDePago.Name = "controlDePago";
-            this.controlDePago.Size = new System.Drawing.Size(296, 33);
+            this.controlDePago.Size = new System.Drawing.Size(299, 40);
             this.controlDePago.TabIndex = 97;
             this.controlDePago.Text = "Control De Asistencia";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
+            this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            this.menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.darDeAltaToolStripMenuItem,
+            this.gestionDePagosToolStripMenuItem,
+            this.cerrarSesiónToolStripMenuItem});
+            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.menuStrip1.Size = new System.Drawing.Size(784, 37);
+            this.menuStrip1.Stretch = false;
+            this.menuStrip1.TabIndex = 98;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // darDeAltaToolStripMenuItem
+            // 
+            this.darDeAltaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.controlAsistenciaToolStripMenuItem1,
+            this.deshabilitarUsuarioUToolStripMenuItem,
+            this.habilitarUsuarioToolStripMenuItem});
+            this.darDeAltaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
+            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(167, 33);
+            this.darDeAltaToolStripMenuItem.Text = "Gestión de Usuarios";
+            this.darDeAltaToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            // 
+            // controlAsistenciaToolStripMenuItem1
+            // 
+            this.controlAsistenciaToolStripMenuItem1.Name = "controlAsistenciaToolStripMenuItem1";
+            this.controlAsistenciaToolStripMenuItem1.Size = new System.Drawing.Size(318, 26);
+            this.controlAsistenciaToolStripMenuItem1.Text = "Control de asistencia (estas aquí)";
+            this.controlAsistenciaToolStripMenuItem1.Click += new System.EventHandler(this.controlAsistenciaToolStripMenuItem1_Click);
+            // 
+            // deshabilitarUsuarioUToolStripMenuItem
+            // 
+            this.deshabilitarUsuarioUToolStripMenuItem.Name = "deshabilitarUsuarioUToolStripMenuItem";
+            this.deshabilitarUsuarioUToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
+            this.deshabilitarUsuarioUToolStripMenuItem.Text = "Deshabilitar usuario";
+            this.deshabilitarUsuarioUToolStripMenuItem.Click += new System.EventHandler(this.darDeBajaUToolStripMenuItem_Click);
+            // 
+            // habilitarUsuarioToolStripMenuItem
+            // 
+            this.habilitarUsuarioToolStripMenuItem.Name = "habilitarUsuarioToolStripMenuItem";
+            this.habilitarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(318, 26);
+            this.habilitarUsuarioToolStripMenuItem.Text = "Habilitar usuario";
+            this.habilitarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.habilitarUsuarioToolStripMenuItem_Click);
+            // 
+            // gestionDePagosToolStripMenuItem
+            // 
+            this.gestionDePagosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.gestionDePagosToolStripMenuItem.Name = "gestionDePagosToolStripMenuItem";
+            this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(153, 33);
+            this.gestionDePagosToolStripMenuItem.Text = "Gestión de Pagos ";
+            this.gestionDePagosToolStripMenuItem.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem_Click);
+            // 
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(119, 33);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
             // UsuarioAdministrativoControlDeAsistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(776, 396);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(784, 411);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.controlDePago);
             this.Controls.Add(this.confirmar);
             this.Controls.Add(this.label1);
@@ -214,8 +281,11 @@
             this.Name = "UsuarioAdministrativoControlDeAsistencia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAdministrativoControlDeAsistencia";
+            this.Load += new System.EventHandler(this.UsuarioAdministrativoControlDeAsistencia_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,7 +297,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button confirmar;
-        private System.Windows.Forms.Button volver;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox docCliente;
         private System.Windows.Forms.RadioButton radioButton3;
@@ -237,5 +306,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label controlDePago;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem darDeAltaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem controlAsistenciaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem deshabilitarUsuarioUToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem habilitarUsuarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
     }
 }

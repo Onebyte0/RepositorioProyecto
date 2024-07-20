@@ -104,5 +104,10 @@ namespace OneByte
         {
 
         }
+
+        private void UsuarioAdministrativoMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

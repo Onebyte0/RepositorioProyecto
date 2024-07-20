@@ -38,5 +38,44 @@ namespace OneByte
         {
 
         }
+
+        private void darDeAltaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void darDeAltaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var irControlDeAsistencia = new UsuarioAdministrativoControlDeAsistencia();
+            irControlDeAsistencia.Show();
+            this.Hide();
+        }
+
+        private void darDeBahaUToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var irDarDeBaja= new UsuarioAdministrativoDarDeBaja();
+            irDarDeBaja.Show();
+            this.Hide();
+        }
+
+        private void gestionDePagosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void cerrrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var volverInicioSesion = new Form1();
+            volverInicioSesion.Show();
+            this.Close();
+        }
+
+        private void habilitarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var volverUsuAdministrativo = new UsuarioAdministrativoMain();
+            volverUsuAdministrativo.Show();
+            this.Close();
+        }
     }
 }

@@ -30,7 +30,6 @@
         {
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.registro = new System.Windows.Forms.Button();
             this.salir = new System.Windows.Forms.Button();
             this.inicioSesion = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -54,16 +53,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 20);
             this.textBox1.TabIndex = 1;
-            // 
-            // registro
-            // 
-            this.registro.Location = new System.Drawing.Point(12, 399);
-            this.registro.Name = "registro";
-            this.registro.Size = new System.Drawing.Size(154, 39);
-            this.registro.TabIndex = 2;
-            this.registro.Text = "Registro";
-            this.registro.UseVisualStyleBackColor = true;
-            this.registro.Click += new System.EventHandler(this.registro_Click);
             // 
             // salir
             // 
@@ -131,7 +120,6 @@
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.inicioSesion);
             this.Controls.Add(this.salir);
-            this.Controls.Add(this.registro);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Name = "Form1";
@@ -146,7 +134,6 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button registro;
         private System.Windows.Forms.Button salir;
         private System.Windows.Forms.Button inicioSesion;
         private System.Windows.Forms.ComboBox comboBox2;
