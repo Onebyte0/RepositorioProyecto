@@ -17,10 +17,31 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void opcDeportes_Click(object sender, EventArgs e)
         {
-            var volverUsuAvanzado = new UsuarioAvanzadoMain();
-            volverUsuAvanzado.Show();
+            var opcDeportes = new UsuarioAvanzadoOpcionalidadDeportes();
+            opcDeportes.Show();
+            this.Hide();
+        }
+
+        private void gestiondeEmpleados_Click(object sender, EventArgs e)
+        {
+            var gestionEmpleados = new UsuarioAvanzadoGestionDeEmpleados();
+            gestionEmpleados.Show();
+            this.Hide();
+        }
+
+        private void gestionCli_Click(object sender, EventArgs e)
+        {
+            var gestionCli = new UsuarioAvanzadoMain();
+            gestionCli.Show();
+            this.Hide();
+        }
+
+        private void cerrarsesion_Click(object sender, EventArgs e)
+        {
+            var cerrarsesion = new SeleccionUsuarios();
+            cerrarsesion.Show();
             this.Hide();
         }
     }

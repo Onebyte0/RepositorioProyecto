@@ -17,10 +17,31 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void volver_Click(object sender, EventArgs e)
+        private void gestionDeEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var volverUsuAvanzado = new UsuarioAvanzadoMain();
-            volverUsuAvanzado.Show();
+            var gestionEmpleados = new UsuarioAvanzadoGestionDeEmpleados();
+            gestionEmpleados.Show();
+            this.Hide();
+        }
+
+        private void gestiondeCli_Click(object sender, EventArgs e)
+        {
+            var gestiondeCli = new UsuarioAvanzadoMain();
+            gestiondeCli.Show();
+            this.Hide();
+        }
+
+        private void gestionDeEjerciciosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var gestionEjer = new UsuarioAvanzadoIngresoEjercicios();
+            gestionEjer.Show();
+            this.Hide();
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var cerrarsesion = new SeleccionUsuarios();
+            cerrarsesion.Show();
             this.Hide();
         }
     }

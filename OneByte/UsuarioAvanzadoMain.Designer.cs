@@ -30,10 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.gestionCli = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionempleado = new System.Windows.Forms.ToolStripMenuItem();
             this.opcdeportes = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionejer = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.nombreCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -82,34 +85,46 @@
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestionCli,
             this.gestionempleado,
             this.opcdeportes,
             this.gestionejer,
-            this.cerrarsesion});
+            this.cerrarsesion,
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem2});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(895, 37);
+            this.menuStrip1.Size = new System.Drawing.Size(894, 37);
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // gestionCli
+            // 
+            this.gestionCli.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gestionCli.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.gestionCli.Name = "gestionCli";
+            this.gestionCli.Size = new System.Drawing.Size(228, 33);
+            this.gestionCli.Text = "Gestion de cliente (estas aqui)";
+            // 
             // gestionempleado
             // 
+            this.gestionempleado.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.gestionempleado.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gestionempleado.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.gestionempleado.Name = "gestionempleado";
-            this.gestionempleado.Size = new System.Drawing.Size(180, 33);
-            this.gestionempleado.Text = "Gestion de empleados ";
+            this.gestionempleado.Size = new System.Drawing.Size(176, 33);
+            this.gestionempleado.Text = "Gestion de empleados";
             this.gestionempleado.Click += new System.EventHandler(this.gestionempleado_Click);
             // 
             // opcdeportes
             // 
-            this.opcdeportes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.opcdeportes.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcdeportes.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.opcdeportes.Name = "opcdeportes";
             this.opcdeportes.Size = new System.Drawing.Size(200, 33);
             this.opcdeportes.Text = "Opcionalidad de deportes";
+            this.opcdeportes.Click += new System.EventHandler(this.opcdeportes_Click);
             // 
             // gestionejer
             // 
@@ -118,6 +133,7 @@
             this.gestionejer.Name = "gestionejer";
             this.gestionejer.Size = new System.Drawing.Size(164, 33);
             this.gestionejer.Text = "Gestion de ejercicios";
+            this.gestionejer.Click += new System.EventHandler(this.gestionejer_Click);
             // 
             // cerrarsesion
             // 
@@ -126,6 +142,17 @@
             this.cerrarsesion.Name = "cerrarsesion";
             this.cerrarsesion.Size = new System.Drawing.Size(116, 33);
             this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 33);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 33);
             // 
             // dataGridView1
             // 
@@ -315,30 +342,30 @@
             // 
             // eliminarCliente
             // 
-            this.eliminarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eliminarCliente.Location = new System.Drawing.Point(26, 432);
+            this.eliminarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eliminarCliente.Location = new System.Drawing.Point(121, 435);
             this.eliminarCliente.Name = "eliminarCliente";
-            this.eliminarCliente.Size = new System.Drawing.Size(126, 33);
+            this.eliminarCliente.Size = new System.Drawing.Size(92, 33);
             this.eliminarCliente.TabIndex = 45;
             this.eliminarCliente.Text = "Eliminar Cliente";
             this.eliminarCliente.UseVisualStyleBackColor = true;
             // 
             // editarCliente
             // 
-            this.editarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editarCliente.Location = new System.Drawing.Point(158, 432);
+            this.editarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editarCliente.Location = new System.Drawing.Point(219, 435);
             this.editarCliente.Name = "editarCliente";
-            this.editarCliente.Size = new System.Drawing.Size(114, 33);
+            this.editarCliente.Size = new System.Drawing.Size(80, 33);
             this.editarCliente.TabIndex = 44;
             this.editarCliente.Text = "Editar Cliente";
             this.editarCliente.UseVisualStyleBackColor = true;
             // 
             // agregarCliente
             // 
-            this.agregarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregarCliente.Location = new System.Drawing.Point(278, 432);
+            this.agregarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agregarCliente.Location = new System.Drawing.Point(305, 435);
             this.agregarCliente.Name = "agregarCliente";
-            this.agregarCliente.Size = new System.Drawing.Size(127, 33);
+            this.agregarCliente.Size = new System.Drawing.Size(100, 33);
             this.agregarCliente.TabIndex = 43;
             this.agregarCliente.Text = "Agregar Cliente";
             this.agregarCliente.UseVisualStyleBackColor = true;
@@ -346,7 +373,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightGreen;
-            this.button3.Location = new System.Drawing.Point(770, 431);
+            this.button3.Location = new System.Drawing.Point(777, 435);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 34);
             this.button3.TabIndex = 68;
@@ -358,7 +385,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(895, 480);
+            this.ClientSize = new System.Drawing.Size(894, 476);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.calleCliente);
@@ -388,6 +415,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "UsuarioAvanzadoMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoMain";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -401,10 +429,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem gestionCli;
         private System.Windows.Forms.ToolStripMenuItem gestionempleado;
         private System.Windows.Forms.ToolStripMenuItem opcdeportes;
         private System.Windows.Forms.ToolStripMenuItem gestionejer;
-        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox calleCliente;
@@ -432,5 +460,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn idCliente;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
     }
 }

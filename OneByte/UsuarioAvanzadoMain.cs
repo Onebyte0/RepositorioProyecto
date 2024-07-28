@@ -23,5 +23,28 @@ namespace OneByte
             gestionempleado.Show();
             this.Hide();
         }
+
+        private void opcdeportes_Click(object sender, EventArgs e)
+        {
+            var opcdeportes = new UsuarioAvanzadoOpcionalidadDeportes();
+            opcdeportes.Show();
+            this.Hide();
+        }
+
+        private void gestionejer_Click(object sender, EventArgs e)
+        {
+            var gestionejer = new UsuarioAvanzadoIngresoEjercicios();
+            gestionejer.Show();
+            this.Hide();
+        }
+
+        private void cerrarsesion_Click(object sender, EventArgs e)
+        {
+            var cerrarsesion = new SeleccionUsuarios();
+            cerrarsesion.Show();
+            this.Hide();
+        }
+
+        
     }
 }

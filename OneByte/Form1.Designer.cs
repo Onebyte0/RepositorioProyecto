@@ -40,7 +40,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(45, 109);
+            this.comboBox1.Location = new System.Drawing.Point(45, 110);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
@@ -83,7 +83,7 @@
             "Lesionado",
             "Entrenador",
             "Usuario Avanzado"});
-            this.comboBox2.Location = new System.Drawing.Point(45, 175);
+            this.comboBox2.Location = new System.Drawing.Point(45, 194);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 23);
             this.comboBox2.TabIndex = 5;
@@ -104,7 +104,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(55, 156);
+            this.label2.Location = new System.Drawing.Point(54, 175);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 16);
             this.label2.TabIndex = 7;
