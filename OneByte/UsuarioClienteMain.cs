@@ -15,100 +15,43 @@ namespace OneByte
         public UsuarioClienteMain()
         {
             InitializeComponent();
+            InitializeDataGridView();
+            AddRowsToDataGridView();
         }
 
-        Panel p = new Panel();
-        private void btnMouseEnter(object sender, EventArgs e)
+        private void InitializeDataGridView()
         {
-            Button btn = sender as Button;
-            panel1.Controls.Add(p);
-            p.BackColor = Color.FromArgb(120, 100, 2);
-            p.Size = new Size(188, 5);
-            p.Location = new Point(btn.Location.X, btn.Location.Y + 40);
-        }
-        private void btnMouseLeave(object sender, EventArgs e)
-        {
-            panel1.Controls.Remove(p);
-        }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (!pestado.Visible)
-                pestado.Visible = true;
-            else
-                pestado.Visible = false;
+            // Configurar columnas
+            dataGridView1.ColumnCount = 6;
+
+            // Poner nombres de columnas
+            dataGridView1.Columns[0].HeaderText = "Horarios";
+            dataGridView1.Columns[1].HeaderText = "Lunes";
+            dataGridView1.Columns[2].HeaderText = "Martes";
+            dataGridView1.Columns[3].HeaderText = "Miércoles";
+            dataGridView1.Columns[4].HeaderText = "Jueves";
+            dataGridView1.Columns[5].HeaderText = "Viernes";
+
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+           
         }
 
-        private void atras_Click(object sender, EventArgs e)
+        private void AddRowsToDataGridView()
         {
-            var atras = new SeleccionUsuarios();
-            atras.Show();
-            this.Hide();
+            // Altura de fila por defecto
+            int rowHeight = dataGridView1.RowTemplate.Height;
+
+            // Cantidad de filas hasta que complete el tamaño el dataGridView
+            int rows = dataGridView1.Height / rowHeight;
+
+            // Agregar filas
+            for (int i = 0; i < rows; i++)
+            {
+                dataGridView1.Rows.Add();
+            }
         }
 
-        private void evolucion_Click(object sender, EventArgs e)
-        {
-            if (!pevolucion.Visible)
-                pevolucion.Visible = true;
-            else
-                pevolucion.Visible = false;
-        }
-
-        private void consultarutina_Click(object sender, EventArgs e)
-        {
-            if (!prutinas1.Visible)
-                prutinas1.Visible = true;
-            else
-                prutinas1.Visible = false;
-        }
-
-        private void estadodepor_Click(object sender, EventArgs e)
-        {
-            var estadodepor = new UsuarioClienteEstadoDeportista();
-            estadodepor.Show();
-            this.Hide();
-        }
-
-        private void grupo_Click(object sender, EventArgs e)
-        {
-            var grupo = new UsuarioClienteGrupoPerteneciente();
-            grupo.Show();
-            this.Hide();
-        }
-
-        private void verdatos_Click(object sender, EventArgs e)
-        {
-            var verdatos = new UsuarioClienteDatosDeportista();
-            verdatos.Show();
-            this.Hide();
-        }
-
-        private void rendimiento_Click(object sender, EventArgs e)
-        {
-            var rendimiento = new UsuarioClienteRendimientoDeportista();
-            rendimiento.Show();
-            this.Hide();
-
-        }
-
-        private void agendarutinas_Click(object sender, EventArgs e)
-        {
-            var agendarutinas = new UsuarioClienteAgendaRutinasAsignadas();
-            agendarutinas.Show();
-            this.Hide();
-        }
-
-        private void descripejerc_Click(object sender, EventArgs e)
-        {
-            var descripejer = new UsuarioClienteDescripcionEjercicios();
-            descripejer.Show();
-            this.Hide();
-        }
-
-        private void estadopago_Click(object sender, EventArgs e)
-        {
-            var estadopago = new UsuarioClienteEstadoPago();
-            estadopago.Show();
-            this.Hide();
-        }
+        
     }
 }
