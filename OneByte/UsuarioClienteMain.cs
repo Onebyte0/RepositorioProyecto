@@ -52,6 +52,11 @@ namespace OneByte
             }
         }
 
-        
+        private void estadoDelDeportistaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var estadodeldepor = new UsuarioClienteEstadoDeportista();
+            estadodeldepor.Show();
+            this.Close();
+        }
     }
 }
