@@ -167,7 +167,6 @@ C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.U
 C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDePago.resources
 C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoDarDeBaja.resources
 C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoMain.resources
-C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoGestionDeClientes.resources
 C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoGestionDeEmpleados.resources
 C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoIngresoEjercicios.resources
 C:\Users\FABIAN\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoMain.resources

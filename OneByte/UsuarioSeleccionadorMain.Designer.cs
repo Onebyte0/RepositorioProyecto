@@ -305,7 +305,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(338, 9);
+            this.label2.Location = new System.Drawing.Point(337, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(309, 33);
             this.label2.TabIndex = 61;
@@ -417,7 +417,7 @@
             this.darDeAltaToolStripMenuItem1,
             this.darDeBahaUToolStripMenuItem});
             this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
-            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(113, 25);
+            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(109, 25);
             this.darDeAltaToolStripMenuItem.Text = "Consultas";
             this.darDeAltaToolStripMenuItem.Click += new System.EventHandler(this.darDeAltaToolStripMenuItem_Click);
             // 
@@ -438,14 +438,14 @@
             // gestionDePagosToolStripMenuItem
             // 
             this.gestionDePagosToolStripMenuItem.Name = "gestionDePagosToolStripMenuItem";
-            this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(113, 25);
+            this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(109, 25);
             this.gestionDePagosToolStripMenuItem.Text = "Equipos";
             this.gestionDePagosToolStripMenuItem.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem_Click);
             // 
             // cerrrarSesiónToolStripMenuItem
             // 
             this.cerrrarSesiónToolStripMenuItem.Name = "cerrrarSesiónToolStripMenuItem";
-            this.cerrrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(113, 25);
+            this.cerrrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(109, 25);
             this.cerrrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrrarSesiónToolStripMenuItem_Click);
             // 
@@ -468,6 +468,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(827, 374);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);

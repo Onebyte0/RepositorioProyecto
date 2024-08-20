@@ -36,10 +36,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.darDeAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionDePagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,9 +43,15 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.docCliente = new System.Windows.Forms.TextBox();
+            this.darDeAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaDeportistaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDePagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarDeportistaAEquipoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.panel1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -133,50 +135,6 @@
             this.button2.Text = "Reiniciar ";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.AutoSize = false;
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
-            this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
-            this.menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.darDeAltaToolStripMenuItem,
-            this.gestionDePagosToolStripMenuItem,
-            this.asignarDeportistaAEquipoToolStripMenuItem,
-            this.cerrarSesiónToolStripMenuItem});
-            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.menuStrip1.Size = new System.Drawing.Size(784, 37);
-            this.menuStrip1.Stretch = false;
-            this.menuStrip1.TabIndex = 106;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // darDeAltaToolStripMenuItem
-            // 
-            this.darDeAltaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
-            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(92, 33);
-            this.darDeAltaToolStripMenuItem.Text = "Consultas";
-            this.darDeAltaToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            // 
-            // gestionDePagosToolStripMenuItem
-            // 
-            this.gestionDePagosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.gestionDePagosToolStripMenuItem.Name = "gestionDePagosToolStripMenuItem";
-            this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(199, 33);
-            this.gestionDePagosToolStripMenuItem.Text = "Evolucion del deportista";
-            this.gestionDePagosToolStripMenuItem.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem_Click);
-            // 
-            // cerrarSesiónToolStripMenuItem
-            // 
-            this.cerrarSesiónToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(119, 33);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.InactiveCaption;
@@ -250,12 +208,71 @@
             this.docCliente.Size = new System.Drawing.Size(118, 24);
             this.docCliente.TabIndex = 99;
             // 
+            // darDeAltaToolStripMenuItem
+            // 
+            this.darDeAltaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultaDeportistaToolStripMenuItem,
+            this.consultaToolStripMenuItem});
+            this.darDeAltaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
+            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(92, 33);
+            this.darDeAltaToolStripMenuItem.Text = "Consultas";
+            this.darDeAltaToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            // 
+            // consultaDeportistaToolStripMenuItem
+            // 
+            this.consultaDeportistaToolStripMenuItem.Name = "consultaDeportistaToolStripMenuItem";
+            this.consultaDeportistaToolStripMenuItem.Size = new System.Drawing.Size(344, 26);
+            this.consultaDeportistaToolStripMenuItem.Text = "Consulta deportista";
+            // 
+            // consultaToolStripMenuItem
+            // 
+            this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
+            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(344, 26);
+            this.consultaToolStripMenuItem.Text = "Consulta de evolucion de deportista";
+            // 
+            // gestionDePagosToolStripMenuItem
+            // 
+            this.gestionDePagosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.gestionDePagosToolStripMenuItem.Name = "gestionDePagosToolStripMenuItem";
+            this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(199, 33);
+            this.gestionDePagosToolStripMenuItem.Text = "Evolucion del deportista";
+            this.gestionDePagosToolStripMenuItem.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem_Click);
+            // 
             // asignarDeportistaAEquipoToolStripMenuItem
             // 
             this.asignarDeportistaAEquipoToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.asignarDeportistaAEquipoToolStripMenuItem.Name = "asignarDeportistaAEquipoToolStripMenuItem";
             this.asignarDeportistaAEquipoToolStripMenuItem.Size = new System.Drawing.Size(225, 33);
             this.asignarDeportistaAEquipoToolStripMenuItem.Text = "Asignar deportista a equipo";
+            // 
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(119, 33);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
+            this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            this.menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.darDeAltaToolStripMenuItem,
+            this.gestionDePagosToolStripMenuItem,
+            this.asignarDeportistaAEquipoToolStripMenuItem,
+            this.cerrarSesiónToolStripMenuItem});
+            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.menuStrip1.Size = new System.Drawing.Size(784, 37);
+            this.menuStrip1.Stretch = false;
+            this.menuStrip1.TabIndex = 106;
+            this.menuStrip1.Text = "menuStrip1";
             // 
             // UsuarioSeleccionadorEquipos
             // 
@@ -277,10 +294,10 @@
             this.Name = "UsuarioSeleccionadorEquipos";
             this.Text = "UsuarioSeleccionadorEquipos";
             this.Load += new System.EventHandler(this.UsuarioSeleccionadorEquipos_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,10 +312,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem darDeAltaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton radioButton4;
@@ -306,6 +319,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox docCliente;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem darDeAltaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultaDeportistaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignarDeportistaAEquipoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }
