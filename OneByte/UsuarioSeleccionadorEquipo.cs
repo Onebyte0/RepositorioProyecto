@@ -29,5 +29,15 @@ namespace OneByte
             volverSeleccionador.Show();
             this.Close();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gestionDePagosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
