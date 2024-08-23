@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\fabian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\fabian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\fabian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadorconsultaevolucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadorconsultaevolucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorMain.cs",
+              "ToolTip": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:52:12.92Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorEquipo.cs",
+              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorEquipo.cs",
+              "ToolTip": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:52:11.236Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioSeleccionadorConsultaEvolucion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorConsultaEvolucion.cs",
+              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorConsultaEvolucion.cs",
+              "ToolTip": "C:\\Users\\FABIAN\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorConsultaEvolucion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorConsultaEvolucion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:52:09.026Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
