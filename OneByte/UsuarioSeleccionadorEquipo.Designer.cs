@@ -37,12 +37,12 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.docCliente = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.darDeAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaDeportistaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,7 +97,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(108, 61);
+            this.label2.Location = new System.Drawing.Point(147, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(368, 40);
             this.label2.TabIndex = 85;
@@ -148,16 +148,6 @@
             this.panel1.Size = new System.Drawing.Size(224, 195);
             this.panel1.TabIndex = 107;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(301, 136);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 18);
-            this.label3.TabIndex = 92;
-            this.label3.Text = "Nombre Usuario:";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -207,6 +197,16 @@
             this.docCliente.Name = "docCliente";
             this.docCliente.Size = new System.Drawing.Size(118, 24);
             this.docCliente.TabIndex = 99;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(301, 136);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(122, 18);
+            this.label3.TabIndex = 92;
+            this.label3.Text = "Nombre Usuario:";
             // 
             // darDeAltaToolStripMenuItem
             // 
