@@ -47,5 +47,10 @@ namespace OneByte
             volverSeleccioandorMain.Show();
             this.Close();
         }
+
+        private void darDeAltaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
