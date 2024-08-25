@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.atras = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.consEstado = new System.Windows.Forms.ToolStripMenuItem();
             this.estadoDepor = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,16 +47,6 @@
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // atras
-            // 
-            this.atras.Location = new System.Drawing.Point(12, 345);
-            this.atras.Name = "atras";
-            this.atras.Size = new System.Drawing.Size(93, 35);
-            this.atras.TabIndex = 15;
-            this.atras.Text = "Atras";
-            this.atras.UseVisualStyleBackColor = true;
-            this.atras.Click += new System.EventHandler(this.atras_Click);
             // 
             // menuStrip1
             // 
@@ -94,20 +83,22 @@
             // estadoDepor
             // 
             this.estadoDepor.Name = "estadoDepor";
-            this.estadoDepor.Size = new System.Drawing.Size(248, 26);
-            this.estadoDepor.Text = "Estado del Deportista";
+            this.estadoDepor.Size = new System.Drawing.Size(344, 26);
+            this.estadoDepor.Text = "Estado del Deportista (estas aqui)";
             // 
             // grupoPerte
             // 
             this.grupoPerte.Name = "grupoPerte";
-            this.grupoPerte.Size = new System.Drawing.Size(248, 26);
+            this.grupoPerte.Size = new System.Drawing.Size(344, 26);
             this.grupoPerte.Text = "Grupo Perteneciente ";
+            this.grupoPerte.Click += new System.EventHandler(this.grupoPerte_Click);
             // 
             // verDatos
             // 
             this.verDatos.Name = "verDatos";
-            this.verDatos.Size = new System.Drawing.Size(248, 26);
+            this.verDatos.Size = new System.Drawing.Size(344, 26);
             this.verDatos.Text = "Ver mis Datos";
+            this.verDatos.Click += new System.EventHandler(this.verDatos_Click);
             // 
             // consEvolucion
             // 
@@ -125,6 +116,7 @@
             this.rendiDepor.Name = "rendiDepor";
             this.rendiDepor.Size = new System.Drawing.Size(372, 26);
             this.rendiDepor.Text = "Rendimiento del Deportista (Puntaje)";
+            this.rendiDepor.Click += new System.EventHandler(this.rendiDepor_Click);
             // 
             // consRutinas
             // 
@@ -142,12 +134,14 @@
             this.agendaRutinas.Name = "agendaRutinas";
             this.agendaRutinas.Size = new System.Drawing.Size(312, 26);
             this.agendaRutinas.Text = "Agenda de Rutinas Asignadas";
+            this.agendaRutinas.Click += new System.EventHandler(this.agendaRutinas_Click);
             // 
             // descripEjer
             // 
             this.descripEjer.Name = "descripEjer";
             this.descripEjer.Size = new System.Drawing.Size(312, 26);
             this.descripEjer.Text = "Descrip. Ejercicios";
+            this.descripEjer.Click += new System.EventHandler(this.descripEjer_Click);
             // 
             // estadoPago
             // 
@@ -156,6 +150,7 @@
             this.estadoPago.Name = "estadoPago";
             this.estadoPago.Size = new System.Drawing.Size(142, 33);
             this.estadoPago.Text = "Estado de Pago";
+            this.estadoPago.Click += new System.EventHandler(this.estadoPago_Click);
             // 
             // cerrarsesion
             // 
@@ -164,6 +159,7 @@
             this.cerrarsesion.Name = "cerrarsesion";
             this.cerrarsesion.Size = new System.Drawing.Size(129, 33);
             this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -178,9 +174,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(42, 127);
+            this.dataGridView1.Location = new System.Drawing.Point(47, 129);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(722, 199);
+            this.dataGridView1.Size = new System.Drawing.Size(722, 177);
             this.dataGridView1.TabIndex = 18;
             // 
             // label1
@@ -198,11 +194,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(804, 392);
+            this.ClientSize = new System.Drawing.Size(804, 374);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.atras);
             this.Name = "UsuarioClienteEstadoDeportista";
             this.Text = "UsuarioClienteEstadoDeportista";
             this.menuStrip1.ResumeLayout(false);
@@ -214,7 +209,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button atras;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem consEstado;
         private System.Windows.Forms.ToolStripMenuItem estadoDepor;

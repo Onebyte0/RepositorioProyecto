@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.atras = new System.Windows.Forms.Button();
             this.guardar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.consEstado = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,15 +48,6 @@
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // atras
-            // 
-            this.atras.Location = new System.Drawing.Point(12, 478);
-            this.atras.Name = "atras";
-            this.atras.Size = new System.Drawing.Size(93, 35);
-            this.atras.TabIndex = 14;
-            this.atras.Text = "Atras";
-            this.atras.UseVisualStyleBackColor = true;
             // 
             // guardar
             // 
@@ -219,7 +209,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.guardar);
-            this.Controls.Add(this.atras);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UsuarioClienteMain";
             this.Text = "UsuarioClienteMain";
@@ -232,7 +221,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button atras;
         private System.Windows.Forms.Button guardar;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem consEstado;
