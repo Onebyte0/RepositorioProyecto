@@ -211,6 +211,7 @@
             this.Controls.Add(this.guardar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UsuarioClienteMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioClienteMain";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
