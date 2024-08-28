@@ -199,6 +199,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "UsuarioClienteEstadoDeportista";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioClienteEstadoDeportista";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
