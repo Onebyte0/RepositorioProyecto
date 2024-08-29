@@ -85,6 +85,7 @@
             this.estadoDepor.Name = "estadoDepor";
             this.estadoDepor.Size = new System.Drawing.Size(286, 26);
             this.estadoDepor.Text = "Estado del Deportista";
+            this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click_1);
             // 
             // grupoPerte
             // 
