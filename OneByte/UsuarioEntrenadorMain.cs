@@ -15,143 +15,153 @@ namespace OneByte
         public UsuarioEntrenadorMain()
         {
             InitializeComponent();
+            InitializeDataGridView();
+            AddRowsToDataGridView();
         }
-        Panel p = new Panel();
-        private void btnMouseEnter(object sender, EventArgs e)
+        private void InitializeDataGridView()
         {
-            Button btn = sender as Button;
-            panel1.Controls.Add(p);
-            p.BackColor = Color.FromArgb(120, 100, 2);
-            p.Size = new Size(120, 5);
-            p.Location = new Point(btn.Location.X, btn.Location.Y + 40); 
-        }
-        private void btnMouseLeave(object sender, EventArgs e)
-        {
-        panel1.Controls.Remove(p);
-        }
+            // Configurar columnas
+            dataGridView1.ColumnCount = 8;
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if(!prutinas.Visible)
-                prutinas.Visible = true;
-            else
-                prutinas.Visible = false;
-        }
+            // Poner nombres de columnas
+            dataGridView1.Columns[0].HeaderText = "Usuarios";
+            dataGridView1.Columns[1].HeaderText = "Cumplimiento con la agenda";
+            dataGridView1.Columns[2].HeaderText = "Resistencia anaerobica";
+            dataGridView1.Columns[3].HeaderText = "Fuerza muscular";
+            dataGridView1.Columns[4].HeaderText = "Resistencia muscular";
+            dataGridView1.Columns[5].HeaderText = "Flexibilidad";
+            dataGridView1.Columns[6].HeaderText = "Resistencia a la monotonia";
+            dataGridView1.Columns[7].HeaderText = "Resiliencia";
 
+            // Configurar la propiedad ReadOnly de las columnas (deben ser false para permitir la edición)
+            dataGridView1.Columns[0].ReadOnly = false;
+            dataGridView1.Columns[1].ReadOnly = false;
+            dataGridView1.Columns[2].ReadOnly = false;
+            dataGridView1.Columns[3].ReadOnly = false;
+            dataGridView1.Columns[4].ReadOnly = false;
+            dataGridView1.Columns[5].ReadOnly = false;
+            dataGridView1.Columns[6].ReadOnly = false;
+            dataGridView1.Columns[7].ReadOnly = false;
+            
+            // Ajustar el modo de tamaño de las columnas
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            // Configurar la propiedad ReadOnly del DataGridView como false para permitir edición
+            dataGridView1.ReadOnly = false;
+
+            // Configurar el modo de selección para seleccionar celdas individuales
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.CellSelect;
+
+            // Configurar la propiedad EditMode para permitir la edición inmediata
+            dataGridView1.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2;
+
+            // Llamar a la función que agrega las filas con texto predeterminado
+            AddRowsToDataGridView();
+    }
+
+        private void AddRowsToDataGridView()
+        {
+            // Altura de fila por defecto
+            int rowHeight = dataGridView1.RowTemplate.Height;
+
+            // Cantidad de filas hasta que complete el tamaño el dataGridView
+            int rows = dataGridView1.Height / rowHeight;
+
+            // Agregar filas
+            for (int i = 0; i < rows; i++)
+            {
+                dataGridView1.Rows.Add();
+            }
+        }
         private void atras_Click(object sender, EventArgs e)
         {
             var atras = new SeleccionUsuarios();
             atras.Show();
-            this.Hide();
+            this.Close();
         }
 
-        private void evolucion_Click(object sender, EventArgs e)
+        private void rutinasDepor_Click(object sender, EventArgs e)
         {
-            if (!pevolucion.Visible)
-                pevolucion.Visible = true;
-            else
-                pevolucion.Visible = false;
+            var rutinasDepor = new UsuarioEntrenadorRutinasDeportistasSanos();
+            rutinasDepor.Show();
+            this.Close();
+        }
+
+        private void rutinasDeporLesio_Click(object sender, EventArgs e)
+        {
+            var rutinasDeporLesio = new UsuarioEntrenadorRutinasDeportistasLesionados();
+            rutinasDeporLesio.Show();
+            this.Close();
+        }
+
+        private void asignarEjer_Click(object sender, EventArgs e)
+        {
+            var asignarEjer = new UsuarioEntrenadorAsignarEjerciciosRutinas();
+            asignarEjer.Show();
+            this.Close();
+        }
+
+        private void descripEjer_Click(object sender, EventArgs e)
+        {
+            var descripEjer = new UsuarioEntrenadorDescripcionEjercicios();
+            descripEjer.Show();
+            this.Close();
+        }
+
+        private void grupoMusc_Click(object sender, EventArgs e)
+        {
+            var grupoMusc = new UsuarioEntrenadorGruposMusculares();
+            grupoMusc.Show();
+            this.Close();
+        }
+
+        private void estadoDepor_Click(object sender, EventArgs e)
+        {
+            var estadoDepor = new UsuarioEntrenadorEstadoDeportistaSano();
+            estadoDepor.Show();
+            this.Close();
+        }
+
+        private void estadoDeporLesio_Click(object sender, EventArgs e)
+        {
+            var estadoDeporLesio = new UsuarioEntrenadorEstadoDeportistaLesionado();
+            estadoDeporLesio.Show();
+            this.Close();
         }
 
         private void agenda_Click(object sender, EventArgs e)
         {
-            if (!pagenda.Visible)
-                pagenda.Visible = true;
-            else
-                pagenda.Visible = false;
+            var agenda = new UsuarioEntrenadorAgendaDisponibilidad();
+            agenda.Show();
+            this.Close();
         }
 
-        private void deportista_Click(object sender, EventArgs e)
+        private void agendaRutinas_Click(object sender, EventArgs e)
         {
-            if (!pdeportista.Visible)
-                pdeportista.Visible = true;
-            else
-                pdeportista.Visible = false;
+            var agendaRutinas = new UsuarioEntrenadorAgendaRutinasAsignadas();
+            agendaRutinas.Show();
+            this.Close();
         }
 
-        private void deporsanos_Click(object sender, EventArgs e)
+        private void agruparDepor_Click(object sender, EventArgs e)
         {
-            var deporsanos = new UsuarioEntrenadorRutinasDeportistasSanos();
-            deporsanos.Show();
-            this.Hide();
+            var agruparDepor = new UsuarioEntrenadorAgruparDeportistas();
+            agruparDepor.Show();
+            this.Close();
         }
 
-        private void deporlesionado_Click(object sender, EventArgs e)
+        private void infoDepor_Click(object sender, EventArgs e)
         {
-            var deporlesionado = new UsuarioEntrenadorRutinasDeportistasLesionados();
-            deporlesionado.Show();
-            this.Hide();
-
+            var infoDepor = new UsuarioEntrenadorInfoDeportista();
+            infoDepor.Show();
+            this.Close();
         }
 
-        private void ejerarutinas_Click(object sender, EventArgs e)
+        private void cerrarsesion_Click(object sender, EventArgs e)
         {
-            var ejerarutinas = new UsuarioEntrenadorAsignarEjerciciosRutinas();
-            ejerarutinas.Show();
-            this.Hide();
-
-        }
-
-        private void descripejer_Click(object sender, EventArgs e)
-        {
-            var descripejer = new UsuarioEntrenadorDescripcionEjercicios();
-            descripejer.Show();
-            this.Hide();
-
-        }
-
-        private void grupomuscular_Click(object sender, EventArgs e)
-        {
-            var grupomuscular = new UsuarioEntrenadorGruposMusculares();
-            grupomuscular.Show();
-            this.Hide();
-        }
-
-        private void estadodeportista_Click(object sender, EventArgs e)
-        {
-            var estadodeportista = new UsuarioEntrenadorEstadoDeportistaSano();
-            estadodeportista.Show();
-            this.Hide();
-        }
-
-        private void estadolesionado_Click(object sender, EventArgs e)
-        {
-            var estadolesionado = new UsuarioEntrenadorEstadoDeportistaLesionado();
-            estadolesionado.Show();
-            this.Hide();
-        }
-
-        private void agendadispo_Click(object sender, EventArgs e)
-        {
-            var agendadispo = new UsuarioEntrenadorAgendaDisponibilidad();
-            agendadispo.Show();
-            this.Hide();
-        }
-
-        private void agendarutina_Click(object sender, EventArgs e)
-        {
-            var agendarutina = new UsuarioEntrenadorAgendaRutinasAsignadas();
-            agendarutina.Show();
-            this.Hide();
-        }
-
-        private void agrupardepor_Click(object sender, EventArgs e)
-        {
-            var agrupardepor = new UsuarioEntrenadorAgruparDeportistas();
-            agrupardepor.Show();
-            this.Hide();
-        }
-
-        private void infodepor_Click(object sender, EventArgs e)
-        {
-            var infodepor = new UsuarioEntrenadorInfoDeportista();
-            infodepor.Show();
-            this.Hide();
-        }
-
-        private void UsuarioEntrenadorMain_Load(object sender, EventArgs e)
-        {
-
+            var cerrarsesion = new Form1();
+            cerrarsesion.Show();
+            this.Close();
         }
     }
 }

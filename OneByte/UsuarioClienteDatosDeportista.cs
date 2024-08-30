@@ -62,12 +62,7 @@ namespace OneByte
             }
         }
 
-        private void estadoDepor_Click(object sender, EventArgs e)
-        {
-            var estadoDepor = new UsuarioClienteEstadoDeportista();
-            estadoDepor.Show();
-            this.Close();
-        }
+        
 
         private void grupoPerte_Click(object sender, EventArgs e)
         {
@@ -110,6 +105,13 @@ namespace OneByte
         {
             var cerrarsesion = new Form1();
             cerrarsesion.Show();
+            this.Close();
+        }
+
+        private void estadoDepor_Click_1(object sender, EventArgs e)
+        {
+            var estadoDepor = new UsuarioClienteEstadoDeportista();
+            estadoDepor.Show();
             this.Close();
         }
     }
