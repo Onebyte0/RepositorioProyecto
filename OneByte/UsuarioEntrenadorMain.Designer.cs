@@ -136,7 +136,7 @@
             // 
             this.rutinasDepor.Name = "rutinasDepor";
             this.rutinasDepor.Size = new System.Drawing.Size(335, 26);
-            this.rutinasDepor.Text = "Rutinas a deportistas";
+            this.rutinasDepor.Text = "Rutinas a deportistas sanos";
             this.rutinasDepor.Click += new System.EventHandler(this.rutinasDepor_Click);
             // 
             // rutinasDeporLesio
@@ -283,6 +283,7 @@
             this.Controls.Add(this.modificar);
             this.Controls.Add(this.atras);
             this.Name = "UsuarioEntrenadorMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
