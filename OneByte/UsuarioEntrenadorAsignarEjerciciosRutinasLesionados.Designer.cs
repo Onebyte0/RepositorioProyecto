@@ -1,6 +1,6 @@
 ﻿namespace OneByte
 {
-    partial class UsuarioEntrenadorMain
+    partial class UsuarioEntrenadorAsignarEjerciciosRutinasLesionados
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.modificar = new System.Windows.Forms.Button();
-            this.guardar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.rutinasSanos = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,41 +48,13 @@
             this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // modificar
-            // 
-            this.modificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modificar.Location = new System.Drawing.Point(543, 465);
-            this.modificar.Name = "modificar";
-            this.modificar.Size = new System.Drawing.Size(138, 35);
-            this.modificar.TabIndex = 3;
-            this.modificar.Text = "Modificar";
-            this.modificar.UseVisualStyleBackColor = true;
-            // 
-            // guardar
-            // 
-            this.guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guardar.Location = new System.Drawing.Point(687, 465);
-            this.guardar.Name = "guardar";
-            this.guardar.Size = new System.Drawing.Size(131, 35);
-            this.guardar.TabIndex = 4;
-            this.guardar.Text = "Guardar";
-            this.guardar.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(187, 64);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(447, 30);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Calificacion de items a cumplir por el cliente";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // menuStrip1
             // 
@@ -101,9 +70,9 @@
             this.toolStripMenuItem3});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(831, 37);
+            this.menuStrip1.Size = new System.Drawing.Size(870, 37);
             this.menuStrip1.Stretch = false;
-            this.menuStrip1.TabIndex = 17;
+            this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem2
@@ -124,42 +93,41 @@
             // rutinasSanos
             // 
             this.rutinasSanos.Name = "rutinasSanos";
-            this.rutinasSanos.Size = new System.Drawing.Size(437, 26);
+            this.rutinasSanos.Size = new System.Drawing.Size(533, 26);
             this.rutinasSanos.Text = "Rutinas a deportistas sanos";
             this.rutinasSanos.Click += new System.EventHandler(this.rutinasSanos_Click);
             // 
             // rutinasLesio
             // 
             this.rutinasLesio.Name = "rutinasLesio";
-            this.rutinasLesio.Size = new System.Drawing.Size(437, 26);
+            this.rutinasLesio.Size = new System.Drawing.Size(533, 26);
             this.rutinasLesio.Text = "Rutinas a deportistas lesionados";
             this.rutinasLesio.Click += new System.EventHandler(this.rutinasLesio_Click);
             // 
             // asignarEjerSanos
             // 
             this.asignarEjerSanos.Name = "asignarEjerSanos";
-            this.asignarEjerSanos.Size = new System.Drawing.Size(437, 26);
+            this.asignarEjerSanos.Size = new System.Drawing.Size(533, 26);
             this.asignarEjerSanos.Text = "Asignar ejercicios a rutinas depor. sanos";
             this.asignarEjerSanos.Click += new System.EventHandler(this.asignarEjerSanos_Click);
             // 
             // asignarEjerLesio
             // 
             this.asignarEjerLesio.Name = "asignarEjerLesio";
-            this.asignarEjerLesio.Size = new System.Drawing.Size(437, 26);
-            this.asignarEjerLesio.Text = "Asignar ejercicios a rutinas depor. lesionados";
-            this.asignarEjerLesio.Click += new System.EventHandler(this.asignarEjerLesio_Click);
+            this.asignarEjerLesio.Size = new System.Drawing.Size(533, 26);
+            this.asignarEjerLesio.Text = "Asignar ejercicios a rutinas depor. lesionados (estas aqui)";
             // 
             // descripEjer
             // 
             this.descripEjer.Name = "descripEjer";
-            this.descripEjer.Size = new System.Drawing.Size(437, 26);
+            this.descripEjer.Size = new System.Drawing.Size(533, 26);
             this.descripEjer.Text = "Descripcion de ejercicios";
             this.descripEjer.Click += new System.EventHandler(this.descripEjer_Click);
             // 
             // gruposMusc
             // 
             this.gruposMusc.Name = "gruposMusc";
-            this.gruposMusc.Size = new System.Drawing.Size(437, 26);
+            this.gruposMusc.Size = new System.Drawing.Size(533, 26);
             this.gruposMusc.Text = "Grupos Musculares";
             this.gruposMusc.Click += new System.EventHandler(this.gruposMusc_Click);
             // 
@@ -179,7 +147,7 @@
             // 
             this.estadoDepor.Name = "estadoDepor";
             this.estadoDepor.Size = new System.Drawing.Size(327, 26);
-            this.estadoDepor.Text = "Estado del deportista";
+            this.estadoDepor.Text = "Estado del deportista sano";
             this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click);
             // 
             // estadoDeporLesio
@@ -256,25 +224,62 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 112);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 107);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(805, 347);
-            this.dataGridView1.TabIndex = 18;
+            this.dataGridView1.Size = new System.Drawing.Size(843, 337);
+            this.dataGridView1.TabIndex = 25;
             // 
-            // UsuarioEntrenadorMain
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(171, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(550, 30);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Asignar ejercicios a rutinas para deportistas lesionados";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(765, 450);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(94, 31);
+            this.button6.TabIndex = 23;
+            this.button6.Text = "Guardar";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(665, 450);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(94, 31);
+            this.button5.TabIndex = 22;
+            this.button5.Text = "Modificar";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(565, 450);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(94, 31);
+            this.button4.TabIndex = 21;
+            this.button4.Text = "Dar de baja";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // UsuarioEntrenadorAsignarEjerciciosRutinasLesionados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(831, 509);
+            this.ClientSize = new System.Drawing.Size(870, 488);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guardar);
-            this.Controls.Add(this.modificar);
-            this.Name = "UsuarioEntrenadorMain";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.menuStrip1);
+            this.Name = "UsuarioEntrenadorAsignarEjerciciosRutinasLesionados";
+            this.Text = "UsuarioEntrenadorAsignarEjerciciosRutinasLesionados";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -284,28 +289,30 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button modificar;
-        private System.Windows.Forms.Button guardar;
-        private System.Windows.Forms.Label label1;
+
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem consEvolucion;
-        private System.Windows.Forms.ToolStripMenuItem estadoDepor;
-        private System.Windows.Forms.ToolStripMenuItem consRutinas;
-        private System.Windows.Forms.ToolStripMenuItem agenda;
-        private System.Windows.Forms.ToolStripMenuItem agendaRutinas;
-        private System.Windows.Forms.ToolStripMenuItem estadoPago;
-        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ToolStripMenuItem estadoDeporLesio;
-        private System.Windows.Forms.ToolStripMenuItem agruparDepor;
-        private System.Windows.Forms.ToolStripMenuItem infoDepor;
         private System.Windows.Forms.ToolStripMenuItem rutinasSanos;
         private System.Windows.Forms.ToolStripMenuItem rutinasLesio;
         private System.Windows.Forms.ToolStripMenuItem asignarEjerSanos;
         private System.Windows.Forms.ToolStripMenuItem asignarEjerLesio;
         private System.Windows.Forms.ToolStripMenuItem descripEjer;
         private System.Windows.Forms.ToolStripMenuItem gruposMusc;
+        private System.Windows.Forms.ToolStripMenuItem consEvolucion;
+        private System.Windows.Forms.ToolStripMenuItem estadoDepor;
+        private System.Windows.Forms.ToolStripMenuItem estadoDeporLesio;
+        private System.Windows.Forms.ToolStripMenuItem consRutinas;
+        private System.Windows.Forms.ToolStripMenuItem agenda;
+        private System.Windows.Forms.ToolStripMenuItem agendaRutinas;
+        private System.Windows.Forms.ToolStripMenuItem estadoPago;
+        private System.Windows.Forms.ToolStripMenuItem agruparDepor;
+        private System.Windows.Forms.ToolStripMenuItem infoDepor;
+        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }

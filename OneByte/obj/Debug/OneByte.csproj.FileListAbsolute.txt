@@ -303,3 +303,4 @@ C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csp
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.CoreCompileInputs.cache
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.exe
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.pdb
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.resources

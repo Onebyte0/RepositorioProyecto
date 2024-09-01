@@ -32,8 +32,9 @@
             this.consEstado = new System.Windows.Forms.ToolStripMenuItem();
             this.rutinasDepor = new System.Windows.Forms.ToolStripMenuItem();
             this.rutinasDeporLesio = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignarEjer = new System.Windows.Forms.ToolStripMenuItem();
-            this.descripEjer = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignarEjerSanos = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignarEjerLesio = new System.Windows.Forms.ToolStripMenuItem();
+            this.DescripEjer = new System.Windows.Forms.ToolStripMenuItem();
             this.grupoMusc = new System.Windows.Forms.ToolStripMenuItem();
             this.consEvolucion = new System.Windows.Forms.ToolStripMenuItem();
             this.estadoDepor = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +51,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
-            this.atras = new System.Windows.Forms.Button();
             this.asignar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -83,8 +83,9 @@
             this.consEstado.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rutinasDepor,
             this.rutinasDeporLesio,
-            this.asignarEjer,
-            this.descripEjer,
+            this.asignarEjerSanos,
+            this.asignarEjerLesio,
+            this.DescripEjer,
             this.grupoMusc});
             this.consEstado.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consEstado.ForeColor = System.Drawing.SystemColors.AppWorkspace;
@@ -95,34 +96,41 @@
             // rutinasDepor
             // 
             this.rutinasDepor.Name = "rutinasDepor";
-            this.rutinasDepor.Size = new System.Drawing.Size(431, 26);
+            this.rutinasDepor.Size = new System.Drawing.Size(437, 26);
             this.rutinasDepor.Text = "Rutinas a deportistas sanos ";
             this.rutinasDepor.Click += new System.EventHandler(this.rutinasDepor_Click);
             // 
             // rutinasDeporLesio
             // 
             this.rutinasDeporLesio.Name = "rutinasDeporLesio";
-            this.rutinasDeporLesio.Size = new System.Drawing.Size(431, 26);
+            this.rutinasDeporLesio.Size = new System.Drawing.Size(437, 26);
             this.rutinasDeporLesio.Text = "Rutinas a deportistas lesionados (estas aqui)";
             // 
-            // asignarEjer
+            // asignarEjerSanos
             // 
-            this.asignarEjer.Name = "asignarEjer";
-            this.asignarEjer.Size = new System.Drawing.Size(431, 26);
-            this.asignarEjer.Text = "Asignar ejercicios a rutinas";
-            this.asignarEjer.Click += new System.EventHandler(this.asignarEjer_Click);
+            this.asignarEjerSanos.Name = "asignarEjerSanos";
+            this.asignarEjerSanos.Size = new System.Drawing.Size(437, 26);
+            this.asignarEjerSanos.Text = "Asignar ejercicios a rutinas depor. sanos";
+            this.asignarEjerSanos.Click += new System.EventHandler(this.asignarEjerSanos_Click);
             // 
-            // descripEjer
+            // asignarEjerLesio
             // 
-            this.descripEjer.Name = "descripEjer";
-            this.descripEjer.Size = new System.Drawing.Size(431, 26);
-            this.descripEjer.Text = "Descrip. Ejercicios";
-            this.descripEjer.Click += new System.EventHandler(this.descripEjer_Click);
+            this.asignarEjerLesio.Name = "asignarEjerLesio";
+            this.asignarEjerLesio.Size = new System.Drawing.Size(437, 26);
+            this.asignarEjerLesio.Text = "Asignar ejercicios a rutinas depor. lesionados";
+            this.asignarEjerLesio.Click += new System.EventHandler(this.asignarEjerLesio_Click);
+            // 
+            // DescripEjer
+            // 
+            this.DescripEjer.Name = "DescripEjer";
+            this.DescripEjer.Size = new System.Drawing.Size(437, 26);
+            this.DescripEjer.Text = "Descripcion de ejercicios";
+            this.DescripEjer.Click += new System.EventHandler(this.DescripEjer_Click);
             // 
             // grupoMusc
             // 
             this.grupoMusc.Name = "grupoMusc";
-            this.grupoMusc.Size = new System.Drawing.Size(431, 26);
+            this.grupoMusc.Size = new System.Drawing.Size(437, 26);
             this.grupoMusc.Text = "Grupos Musculares";
             this.grupoMusc.Click += new System.EventHandler(this.grupoMusc_Click);
             // 
@@ -225,7 +233,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(196, 62);
+            this.label1.Location = new System.Drawing.Point(180, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(405, 30);
             this.label1.TabIndex = 20;
@@ -234,32 +242,23 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(274, 127);
+            this.dataGridView1.Location = new System.Drawing.Point(274, 110);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(493, 304);
+            this.dataGridView1.Size = new System.Drawing.Size(493, 321);
             this.dataGridView1.TabIndex = 27;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(174, 124);
+            this.label3.Location = new System.Drawing.Point(170, 107);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 13);
             this.label3.TabIndex = 25;
             this.label3.Text = "DOCUMENTO";
             // 
-            // atras
-            // 
-            this.atras.Location = new System.Drawing.Point(12, 400);
-            this.atras.Name = "atras";
-            this.atras.Size = new System.Drawing.Size(94, 31);
-            this.atras.TabIndex = 24;
-            this.atras.Text = "Atras";
-            this.atras.UseVisualStyleBackColor = true;
-            // 
             // asignar
             // 
-            this.asignar.Location = new System.Drawing.Point(12, 222);
+            this.asignar.Location = new System.Drawing.Point(12, 198);
             this.asignar.Name = "asignar";
             this.asignar.Size = new System.Drawing.Size(121, 35);
             this.asignar.TabIndex = 23;
@@ -268,7 +267,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(160, 140);
+            this.textBox1.Location = new System.Drawing.Point(156, 123);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 22;
@@ -276,7 +275,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 140);
+            this.comboBox1.Location = new System.Drawing.Point(12, 123);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 21;
@@ -290,7 +289,6 @@
             this.ClientSize = new System.Drawing.Size(779, 443);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.atras);
             this.Controls.Add(this.asignar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
@@ -311,9 +309,9 @@
         private System.Windows.Forms.ToolStripMenuItem consEstado;
         private System.Windows.Forms.ToolStripMenuItem rutinasDepor;
         private System.Windows.Forms.ToolStripMenuItem rutinasDeporLesio;
-        private System.Windows.Forms.ToolStripMenuItem asignarEjer;
-        private System.Windows.Forms.ToolStripMenuItem descripEjer;
-        private System.Windows.Forms.ToolStripMenuItem grupoMusc;
+        private System.Windows.Forms.ToolStripMenuItem asignarEjerSanos;
+        private System.Windows.Forms.ToolStripMenuItem asignarEjerLesio;
+        private System.Windows.Forms.ToolStripMenuItem DescripEjer;
         private System.Windows.Forms.ToolStripMenuItem consEvolucion;
         private System.Windows.Forms.ToolStripMenuItem estadoDepor;
         private System.Windows.Forms.ToolStripMenuItem estadoDeporLesio;
@@ -329,9 +327,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button atras;
         private System.Windows.Forms.Button asignar;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ToolStripMenuItem grupoMusc;
     }
 }

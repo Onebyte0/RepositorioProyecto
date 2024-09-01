@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -73,47 +74,9 @@ namespace OneByte
                 dataGridView1.Rows.Add();
             }
         }
-        private void atras_Click(object sender, EventArgs e)
-        {
-            var atras = new SeleccionUsuarios();
-            atras.Show();
-            this.Close();
-        }
+       
 
-        private void rutinasDepor_Click(object sender, EventArgs e)
-        {
-            var rutinasDepor = new UsuarioEntrenadorRutinasDeportistasSanos();
-            rutinasDepor.Show();
-            this.Close();
-        }
-
-        private void rutinasDeporLesio_Click(object sender, EventArgs e)
-        {
-            var rutinasDeporLesio = new UsuarioEntrenadorRutinasDeportistasLesionados();
-            rutinasDeporLesio.Show();
-            this.Close();
-        }
-
-        private void asignarEjer_Click(object sender, EventArgs e)
-        {
-            var asignarEjer = new UsuarioEntrenadorAsignarEjerciciosRutinas();
-            asignarEjer.Show();
-            this.Close();
-        }
-
-        private void descripEjer_Click(object sender, EventArgs e)
-        {
-            var descripEjer = new UsuarioEntrenadorDescripcionEjercicios();
-            descripEjer.Show();
-            this.Close();
-        }
-
-        private void grupoMusc_Click(object sender, EventArgs e)
-        {
-            var grupoMusc = new UsuarioEntrenadorGruposMusculares();
-            grupoMusc.Show();
-            this.Close();
-        }
+       
 
         private void estadoDepor_Click(object sender, EventArgs e)
         {
@@ -161,6 +124,48 @@ namespace OneByte
         {
             var cerrarsesion = new Form1();
             cerrarsesion.Show();
+            this.Close();
+        }
+
+        private void rutinasSanos_Click(object sender, EventArgs e)
+        {
+            var rutinasSanos = new UsuarioEntrenadorRutinasDeportistasSanos();
+            rutinasSanos.Show();
+            this.Close();
+        }
+
+        private void rutinasLesio_Click(object sender, EventArgs e)
+        {
+            var rutinasLesio = new UsuarioEntrenadorRutinasDeportistasLesionados();
+            rutinasLesio.Show();
+            this.Close();
+        }
+
+        private void asignarEjerSanos_Click(object sender, EventArgs e)
+        {
+            var asignarEjerSanos = new UsuarioEntrenadorAsignarEjerciciosRutinas();
+            asignarEjerSanos.Show();
+            this.Close();
+        }
+
+        private void asignarEjerLesio_Click(object sender, EventArgs e)
+        {
+            var asignarEjerLesio = new UsuarioEntrenadorAsignarEjerciciosRutinasLesionados();
+            asignarEjerLesio.Show();
+            this.Close();
+        }
+
+        private void descripEjer_Click(object sender, EventArgs e)
+        {
+            var descripEjer = new UsuarioEntrenadorDescripcionEjercicios();
+            descripEjer.Show();
+            this.Close();
+        }
+
+        private void gruposMusc_Click(object sender, EventArgs e)
+        {
+            var grupoMusc = new UsuarioEntrenadorGruposMusculares();
+            grupoMusc.Show();
             this.Close();
         }
     }

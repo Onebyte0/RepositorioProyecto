@@ -43,8 +43,14 @@ namespace OneByte
             dataGridView1.Columns[6].ReadOnly = false;
             dataGridView1.Columns[7].ReadOnly = false;
 
-            // Ajustar el modo de tamaño de las columnas
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            // Ajustar el modo de tamaño de las columnas a ninguna para permitir el scroll horizontal
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+
+            // Ajustar el ancho de las columnas si es necesario
+            for (int i = 0; i < dataGridView1.ColumnCount; i++)
+            {
+                dataGridView1.Columns[i].Width = 150; // Ancho de columna fijo
+            }
 
             // Configurar la propiedad ReadOnly del DataGridView como false para permitir edición
             dataGridView1.ReadOnly = false;
@@ -55,29 +61,31 @@ namespace OneByte
             // Configurar la propiedad EditMode para permitir la edición inmediata
             dataGridView1.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2;
 
+            // Activar la barra de desplazamiento horizontal
+            dataGridView1.ScrollBars = ScrollBars.Horizontal;
+
             // Llamar a la función que agrega las filas con texto predeterminado
             AddRowsToDataGridView();
         }
+
         private void AddRowsToDataGridView()
         {
-            // Altura de fila por defecto
-            int rowHeight = dataGridView1.RowTemplate.Height;
+            // Limpiar filas existentes
+            dataGridView1.Rows.Clear();
 
-            // Cantidad de filas hasta que complete el tamaño el dataGridView
-            int rows = dataGridView1.Height / rowHeight;
+            // Calcular la altura que debería tener la fila para ocupar todo el espacio disponible
+            int availableHeight = dataGridView1.Height;
+            int rowHeight = availableHeight;
 
-            // Agregar filas
-            for (int i = 0; i > 1 ; i++)
-            {
-                dataGridView1.Rows.Add();
-            }
+            // Crear y agregar una fila con la altura ajustada
+            DataGridViewRow row = new DataGridViewRow();
+            row.Height = rowHeight;
+            dataGridView1.Rows.Add(row);
         }
-        private void atras_Click(object sender, EventArgs e)
-        {
-            var atras = new UsuarioEntrenadorMain();
-            atras.Show();
-            this.Close();
-        }
+
+
+
+       
 
         private void rutinasDeporLesio_Click(object sender, EventArgs e)
         {
@@ -155,5 +163,7 @@ namespace OneByte
             cerrarsesion.Show();
             this.Close();
         }
+
+        
     }
 }

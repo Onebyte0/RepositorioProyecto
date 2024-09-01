@@ -119,6 +119,12 @@
     <Compile Include="UsuarioEntrenadorAgruparDeportistas.Designer.cs">
       <DependentUpon>UsuarioEntrenadorAgruparDeportistas.cs</DependentUpon>
     </Compile>
+    <Compile Include="UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.Designer.cs">
+      <DependentUpon>UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.cs</DependentUpon>
+    </Compile>
     <Compile Include="UsuarioEntrenadorDescripcionEjercicios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -282,6 +288,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UsuarioEntrenadorAgruparDeportistas.resx">
       <DependentUpon>UsuarioEntrenadorAgruparDeportistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.resx">
+      <DependentUpon>UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsuarioEntrenadorDescripcionEjercicios.resx">
       <DependentUpon>UsuarioEntrenadorDescripcionEjercicios.cs</DependentUpon>
