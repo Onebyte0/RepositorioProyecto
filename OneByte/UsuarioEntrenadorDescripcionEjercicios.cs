@@ -17,11 +17,6 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var atras = new UsuarioEntrenadorMain();
-            atras.Show();
-            this.Hide();
-        }
+        
     }
 }

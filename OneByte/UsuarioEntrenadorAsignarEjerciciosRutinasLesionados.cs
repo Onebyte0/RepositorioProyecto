@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OneByte
 {
-    public partial class UsuarioEntrenadorRutinasDeportistasLesionados : Form
+    public partial class UsuarioEntrenadorAsignarEjerciciosRutinasLesionados : Form
     {
-        public UsuarioEntrenadorRutinasDeportistasLesionados()
+        public UsuarioEntrenadorAsignarEjerciciosRutinasLesionados()
         {
             InitializeComponent();
             InitializeDataGridView();
@@ -67,26 +67,35 @@ namespace OneByte
             // Llamar a la función que agrega las filas con texto predeterminado
             AddRowsToDataGridView();
         }
-
         private void AddRowsToDataGridView()
         {
             // Limpiar filas existentes
             dataGridView1.Rows.Clear();
 
-            // Calcular la altura que debería tener la fila para ocupar todo el espacio disponible
+            // Calcular la altura que debería tener cada fila para ocupar todo el espacio disponible
             int availableHeight = dataGridView1.Height;
-            int rowHeight = availableHeight;
+            int rowHeight = availableHeight / 2; // Dividir el espacio entre 2 filas
 
-            // Crear y agregar una fila con la altura ajustada
-            DataGridViewRow row = new DataGridViewRow();
-            row.Height = rowHeight;
-            dataGridView1.Rows.Add(row);
+            // Crear y agregar 2 filas con la altura ajustada
+            for (int i = 0; i < 4; i++)
+            {
+                DataGridViewRow row = new DataGridViewRow();
+                row.Height = rowHeight;
+                dataGridView1.Rows.Add(row);
+            }
         }
 
-        private void rutinasDepor_Click(object sender, EventArgs e)
+        private void rutinasSanos_Click(object sender, EventArgs e)
         {
-            var rutinasDepor = new UsuarioEntrenadorRutinasDeportistasSanos();
-            rutinasDepor.Show();
+            var rutinasSanos = new UsuarioEntrenadorRutinasDeportistasSanos();
+            rutinasSanos.Show();
+            this.Close();
+        }
+
+        private void rutinasLesio_Click(object sender, EventArgs e)
+        {
+            var rutinasLesio = new UsuarioEntrenadorRutinasDeportistasLesionados();
+            rutinasLesio.Show();
             this.Close();
         }
 
@@ -97,23 +106,16 @@ namespace OneByte
             this.Close();
         }
 
-        private void asignarEjerLesio_Click(object sender, EventArgs e)
+        private void descripEjer_Click(object sender, EventArgs e)
         {
-            var asignarEjerLesio = new UsuarioEntrenadorAsignarEjerciciosRutinasLesionados();
-            asignarEjerLesio.Show();
+            var descripEjer = new UsuarioEntrenadorDescripcionEjercicios();
+            descripEjer.Show();
             this.Close();
         }
 
-        private void DescripEjer_Click(object sender, EventArgs e)
+        private void gruposMusc_Click(object sender, EventArgs e)
         {
-            var DescripEjer = new UsuarioEntrenadorDescripcionEjercicios();
-            DescripEjer.Show();
-            this.Close();
-        }
-
-        private void grupoMusc_Click(object sender, EventArgs e)
-        {
-            var grupoMusc = new UsuarioEntrenadorGruposMusculares();
+            var  grupoMusc = new UsuarioEntrenadorGruposMusculares();
             grupoMusc.Show();
             this.Close();
         }
