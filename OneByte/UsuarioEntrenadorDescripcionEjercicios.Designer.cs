@@ -56,7 +56,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 479);
+            this.button1.Location = new System.Drawing.Point(12, 464);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 33);
             this.button1.TabIndex = 9;
@@ -102,24 +102,28 @@
             this.rutinasSanos.Name = "rutinasSanos";
             this.rutinasSanos.Size = new System.Drawing.Size(437, 26);
             this.rutinasSanos.Text = "Rutinas a deportistas sanos";
+            this.rutinasSanos.Click += new System.EventHandler(this.rutinasSanos_Click);
             // 
             // rutinasLesio
             // 
             this.rutinasLesio.Name = "rutinasLesio";
             this.rutinasLesio.Size = new System.Drawing.Size(437, 26);
             this.rutinasLesio.Text = "Rutinas a deportistas lesionados";
+            this.rutinasLesio.Click += new System.EventHandler(this.rutinasLesio_Click);
             // 
             // asignarEjerSanos
             // 
             this.asignarEjerSanos.Name = "asignarEjerSanos";
             this.asignarEjerSanos.Size = new System.Drawing.Size(437, 26);
             this.asignarEjerSanos.Text = "Asignar ejercicios a rutinas depor. sanos";
+            this.asignarEjerSanos.Click += new System.EventHandler(this.asignarEjerSanos_Click);
             // 
             // asignarEjerLesio
             // 
             this.asignarEjerLesio.Name = "asignarEjerLesio";
             this.asignarEjerLesio.Size = new System.Drawing.Size(437, 26);
             this.asignarEjerLesio.Text = "Asignar ejercicios a rutinas depor. lesionados";
+            this.asignarEjerLesio.Click += new System.EventHandler(this.asignarEjerLesio_Click);
             // 
             // descripEjer
             // 
@@ -132,6 +136,7 @@
             this.gruposMusc.Name = "gruposMusc";
             this.gruposMusc.Size = new System.Drawing.Size(437, 26);
             this.gruposMusc.Text = "Grupos Musculares";
+            this.gruposMusc.Click += new System.EventHandler(this.gruposMusc_Click);
             // 
             // consEvolucion
             // 
@@ -149,13 +154,15 @@
             // 
             this.estadoDepor.Name = "estadoDepor";
             this.estadoDepor.Size = new System.Drawing.Size(327, 26);
-            this.estadoDepor.Text = "Estado del deportista";
+            this.estadoDepor.Text = "Estado del deportista sano";
+            this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click);
             // 
             // estadoDeporLesio
             // 
             this.estadoDeporLesio.Name = "estadoDeporLesio";
             this.estadoDeporLesio.Size = new System.Drawing.Size(327, 26);
             this.estadoDeporLesio.Text = "Estado del deportista lesionado";
+            this.estadoDeporLesio.Click += new System.EventHandler(this.estadoDeporLesio_Click);
             // 
             // consRutinas
             // 
@@ -173,12 +180,14 @@
             this.agenda.Name = "agenda";
             this.agenda.Size = new System.Drawing.Size(223, 26);
             this.agenda.Text = "Agenda";
+            this.agenda.Click += new System.EventHandler(this.agenda_Click);
             // 
             // agendaRutinas
             // 
             this.agendaRutinas.Name = "agendaRutinas";
             this.agendaRutinas.Size = new System.Drawing.Size(223, 26);
             this.agendaRutinas.Text = "Agenda de rutinas";
+            this.agendaRutinas.Click += new System.EventHandler(this.agendaRutinas_Click);
             // 
             // estadoPago
             // 
@@ -196,12 +205,14 @@
             this.agruparDepor.Name = "agruparDepor";
             this.agruparDepor.Size = new System.Drawing.Size(229, 26);
             this.agruparDepor.Text = "Agrupar deportista";
+            this.agruparDepor.Click += new System.EventHandler(this.agruparDepor_Click);
             // 
             // infoDepor
             // 
             this.infoDepor.Name = "infoDepor";
             this.infoDepor.Size = new System.Drawing.Size(229, 26);
             this.infoDepor.Text = "Info. del deportista";
+            this.infoDepor.Click += new System.EventHandler(this.infoDepor_Click);
             // 
             // cerrarsesion
             // 
@@ -210,6 +221,7 @@
             this.cerrarsesion.Name = "cerrarsesion";
             this.cerrarsesion.Size = new System.Drawing.Size(129, 33);
             this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
             // 
             // toolStripMenuItem3
             // 
@@ -220,7 +232,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(286, 66);
+            this.label1.Location = new System.Drawing.Point(276, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 30);
             this.label1.TabIndex = 19;
@@ -229,7 +241,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 116);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 101);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(782, 347);
             this.dataGridView1.TabIndex = 20;
@@ -239,7 +251,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(807, 518);
+            this.ClientSize = new System.Drawing.Size(807, 502);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);

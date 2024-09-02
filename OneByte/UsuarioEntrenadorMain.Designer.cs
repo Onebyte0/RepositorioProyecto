@@ -179,7 +179,7 @@
             // 
             this.estadoDepor.Name = "estadoDepor";
             this.estadoDepor.Size = new System.Drawing.Size(327, 26);
-            this.estadoDepor.Text = "Estado del deportista";
+            this.estadoDepor.Text = "Estado del deportista sano";
             this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click);
             // 
             // estadoDeporLesio
