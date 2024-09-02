@@ -294,6 +294,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Name = "UsuarioEntrenadorRutinasDeportistasSanos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorRutinasDeportistasSanos";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

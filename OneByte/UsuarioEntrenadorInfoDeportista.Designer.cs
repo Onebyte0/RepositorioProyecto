@@ -246,6 +246,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "UsuarioEntrenadorInfoDeportista";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorInfoDeportista";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

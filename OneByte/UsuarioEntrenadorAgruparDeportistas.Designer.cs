@@ -268,6 +268,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "UsuarioEntrenadorAgruparDeportistas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorAgruparDeportistas";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

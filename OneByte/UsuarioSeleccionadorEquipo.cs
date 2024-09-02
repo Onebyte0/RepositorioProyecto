@@ -18,26 +18,10 @@ namespace OneByte
         }
 
 
-        private void UsuarioSeleccionadorEquipos_Load(object sender, EventArgs e)
-        {
+        
 
-        }
+       
 
-        private void volver_Click(object sender, EventArgs e)
-        {
-            var volverSeleccionador = new UsuarioSeleccionadorMain();
-            volverSeleccionador.Show();
-            this.Close();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gestionDePagosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

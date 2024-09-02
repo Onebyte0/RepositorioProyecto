@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.guardar = new System.Windows.Forms.Button();
-            this.volver = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -57,7 +56,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(441, 141);
+            this.label1.Location = new System.Drawing.Point(438, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 94;
@@ -65,7 +64,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(642, 248);
+            this.button1.Location = new System.Drawing.Point(667, 246);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 34);
             this.button1.TabIndex = 93;
@@ -74,7 +73,7 @@
             // 
             // guardar
             // 
-            this.guardar.BackColor = System.Drawing.Color.LightGreen;
+            this.guardar.BackColor = System.Drawing.Color.White;
             this.guardar.Location = new System.Drawing.Point(667, 365);
             this.guardar.Name = "guardar";
             this.guardar.Size = new System.Drawing.Size(105, 34);
@@ -82,33 +81,22 @@
             this.guardar.Text = "Guardar";
             this.guardar.UseVisualStyleBackColor = false;
             // 
-            // volver
-            // 
-            this.volver.Location = new System.Drawing.Point(12, 364);
-            this.volver.Name = "volver";
-            this.volver.Size = new System.Drawing.Size(88, 35);
-            this.volver.TabIndex = 86;
-            this.volver.Text = "Volver";
-            this.volver.UseVisualStyleBackColor = true;
-            this.volver.Click += new System.EventHandler(this.volver_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(147, 52);
+            this.label2.Location = new System.Drawing.Point(252, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(368, 40);
+            this.label2.Size = new System.Drawing.Size(278, 30);
             this.label2.TabIndex = 85;
             this.label2.Text = "Añadir deportista a equipo";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(524, 137);
+            this.label7.Location = new System.Drawing.Point(525, 136);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 18);
             this.label7.TabIndex = 99;
@@ -121,7 +109,7 @@
             "Danubio",
             "Peñarol",
             "Rampla"});
-            this.comboBox1.Location = new System.Drawing.Point(588, 138);
+            this.comboBox1.Location = new System.Drawing.Point(589, 136);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 100;
@@ -223,7 +211,7 @@
             // 
             this.consultaDeportistaToolStripMenuItem.Name = "consultaDeportistaToolStripMenuItem";
             this.consultaDeportistaToolStripMenuItem.Size = new System.Drawing.Size(344, 26);
-            this.consultaDeportistaToolStripMenuItem.Text = "Consulta deportista";
+            this.consultaDeportistaToolStripMenuItem.Text = "Consulta del deportista";
             // 
             // consultaToolStripMenuItem
             // 
@@ -237,7 +225,6 @@
             this.gestionDePagosToolStripMenuItem.Name = "gestionDePagosToolStripMenuItem";
             this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(199, 33);
             this.gestionDePagosToolStripMenuItem.Text = "Evolucion del deportista";
-            this.gestionDePagosToolStripMenuItem.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem_Click);
             // 
             // asignarDeportistaAEquipoToolStripMenuItem
             // 
@@ -289,11 +276,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.guardar);
-            this.Controls.Add(this.volver);
             this.Controls.Add(this.label2);
             this.Name = "UsuarioSeleccionadorEquipos";
             this.Text = "UsuarioSeleccionadorEquipos";
-            this.Load += new System.EventHandler(this.UsuarioSeleccionadorEquipos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -307,7 +292,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button guardar;
-        private System.Windows.Forms.Button volver;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox1;
