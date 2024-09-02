@@ -17,18 +17,18 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void volver_Click(object sender, EventArgs e)
+        private void consDepor_Click(object sender, EventArgs e)
         {
-            var volverUsuSeleccionador = new UsuarioSeleccionadorMain();
-            volverUsuSeleccionador.Show();
+            var consDepor = new UsuarioSeleccionadorMain();
+            consDepor.Show();
             this.Close();
-                }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
-       
+        private void equipos_Click(object sender, EventArgs e)
+        {
+            var equipos = new UsuarioSeleccionadorEquipos();
+            equipos.Show(); 
+            this.Close();
+        }
     }
 }

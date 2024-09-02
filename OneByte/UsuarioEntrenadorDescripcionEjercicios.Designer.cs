@@ -257,6 +257,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button1);
             this.Name = "UsuarioEntrenadorDescripcionEjercicios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

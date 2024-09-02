@@ -40,7 +40,7 @@ namespace OneByte
 
         private void cerrarsesion_Click(object sender, EventArgs e)
         {
-            var cerrarsesion = new SeleccionUsuarios();
+            var cerrarsesion = new Form1();
             cerrarsesion.Show();
             this.Hide();
         }

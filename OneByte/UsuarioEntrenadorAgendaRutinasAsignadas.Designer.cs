@@ -246,6 +246,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "UsuarioEntrenadorAgendaRutinasAsignadas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorAgendaRutinasAsignadas";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
