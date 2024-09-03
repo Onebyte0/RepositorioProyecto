@@ -42,13 +42,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.docCliente = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.darDeAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaDeportistaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionDePagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignarDeportistaAEquipoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consDepor = new System.Windows.Forms.ToolStripMenuItem();
+            this.consEvoDepor = new System.Windows.Forms.ToolStripMenuItem();
+            this.consEvolucion = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignarDeportistaAUnEquipoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -172,7 +173,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(2, 44);
+            this.label6.Location = new System.Drawing.Point(21, 46);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 18);
             this.label6.TabIndex = 100;
@@ -196,70 +197,78 @@
             this.label3.TabIndex = 92;
             this.label3.Text = "Nombre Usuario:";
             // 
-            // darDeAltaToolStripMenuItem
-            // 
-            this.darDeAltaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.consultaDeportistaToolStripMenuItem,
-            this.consultaToolStripMenuItem});
-            this.darDeAltaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
-            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(92, 33);
-            this.darDeAltaToolStripMenuItem.Text = "Consultas";
-            this.darDeAltaToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            // 
-            // consultaDeportistaToolStripMenuItem
-            // 
-            this.consultaDeportistaToolStripMenuItem.Name = "consultaDeportistaToolStripMenuItem";
-            this.consultaDeportistaToolStripMenuItem.Size = new System.Drawing.Size(344, 26);
-            this.consultaDeportistaToolStripMenuItem.Text = "Consulta del deportista";
-            // 
-            // consultaToolStripMenuItem
-            // 
-            this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
-            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(344, 26);
-            this.consultaToolStripMenuItem.Text = "Consulta de evolucion de deportista";
-            // 
-            // gestionDePagosToolStripMenuItem
-            // 
-            this.gestionDePagosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.gestionDePagosToolStripMenuItem.Name = "gestionDePagosToolStripMenuItem";
-            this.gestionDePagosToolStripMenuItem.Size = new System.Drawing.Size(199, 33);
-            this.gestionDePagosToolStripMenuItem.Text = "Evolucion del deportista";
-            // 
-            // asignarDeportistaAEquipoToolStripMenuItem
-            // 
-            this.asignarDeportistaAEquipoToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.asignarDeportistaAEquipoToolStripMenuItem.Name = "asignarDeportistaAEquipoToolStripMenuItem";
-            this.asignarDeportistaAEquipoToolStripMenuItem.Size = new System.Drawing.Size(225, 33);
-            this.asignarDeportistaAEquipoToolStripMenuItem.Text = "Asignar deportista a equipo";
-            // 
-            // cerrarSesiónToolStripMenuItem
-            // 
-            this.cerrarSesiónToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(119, 33);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
-            // 
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
             this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
-            this.menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.darDeAltaToolStripMenuItem,
-            this.gestionDePagosToolStripMenuItem,
-            this.asignarDeportistaAEquipoToolStripMenuItem,
-            this.cerrarSesiónToolStripMenuItem});
-            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            this.toolStripMenuItem2,
+            this.consEvolucion,
+            this.cerrarsesion,
+            this.toolStripMenuItem3});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.menuStrip1.Size = new System.Drawing.Size(784, 37);
             this.menuStrip1.Stretch = false;
-            this.menuStrip1.TabIndex = 106;
+            this.menuStrip1.TabIndex = 108;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consDepor,
+            this.consEvoDepor});
+            this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(176, 33);
+            this.toolStripMenuItem2.Text = "Consulta deportista";
+            // 
+            // consDepor
+            // 
+            this.consDepor.Name = "consDepor";
+            this.consDepor.Size = new System.Drawing.Size(363, 26);
+            this.consDepor.Text = "Consulta del deportista ";
+            this.consDepor.Click += new System.EventHandler(this.consDepor_Click);
+            // 
+            // consEvoDepor
+            // 
+            this.consEvoDepor.Name = "consEvoDepor";
+            this.consEvoDepor.Size = new System.Drawing.Size(363, 26);
+            this.consEvoDepor.Text = "Consulta de evolucion de deportista";
+            this.consEvoDepor.Click += new System.EventHandler(this.consEvoDepor_Click);
+            // 
+            // consEvolucion
+            // 
+            this.consEvolucion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.consEvolucion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.asignarDeportistaAUnEquipoToolStripMenuItem});
+            this.consEvolucion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consEvolucion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.consEvolucion.Name = "consEvolucion";
+            this.consEvolucion.Size = new System.Drawing.Size(150, 33);
+            this.consEvolucion.Text = "Consulta equipo";
+            // 
+            // asignarDeportistaAUnEquipoToolStripMenuItem
+            // 
+            this.asignarDeportistaAUnEquipoToolStripMenuItem.Name = "asignarDeportistaAUnEquipoToolStripMenuItem";
+            this.asignarDeportistaAUnEquipoToolStripMenuItem.Size = new System.Drawing.Size(411, 26);
+            this.asignarDeportistaAUnEquipoToolStripMenuItem.Text = "Añadir deportista a un equipo (estas aqui)";
+            // 
+            // cerrarsesion
+            // 
+            this.cerrarsesion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarsesion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.cerrarsesion.Name = "cerrarsesion";
+            this.cerrarsesion.Size = new System.Drawing.Size(129, 33);
+            this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(12, 33);
             // 
             // UsuarioSeleccionadorEquipos
             // 
@@ -267,8 +276,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(784, 411);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label7);
@@ -278,6 +287,7 @@
             this.Controls.Add(this.guardar);
             this.Controls.Add(this.label2);
             this.Name = "UsuarioSeleccionadorEquipos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioSeleccionadorEquipos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -303,12 +313,13 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox docCliente;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ToolStripMenuItem darDeAltaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultaDeportistaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem asignarDeportistaAEquipoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem consDepor;
+        private System.Windows.Forms.ToolStripMenuItem consEvoDepor;
+        private System.Windows.Forms.ToolStripMenuItem consEvolucion;
+        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem asignarDeportistaAUnEquipoToolStripMenuItem;
     }
 }

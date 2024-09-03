@@ -24,10 +24,10 @@ namespace OneByte
             this.Close();
         }
 
-        private void equipos_Click(object sender, EventArgs e)
+        private void agregarDepor_Click(object sender, EventArgs e)
         {
-            var equipos = new UsuarioSeleccionadorEquipos();
-            equipos.Show(); 
+            var agregarDepor = new UsuarioSeleccionadorEquipos();
+            agregarDepor.Show();
             this.Close();
         }
     }

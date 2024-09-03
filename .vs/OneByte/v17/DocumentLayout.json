@@ -3,23 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,44 +38,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioSeleccionadorEquipo.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorEquipo.cs",
-              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorEquipo.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorEquipo.cs",
-              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorEquipo.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "UsuarioSeleccionadorMain.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorMain.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
+              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorMain.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T20:51:45.628Z",
+              "WhenOpened": "2024-09-03T00:52:29.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorEquipo.cs",
-              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorEquipo.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T20:49:54.6Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
               "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorMain.cs",
               "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
               "RelativeToolTip": "OneByte\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:19:17.499Z",
+              "WhenOpened": "2024-09-03T00:52:25.985Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\Form1.cs",
               "RelativeDocumentMoniker": "OneByte\\Form1.cs",
@@ -91,18 +71,6 @@
               "RelativeToolTip": "OneByte\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T18:13:06.827Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioEntrenadorMain.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioEntrenadorMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\UsuarioEntrenadorMain.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T17:53:46.368Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
