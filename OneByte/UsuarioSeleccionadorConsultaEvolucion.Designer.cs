@@ -44,6 +44,7 @@
             this.consDepor = new System.Windows.Forms.ToolStripMenuItem();
             this.consEvoDepor = new System.Windows.Forms.ToolStripMenuItem();
             this.equipos = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarDepor = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -182,8 +183,8 @@
             this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(99, 33);
-            this.toolStripMenuItem2.Text = "Consultas";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(176, 33);
+            this.toolStripMenuItem2.Text = "Consulta deportista";
             // 
             // consDepor
             // 
@@ -201,12 +202,20 @@
             // equipos
             // 
             this.equipos.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.equipos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarDepor});
             this.equipos.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equipos.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.equipos.Name = "equipos";
-            this.equipos.Size = new System.Drawing.Size(84, 33);
-            this.equipos.Text = "Equipos";
-            this.equipos.Click += new System.EventHandler(this.equipos_Click);
+            this.equipos.Size = new System.Drawing.Size(150, 33);
+            this.equipos.Text = "Consulta equipo";
+            // 
+            // agregarDepor
+            // 
+            this.agregarDepor.Name = "agregarDepor";
+            this.agregarDepor.Size = new System.Drawing.Size(320, 26);
+            this.agregarDepor.Text = "Añadir deportista a un equipo ";
+            this.agregarDepor.Click += new System.EventHandler(this.agregarDepor_Click);
             // 
             // cerrarsesion
             // 
@@ -240,6 +249,7 @@
             this.Controls.Add(this.docCliente);
             this.Controls.Add(this.label2);
             this.Name = "UsuarioSeleccionadorConsultaEvolucion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioSeleccionadorConsultaEvolucion";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -268,5 +278,6 @@
         private System.Windows.Forms.ToolStripMenuItem equipos;
         private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem agregarDepor;
     }
 }
