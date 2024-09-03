@@ -32,7 +32,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.confirmar = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.docCliente = new System.Windows.Forms.TextBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -49,6 +48,7 @@
             this.habilitarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDePagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -85,31 +85,23 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(334, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 18);
+            this.label1.Size = new System.Drawing.Size(146, 21);
             this.label1.TabIndex = 95;
-            this.label1.Text = "Fecha a comprobar";
-            // 
-            // confirmar
-            // 
-            this.confirmar.Location = new System.Drawing.Point(551, 159);
-            this.confirmar.Name = "confirmar";
-            this.confirmar.Size = new System.Drawing.Size(75, 23);
-            this.confirmar.TabIndex = 96;
-            this.confirmar.Text = "Confirmar";
-            this.confirmar.UseVisualStyleBackColor = true;
+            this.label1.Text = "Fecha a comprobar:";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(19, 12);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(86, 18);
+            this.label25.Size = new System.Drawing.Size(94, 21);
             this.label25.TabIndex = 69;
-            this.label25.Text = "Documento";
+            this.label25.Text = "Documento:";
+            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // docCliente
             // 
@@ -122,9 +114,10 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.Location = new System.Drawing.Point(154, 42);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(73, 17);
+            this.radioButton3.Size = new System.Drawing.Size(96, 25);
             this.radioButton3.TabIndex = 70;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Pasaporte";
@@ -133,35 +126,39 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
+            this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(154, 14);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(58, 17);
+            this.radioButton4.Size = new System.Drawing.Size(76, 25);
             this.radioButton4.TabIndex = 71;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Cedula";
+            this.radioButton4.Text = "Cédula";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(19, 120);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(135, 18);
+            this.label26.Size = new System.Drawing.Size(143, 21);
             this.label26.TabIndex = 72;
             this.label26.Text = "Nombre Completo:";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(31, 160);
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(49, 153);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(41, 13);
+            this.label27.Size = new System.Drawing.Size(61, 21);
             this.label27.TabIndex = 73;
             this.label27.Text = "label27";
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(172, 78);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -187,11 +184,11 @@
             // controlDePago
             // 
             this.controlDePago.AutoSize = true;
-            this.controlDePago.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlDePago.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.controlDePago.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.controlDePago.Location = new System.Drawing.Point(252, 46);
             this.controlDePago.Name = "controlDePago";
-            this.controlDePago.Size = new System.Drawing.Size(299, 40);
+            this.controlDePago.Size = new System.Drawing.Size(223, 30);
             this.controlDePago.TabIndex = 97;
             this.controlDePago.Text = "Control De Asistencia";
             // 
@@ -264,15 +261,25 @@
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(551, 175);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 99;
+            this.button4.Text = "Confirmar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // UsuarioAdministrativoControlDeAsistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(784, 411);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.controlDePago);
-            this.Controls.Add(this.confirmar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.panel1);
@@ -296,7 +303,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button confirmar;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox docCliente;
         private System.Windows.Forms.RadioButton radioButton3;
@@ -313,5 +319,6 @@
         private System.Windows.Forms.ToolStripMenuItem habilitarUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+        private System.Windows.Forms.Button button4;
     }
 }
