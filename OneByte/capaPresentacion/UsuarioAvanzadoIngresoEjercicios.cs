@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OneByte.capaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,20 +18,7 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void opcDeportes_Click(object sender, EventArgs e)
-        {
-            var opcDeportes = new UsuarioAvanzadoOpcionalidadDeportes();
-            opcDeportes.Show();
-            this.Hide();
-        }
-
-        private void gestiondeEmpleados_Click(object sender, EventArgs e)
-        {
-            var gestionEmpleados = new UsuarioAvanzadoGestionDeEmpleados();
-            gestionEmpleados.Show();
-            this.Hide();
-        }
-
+ 
         private void gestionCli_Click(object sender, EventArgs e)
         {
             var gestionCli = new UsuarioAvanzadoMain();
@@ -38,10 +26,33 @@ namespace OneByte
             this.Hide();
         }
 
-        private void cerrarsesion_Click(object sender, EventArgs e)
+    
+        private void gestiónDeEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var gestionEmpleados = new UsuarioAvanzadoGestionDeEmpleados();
+            gestionEmpleados.Show();
+            this.Hide();
+        }
+
+   
+        private void gestiónDeClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var gestionClientes = new UsuarioAvanzadoGestionDeCliente();
+            gestionClientes.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             var cerrarsesion = new Form1();
             cerrarsesion.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            var opcDeportes = new UsuarioAvanzadoOpcionalidadDeportes();
+            opcDeportes.Show();
             this.Hide();
         }
     }

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioavanzadomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioavanzadomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioavanzadoopcionalidaddeportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioavanzadoopcionalidaddeportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioavanzadogestiondeempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioavanzadogestiondeempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragendadisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragendadisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragendarutinasasignadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragendarutinasasignadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragendadisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragendadisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioEntrenadorAgendaDisponibilidad.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:46:05.826Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,39 +67,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioSeleccionadorMain.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorMain.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
-              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorMain.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDEAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "UsuarioAvanzadoGestionDeEmpleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioAvanzadoGestionDeEmpleados.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioAvanzadoGestionDeEmpleados.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioAvanzadoGestionDeEmpleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioAvanzadoGestionDeEmpleados.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T00:52:29.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\UsuarioSeleccionadorMain.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T00:52:25.985Z",
+              "WhenOpened": "2024-10-13T15:08:35.448Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\Form1.cs",
-              "RelativeDocumentMoniker": "OneByte\\Form1.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "UsuarioAvanzadoOpcionalidadDeportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioAvanzadoOpcionalidadDeportes.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioAvanzadoOpcionalidadDeportes.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioAvanzadoOpcionalidadDeportes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioAvanzadoOpcionalidadDeportes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T18:13:06.827Z",
+              "WhenOpened": "2024-10-13T15:08:31.897Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioAvanzadoMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioAvanzadoMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioAvanzadoMain.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioAvanzadoMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioAvanzadoMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:07:32.627Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioEntrenadorAgendaRutinasAsignadas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:06:42.645Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAlwKAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:52:47.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs",
+              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T11:58:10.525Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

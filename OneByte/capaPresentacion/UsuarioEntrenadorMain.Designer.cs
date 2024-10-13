@@ -28,284 +28,234 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.modificar = new System.Windows.Forms.Button();
-            this.guardar = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UsuarioEntrenadorMain));
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.rutinasSanos = new System.Windows.Forms.ToolStripMenuItem();
-            this.rutinasLesio = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignarEjerSanos = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignarEjerLesio = new System.Windows.Forms.ToolStripMenuItem();
-            this.descripEjer = new System.Windows.Forms.ToolStripMenuItem();
-            this.gruposMusc = new System.Windows.Forms.ToolStripMenuItem();
-            this.consEvolucion = new System.Windows.Forms.ToolStripMenuItem();
-            this.estadoDepor = new System.Windows.Forms.ToolStripMenuItem();
-            this.estadoDeporLesio = new System.Windows.Forms.ToolStripMenuItem();
+            this.agendaDeRrutinasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.consRutinas = new System.Windows.Forms.ToolStripMenuItem();
-            this.agenda = new System.Windows.Forms.ToolStripMenuItem();
-            this.agendaRutinas = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
             this.estadoPago = new System.Windows.Forms.ToolStripMenuItem();
-            this.agruparDepor = new System.Windows.Forms.ToolStripMenuItem();
-            this.infoDepor = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.estadoDelLesionadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.gestionCliente = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // modificar
-            // 
-            this.modificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modificar.Location = new System.Drawing.Point(543, 465);
-            this.modificar.Name = "modificar";
-            this.modificar.Size = new System.Drawing.Size(138, 35);
-            this.modificar.TabIndex = 3;
-            this.modificar.Text = "Modificar";
-            this.modificar.UseVisualStyleBackColor = true;
-            // 
-            // guardar
-            // 
-            this.guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guardar.Location = new System.Drawing.Point(687, 465);
-            this.guardar.Name = "guardar";
-            this.guardar.Size = new System.Drawing.Size(131, 35);
-            this.guardar.TabIndex = 4;
-            this.guardar.Text = "Guardar";
-            this.guardar.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(187, 64);
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(447, 30);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Calificacion de items a cumplir por el cliente";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // menuStrip1
             // 
-            this.menuStrip1.AutoSize = false;
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.consEvolucion,
+            this.agendaDeRrutinasToolStripMenuItem,
+            this.toolStripMenuItem10,
             this.consRutinas,
+            this.toolStripMenuItem9,
             this.estadoPago,
-            this.cerrarsesion,
-            this.toolStripMenuItem3});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStripMenuItem5,
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem7,
+            this.estadoDelLesionadoToolStripMenuItem,
+            this.toolStripMenuItem8,
+            this.consultarToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(831, 37);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip1.Stretch = false;
-            this.menuStrip1.TabIndex = 17;
-            this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem2
+            // agendaDeRrutinasToolStripMenuItem
             // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rutinasSanos,
-            this.rutinasLesio,
-            this.asignarEjerSanos,
-            this.asignarEjerLesio,
-            this.descripEjer,
-            this.gruposMusc});
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(81, 33);
-            this.toolStripMenuItem2.Text = "Rutinas";
+            resources.ApplyResources(this.agendaDeRrutinasToolStripMenuItem, "agendaDeRrutinasToolStripMenuItem");
+            this.agendaDeRrutinasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.agendaDeRrutinasToolStripMenuItem.Name = "agendaDeRrutinasToolStripMenuItem";
             // 
-            // rutinasSanos
+            // toolStripMenuItem10
             // 
-            this.rutinasSanos.Name = "rutinasSanos";
-            this.rutinasSanos.Size = new System.Drawing.Size(437, 26);
-            this.rutinasSanos.Text = "Rutinas a deportistas sanos";
-            this.rutinasSanos.Click += new System.EventHandler(this.rutinasSanos_Click);
-            // 
-            // rutinasLesio
-            // 
-            this.rutinasLesio.Name = "rutinasLesio";
-            this.rutinasLesio.Size = new System.Drawing.Size(437, 26);
-            this.rutinasLesio.Text = "Rutinas a deportistas lesionados";
-            this.rutinasLesio.Click += new System.EventHandler(this.rutinasLesio_Click);
-            // 
-            // asignarEjerSanos
-            // 
-            this.asignarEjerSanos.Name = "asignarEjerSanos";
-            this.asignarEjerSanos.Size = new System.Drawing.Size(437, 26);
-            this.asignarEjerSanos.Text = "Asignar ejercicios a rutinas depor. sanos";
-            this.asignarEjerSanos.Click += new System.EventHandler(this.asignarEjerSanos_Click);
-            // 
-            // asignarEjerLesio
-            // 
-            this.asignarEjerLesio.Name = "asignarEjerLesio";
-            this.asignarEjerLesio.Size = new System.Drawing.Size(437, 26);
-            this.asignarEjerLesio.Text = "Asignar ejercicios a rutinas depor. lesionados";
-            this.asignarEjerLesio.Click += new System.EventHandler(this.asignarEjerLesio_Click);
-            // 
-            // descripEjer
-            // 
-            this.descripEjer.Name = "descripEjer";
-            this.descripEjer.Size = new System.Drawing.Size(437, 26);
-            this.descripEjer.Text = "Descripcion de ejercicios";
-            this.descripEjer.Click += new System.EventHandler(this.descripEjer_Click);
-            // 
-            // gruposMusc
-            // 
-            this.gruposMusc.Name = "gruposMusc";
-            this.gruposMusc.Size = new System.Drawing.Size(437, 26);
-            this.gruposMusc.Text = "Grupos Musculares";
-            this.gruposMusc.Click += new System.EventHandler(this.gruposMusc_Click);
-            // 
-            // consEvolucion
-            // 
-            this.consEvolucion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.consEvolucion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.estadoDepor,
-            this.estadoDeporLesio});
-            this.consEvolucion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consEvolucion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.consEvolucion.Name = "consEvolucion";
-            this.consEvolucion.Size = new System.Drawing.Size(98, 33);
-            this.consEvolucion.Text = "Evolucion";
-            // 
-            // estadoDepor
-            // 
-            this.estadoDepor.Name = "estadoDepor";
-            this.estadoDepor.Size = new System.Drawing.Size(327, 26);
-            this.estadoDepor.Text = "Estado del deportista sano";
-            this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click);
-            // 
-            // estadoDeporLesio
-            // 
-            this.estadoDeporLesio.Name = "estadoDeporLesio";
-            this.estadoDeporLesio.Size = new System.Drawing.Size(327, 26);
-            this.estadoDeporLesio.Text = "Estado del deportista lesionado";
-            this.estadoDeporLesio.Click += new System.EventHandler(this.estadoDeporLesio_Click);
+            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
+            resources.ApplyResources(this.toolStripMenuItem10, "toolStripMenuItem10");
             // 
             // consRutinas
             // 
-            this.consRutinas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agenda,
-            this.agendaRutinas});
-            this.consRutinas.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.consRutinas, "consRutinas");
             this.consRutinas.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.consRutinas.Name = "consRutinas";
-            this.consRutinas.Size = new System.Drawing.Size(81, 33);
-            this.consRutinas.Text = "Agenda";
+            this.consRutinas.Click += new System.EventHandler(this.consRutinas_Click);
             // 
-            // agenda
+            // toolStripMenuItem9
             // 
-            this.agenda.Name = "agenda";
-            this.agenda.Size = new System.Drawing.Size(223, 26);
-            this.agenda.Text = "Agenda";
-            this.agenda.Click += new System.EventHandler(this.agenda_Click);
-            // 
-            // agendaRutinas
-            // 
-            this.agendaRutinas.Name = "agendaRutinas";
-            this.agendaRutinas.Size = new System.Drawing.Size(223, 26);
-            this.agendaRutinas.Text = "Agenda de rutinas";
-            this.agendaRutinas.Click += new System.EventHandler(this.agendaRutinas_Click);
+            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
+            resources.ApplyResources(this.toolStripMenuItem9, "toolStripMenuItem9");
             // 
             // estadoPago
             // 
-            this.estadoPago.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agruparDepor,
-            this.infoDepor});
-            this.estadoPago.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.estadoPago, "estadoPago");
             this.estadoPago.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.estadoPago.Name = "estadoPago";
-            this.estadoPago.Size = new System.Drawing.Size(104, 33);
-            this.estadoPago.Text = "Deportista";
+            this.estadoPago.Click += new System.EventHandler(this.estadoPago_Click);
             // 
-            // agruparDepor
+            // toolStripMenuItem5
             // 
-            this.agruparDepor.Name = "agruparDepor";
-            this.agruparDepor.Size = new System.Drawing.Size(229, 26);
-            this.agruparDepor.Text = "Agrupar deportista";
-            this.agruparDepor.Click += new System.EventHandler(this.agruparDepor_Click);
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             // 
-            // infoDepor
+            // toolStripMenuItem2
             // 
-            this.infoDepor.Name = "infoDepor";
-            this.infoDepor.Size = new System.Drawing.Size(229, 26);
-            this.infoDepor.Text = "Info. del deportista";
-            this.infoDepor.Click += new System.EventHandler(this.infoDepor_Click);
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
-            // cerrarsesion
+            // toolStripMenuItem7
             // 
-            this.cerrarsesion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cerrarsesion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.cerrarsesion.Name = "cerrarsesion";
-            this.cerrarsesion.Size = new System.Drawing.Size(129, 33);
-            this.cerrarsesion.Text = "Cerrar Sesion";
-            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            resources.ApplyResources(this.toolStripMenuItem7, "toolStripMenuItem7");
             // 
-            // toolStripMenuItem3
+            // estadoDelLesionadoToolStripMenuItem
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(12, 33);
+            this.estadoDelLesionadoToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            resources.ApplyResources(this.estadoDelLesionadoToolStripMenuItem, "estadoDelLesionadoToolStripMenuItem");
+            this.estadoDelLesionadoToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.estadoDelLesionadoToolStripMenuItem.Name = "estadoDelLesionadoToolStripMenuItem";
+            this.estadoDelLesionadoToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            this.estadoDelLesionadoToolStripMenuItem.Click += new System.EventHandler(this.estadoDelLesionadoToolStripMenuItem_Click);
             // 
-            // dataGridView1
+            // toolStripMenuItem8
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 112);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(805, 347);
-            this.dataGridView1.TabIndex = 18;
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            resources.ApplyResources(this.toolStripMenuItem8, "toolStripMenuItem8");
+            // 
+            // consultarToolStripMenuItem
+            // 
+            this.consultarToolStripMenuItem.BackColor = System.Drawing.Color.MidnightBlue;
+            resources.ApplyResources(this.consultarToolStripMenuItem, "consultarToolStripMenuItem");
+            this.consultarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
+            this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Brown;
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.Name = "button5";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.SlateGray;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // gestionCliente
+            // 
+            this.gestionCliente.BackColor = System.Drawing.Color.SlateGray;
+            resources.ApplyResources(this.gestionCliente, "gestionCliente");
+            this.gestionCliente.Name = "gestionCliente";
+            this.gestionCliente.UseVisualStyleBackColor = false;
+            this.gestionCliente.Click += new System.EventHandler(this.gestionCliente_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.SlateGray;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.gestionCliente);
+            this.panel1.Controls.Add(this.button1);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.SlateGray;
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // UsuarioEntrenadorMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(831, 509);
-            this.Controls.Add(this.dataGridView1);
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guardar);
-            this.Controls.Add(this.modificar);
             this.Name = "UsuarioEntrenadorMain";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Load += new System.EventHandler(this.UsuarioEntrenadorMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button modificar;
-        private System.Windows.Forms.Button guardar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem consEvolucion;
-        private System.Windows.Forms.ToolStripMenuItem estadoDepor;
         private System.Windows.Forms.ToolStripMenuItem consRutinas;
-        private System.Windows.Forms.ToolStripMenuItem agenda;
-        private System.Windows.Forms.ToolStripMenuItem agendaRutinas;
         private System.Windows.Forms.ToolStripMenuItem estadoPago;
-        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ToolStripMenuItem estadoDeporLesio;
-        private System.Windows.Forms.ToolStripMenuItem agruparDepor;
-        private System.Windows.Forms.ToolStripMenuItem infoDepor;
-        private System.Windows.Forms.ToolStripMenuItem rutinasSanos;
-        private System.Windows.Forms.ToolStripMenuItem rutinasLesio;
-        private System.Windows.Forms.ToolStripMenuItem asignarEjerSanos;
-        private System.Windows.Forms.ToolStripMenuItem asignarEjerLesio;
-        private System.Windows.Forms.ToolStripMenuItem descripEjer;
-        private System.Windows.Forms.ToolStripMenuItem gruposMusc;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button gestionCliente;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem estadoDelLesionadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agendaDeRrutinasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
     }
 }

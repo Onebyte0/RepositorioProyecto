@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OneByte.capaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,47 @@ namespace OneByte
             this.Hide();
         }
 
-        
+        private void gestionCli_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var gestionempleado = new UsuarioAvanzadoGestionDeEmpleados();
+            gestionempleado.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var gestionejer = new UsuarioAvanzadoIngresoEjercicios();
+            gestionejer.Show();
+            this.Hide();
+        }
+
+        private void gestionCliente_Click(object sender, EventArgs e)
+        {
+            var gestionClient = new UsuarioAvanzadoGestionDeCliente();
+            gestionClient.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var cerrarsesion = new Form1();
+            cerrarsesion.Show();
+            this.Hide();
+        }
     }
 }

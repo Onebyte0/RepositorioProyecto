@@ -248,6 +248,7 @@
             this.Name = "UsuarioEntrenadorInfoDeportista";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorInfoDeportista";
+            this.Load += new System.EventHandler(this.UsuarioEntrenadorInfoDeportista_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

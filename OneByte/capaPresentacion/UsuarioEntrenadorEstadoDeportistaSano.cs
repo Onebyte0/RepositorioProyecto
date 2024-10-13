@@ -115,9 +115,7 @@ namespace OneByte
 
         private void asignarEjerLesio_Click(object sender, EventArgs e)
         {
-            var asignarEjerLesio = new UsuarioEntrenadorAsignarEjerciciosRutinasLesionados();
-            asignarEjerLesio.Show();
-            this.Close();
+  
         }
 
         private void descripEjer_Click(object sender, EventArgs e)
@@ -129,9 +127,7 @@ namespace OneByte
 
         private void gruposMusc_Click(object sender, EventArgs e)
         {
-            var grupoMusc = new UsuarioEntrenadorGruposMusculares();
-            grupoMusc.Show();
-            this.Close();
+    
         }
 
         private void estadoDeporLesio_Click(object sender, EventArgs e)
@@ -174,6 +170,11 @@ namespace OneByte
             var cerrarsesion = new Form1();
             cerrarsesion.Show();
             this.Close();
+        }
+
+        private void UsuarioEntrenadorEstadoDeportistaSano_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

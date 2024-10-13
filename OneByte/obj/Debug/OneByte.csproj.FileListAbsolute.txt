@@ -239,14 +239,12 @@ C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByt
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorAsignarEjerciciosRutinas.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorEstadoDeportistaLesionado.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorEstadoDeportistaSano.resources
-C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorGruposMusculares.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorInfoDeportista.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorMain.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorRutinasDeportistasLesionados.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorRutinasDeportistasSanos.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioSeleccionadorEquipos.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Properties.Resources.resources
-C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.SeleccionUsuarios.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDeAsistencia.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDePago.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoDarDeBaja.resources
@@ -303,4 +301,4 @@ C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csp
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.CoreCompileInputs.cache
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.exe
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.pdb
-C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorAsignarEjerciciosRutinasLesionados.resources
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAvanzadoGestionDeCliente.resources

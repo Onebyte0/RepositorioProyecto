@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OneByte.capaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,28 +18,29 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void gestionDeEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void gestiónDeEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var gestionEmpleados = new UsuarioAvanzadoGestionDeEmpleados();
             gestionEmpleados.Show();
             this.Hide();
         }
 
-        private void gestiondeCli_Click(object sender, EventArgs e)
-        {
-            var gestiondeCli = new UsuarioAvanzadoMain();
-            gestiondeCli.Show();
-            this.Hide();
-        }
-
-        private void gestionDeEjerciciosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void gestiónDeEjerciciosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var gestionEjer = new UsuarioAvanzadoIngresoEjercicios();
             gestionEjer.Show();
             this.Hide();
         }
 
-        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        private void gestiónDeClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var gestiondeCli = new UsuarioAvanzadoGestionDeCliente();
+            gestiondeCli.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             var cerrarsesion = new Form1();
             cerrarsesion.Show();
