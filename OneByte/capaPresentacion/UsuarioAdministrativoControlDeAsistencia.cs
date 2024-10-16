@@ -66,5 +66,15 @@ namespace OneByte
             volverInicioSesion.Show();
             this.Close();
         }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
