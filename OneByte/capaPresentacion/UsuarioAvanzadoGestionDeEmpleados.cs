@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OneByte.capaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,9 +21,7 @@ namespace OneByte
         
         private void gestionClient_Click(object sender, EventArgs e)
         {
-            var gestionClient = new UsuarioAvanzadoMain();
-            gestionClient.Show();
-            this.Hide();
+           
         }
 
         private void opcDeportes_Click(object sender, EventArgs e)
@@ -34,9 +33,7 @@ namespace OneByte
 
         private void gestionEjer_Click(object sender, EventArgs e)
         {
-            var gestionEjer = new UsuarioAvanzadoIngresoEjercicios();
-            gestionEjer.Show();
-            this.Hide();
+          
         }
 
         private void cerrarSesion_Click(object sender, EventArgs e)
@@ -44,6 +41,35 @@ namespace OneByte
             var cerrarsesion = new Form1();
             cerrarsesion.Show();
             this.Hide();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gestiónDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var gestionClient = new UsuarioAvanzadoGestionDeCliente();
+            gestionClient.Show();
+            this.Hide();
+        }
+
+        private void gestiónDeEjerciciosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var gestionEjer = new UsuarioAvanzadoIngresoEjercicios();
+            gestionEjer.Show();
+            this.Hide();
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

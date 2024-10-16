@@ -110,9 +110,7 @@ namespace OneByte
 
         private void grupoMusc_Click(object sender, EventArgs e)
         {
-            var grupoMusc = new UsuarioEntrenadorGruposMusculares();
-            grupoMusc.Show();
-            this.Close();
+            
         }
 
         private void estadoDepor_Click(object sender, EventArgs e)
@@ -164,6 +162,9 @@ namespace OneByte
             this.Close();
         }
 
-        
+        private void UsuarioEntrenadorRutinasDeportistasSanos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -67,7 +67,8 @@
             this.toolStripMenuItem3});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(827, 37);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip1.Size = new System.Drawing.Size(884, 60);
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
@@ -81,51 +82,51 @@
             this.asignarEjerLesio,
             this.descripEjer,
             this.gruposMusc});
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem2.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(81, 33);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(82, 56);
             this.toolStripMenuItem2.Text = "Rutinas";
             // 
             // rutinasSanos
             // 
             this.rutinasSanos.Name = "rutinasSanos";
-            this.rutinasSanos.Size = new System.Drawing.Size(437, 26);
+            this.rutinasSanos.Size = new System.Drawing.Size(433, 26);
             this.rutinasSanos.Text = "Rutinas a deportistas sanos";
             this.rutinasSanos.Click += new System.EventHandler(this.rutinasSanos_Click);
             // 
             // rutinasLesio
             // 
             this.rutinasLesio.Name = "rutinasLesio";
-            this.rutinasLesio.Size = new System.Drawing.Size(437, 26);
+            this.rutinasLesio.Size = new System.Drawing.Size(433, 26);
             this.rutinasLesio.Text = "Rutinas a deportistas lesionados";
             this.rutinasLesio.Click += new System.EventHandler(this.rutinasLesio_Click);
             // 
             // asignarEjerSanos
             // 
             this.asignarEjerSanos.Name = "asignarEjerSanos";
-            this.asignarEjerSanos.Size = new System.Drawing.Size(437, 26);
+            this.asignarEjerSanos.Size = new System.Drawing.Size(433, 26);
             this.asignarEjerSanos.Text = "Asignar ejercicios a rutinas depor. sanos";
             this.asignarEjerSanos.Click += new System.EventHandler(this.asignarEjerSanos_Click);
             // 
             // asignarEjerLesio
             // 
             this.asignarEjerLesio.Name = "asignarEjerLesio";
-            this.asignarEjerLesio.Size = new System.Drawing.Size(437, 26);
+            this.asignarEjerLesio.Size = new System.Drawing.Size(433, 26);
             this.asignarEjerLesio.Text = "Asignar ejercicios a rutinas depor. lesionados";
             this.asignarEjerLesio.Click += new System.EventHandler(this.asignarEjerLesio_Click);
             // 
             // descripEjer
             // 
             this.descripEjer.Name = "descripEjer";
-            this.descripEjer.Size = new System.Drawing.Size(437, 26);
+            this.descripEjer.Size = new System.Drawing.Size(433, 26);
             this.descripEjer.Text = "Descripcion de ejercicios";
             this.descripEjer.Click += new System.EventHandler(this.descripEjer_Click);
             // 
             // gruposMusc
             // 
             this.gruposMusc.Name = "gruposMusc";
-            this.gruposMusc.Size = new System.Drawing.Size(437, 26);
+            this.gruposMusc.Size = new System.Drawing.Size(433, 26);
             this.gruposMusc.Text = "Grupos Musculares";
             this.gruposMusc.Click += new System.EventHandler(this.gruposMusc_Click);
             // 
@@ -135,23 +136,23 @@
             this.consEvolucion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.estadoDepor,
             this.estadoDeporLesio});
-            this.consEvolucion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consEvolucion.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consEvolucion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.consEvolucion.Name = "consEvolucion";
-            this.consEvolucion.Size = new System.Drawing.Size(98, 33);
+            this.consEvolucion.Size = new System.Drawing.Size(96, 56);
             this.consEvolucion.Text = "Evolucion";
             // 
             // estadoDepor
             // 
             this.estadoDepor.Name = "estadoDepor";
-            this.estadoDepor.Size = new System.Drawing.Size(327, 26);
+            this.estadoDepor.Size = new System.Drawing.Size(326, 26);
             this.estadoDepor.Text = "Estado del deportista sano";
             this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click);
             // 
             // estadoDeporLesio
             // 
             this.estadoDeporLesio.Name = "estadoDeporLesio";
-            this.estadoDeporLesio.Size = new System.Drawing.Size(327, 26);
+            this.estadoDeporLesio.Size = new System.Drawing.Size(326, 26);
             this.estadoDeporLesio.Text = "Estado del deportista lesionado";
             this.estadoDeporLesio.Click += new System.EventHandler(this.estadoDeporLesio_Click);
             // 
@@ -160,22 +161,22 @@
             this.consRutinas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.agenda,
             this.agendaRutinas});
-            this.consRutinas.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consRutinas.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consRutinas.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.consRutinas.Name = "consRutinas";
-            this.consRutinas.Size = new System.Drawing.Size(81, 33);
+            this.consRutinas.Size = new System.Drawing.Size(81, 56);
             this.consRutinas.Text = "Agenda";
             // 
             // agenda
             // 
             this.agenda.Name = "agenda";
-            this.agenda.Size = new System.Drawing.Size(235, 26);
+            this.agenda.Size = new System.Drawing.Size(237, 26);
             this.agenda.Text = "Agenda (estas aqui)";
             // 
             // agendaRutinas
             // 
             this.agendaRutinas.Name = "agendaRutinas";
-            this.agendaRutinas.Size = new System.Drawing.Size(235, 26);
+            this.agendaRutinas.Size = new System.Drawing.Size(237, 26);
             this.agendaRutinas.Text = "Agenda de rutinas";
             this.agendaRutinas.Click += new System.EventHandler(this.agendaRutinas_Click);
             // 
@@ -184,56 +185,59 @@
             this.estadoPago.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.agruparDepor,
             this.infoDepor});
-            this.estadoPago.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estadoPago.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estadoPago.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.estadoPago.Name = "estadoPago";
-            this.estadoPago.Size = new System.Drawing.Size(104, 33);
+            this.estadoPago.Size = new System.Drawing.Size(102, 56);
             this.estadoPago.Text = "Deportista";
             // 
             // agruparDepor
             // 
             this.agruparDepor.Name = "agruparDepor";
-            this.agruparDepor.Size = new System.Drawing.Size(229, 26);
+            this.agruparDepor.Size = new System.Drawing.Size(228, 26);
             this.agruparDepor.Text = "Agrupar deportista";
             this.agruparDepor.Click += new System.EventHandler(this.agruparDepor_Click);
             // 
             // infoDepor
             // 
             this.infoDepor.Name = "infoDepor";
-            this.infoDepor.Size = new System.Drawing.Size(229, 26);
+            this.infoDepor.Size = new System.Drawing.Size(228, 26);
             this.infoDepor.Text = "Info. del deportista";
             this.infoDepor.Click += new System.EventHandler(this.infoDepor_Click);
             // 
             // cerrarsesion
             // 
-            this.cerrarsesion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarsesion.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cerrarsesion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.cerrarsesion.Name = "cerrarsesion";
-            this.cerrarsesion.Size = new System.Drawing.Size(129, 33);
+            this.cerrarsesion.Size = new System.Drawing.Size(125, 56);
             this.cerrarsesion.Text = "Cerrar Sesion";
             this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(12, 33);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(12, 56);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(281, 61);
+            this.label1.Font = new System.Drawing.Font("Franklin Gothic Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 89);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 30);
+            this.label1.Size = new System.Drawing.Size(386, 37);
             this.label1.TabIndex = 19;
             this.label1.Text = "Agenda de disponibilidad";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 107);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 154);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(805, 347);
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(515, 237);
             this.dataGridView1.TabIndex = 20;
             // 
             // UsuarioEntrenadorAgendaDisponibilidad
@@ -241,13 +245,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(827, 469);
+            this.ClientSize = new System.Drawing.Size(884, 461);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "UsuarioEntrenadorAgendaDisponibilidad";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorAgendaDisponibilidad";
+            this.Load += new System.EventHandler(this.UsuarioEntrenadorAgendaDisponibilidad_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
