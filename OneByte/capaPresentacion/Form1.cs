@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using OneByte.capaLogica;
 
 namespace OneByte
 {
@@ -37,6 +38,15 @@ namespace OneByte
             // Verificar si se ha seleccionado una opción en la ComboBox
             if (comboBox1.SelectedItem != null)
             {
+                conexionBD con = new conexionBD();
+                if (con.AbrirConexion()) {
+                    Console.WriteLine("Conexion exitosa");
+
+                }else
+                {
+                    Console.WriteLine("Error");
+                }
+
                 // Obtener la opción seleccionada
                 string selectedOption = comboBox1.SelectedItem.ToString();
 

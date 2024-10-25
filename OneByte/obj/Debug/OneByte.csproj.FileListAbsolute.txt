@@ -279,14 +279,12 @@ C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Usu
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorAsignarEjerciciosRutinas.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorEstadoDeportistaLesionado.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorEstadoDeportistaSano.resources
-C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorGruposMusculares.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorInfoDeportista.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorMain.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorRutinasDeportistasLesionados.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioEntrenadorRutinasDeportistasSanos.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioSeleccionadorEquipos.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Properties.Resources.resources
-C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.SeleccionUsuarios.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDeAsistencia.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDePago.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoDarDeBaja.resources
@@ -351,3 +349,11 @@ C:\Users\Blanc\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.cs
 C:\Users\Blanc\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
 C:\Users\Blanc\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.exe
 C:\Users\Blanc\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.pdb
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Memory.dll
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Buffers.dll
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.Data.xml
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoRegistroCliente.resources
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAvanzadoGestionDeCliente.resources
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
