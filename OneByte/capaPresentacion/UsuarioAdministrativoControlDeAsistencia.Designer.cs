@@ -39,12 +39,9 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.controlDePago = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
@@ -93,11 +90,11 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(28, 18);
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(305, 175);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(145, 32);
+            this.label25.Size = new System.Drawing.Size(139, 30);
             this.label25.TabIndex = 69;
             this.label25.Text = "Documento:";
             this.label25.Click += new System.EventHandler(this.label25_Click);
@@ -105,7 +102,7 @@
             // docCliente
             // 
             this.docCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.docCliente.Location = new System.Drawing.Point(33, 54);
+            this.docCliente.Location = new System.Drawing.Point(287, 212);
             this.docCliente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.docCliente.Name = "docCliente";
             this.docCliente.Size = new System.Drawing.Size(175, 33);
@@ -115,7 +112,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(231, 65);
+            this.radioButton3.Location = new System.Drawing.Point(253, 271);
             this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(142, 36);
@@ -128,7 +125,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(231, 22);
+            this.radioButton4.Location = new System.Drawing.Point(413, 271);
             this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(113, 36);
@@ -142,7 +139,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(28, 185);
+            this.label26.Location = new System.Drawing.Point(281, 391);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(219, 32);
@@ -153,7 +150,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(74, 235);
+            this.label27.Location = new System.Drawing.Point(535, 391);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(91, 32);
@@ -163,29 +160,13 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(258, 120);
+            this.button1.Location = new System.Drawing.Point(655, 573);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 35);
+            this.button1.Size = new System.Drawing.Size(158, 52);
             this.button1.TabIndex = 97;
             this.button1.Text = "Confirmar";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Honeydew;
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label27);
-            this.panel1.Controls.Add(this.label26);
-            this.panel1.Controls.Add(this.radioButton4);
-            this.panel1.Controls.Add(this.radioButton3);
-            this.panel1.Controls.Add(this.docCliente);
-            this.panel1.Controls.Add(this.label25);
-            this.panel1.Location = new System.Drawing.Point(238, 160);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(436, 451);
-            this.panel1.TabIndex = 93;
             // 
             // controlDePago
             // 
@@ -198,17 +179,6 @@
             this.controlDePago.Size = new System.Drawing.Size(341, 45);
             this.controlDePago.TabIndex = 97;
             this.controlDePago.Text = "Control De Asistencia";
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(987, 309);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(158, 52);
-            this.button4.TabIndex = 99;
-            this.button4.Text = "Confirmar";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
             // 
@@ -243,13 +213,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(1158, 640);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label26);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.controlDePago);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.docCliente);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -257,8 +232,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAdministrativoControlDeAsistencia";
             this.Load += new System.EventHandler(this.UsuarioAdministrativoControlDeAsistencia_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,9 +249,7 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label controlDePago;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip2;
     }
