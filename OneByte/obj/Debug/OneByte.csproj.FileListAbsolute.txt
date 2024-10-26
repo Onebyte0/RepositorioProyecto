@@ -357,3 +357,11 @@ C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.Data.
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoRegistroCliente.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAvanzadoGestionDeCliente.resources
 C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.Data.dll
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Memory.dll
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\System.Buffers.dll
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.Data.xml
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoRegistroCliente.resources
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
