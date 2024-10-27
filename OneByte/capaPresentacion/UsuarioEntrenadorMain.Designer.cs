@@ -59,7 +59,6 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Name = "label1";

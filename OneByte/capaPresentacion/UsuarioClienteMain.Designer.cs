@@ -28,30 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guardar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.controlAsist = new System.Windows.Forms.ToolStripMenuItem();
             this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
             this.gestPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // guardar
-            // 
-            this.guardar.Location = new System.Drawing.Point(779, 420);
-            this.guardar.Name = "guardar";
-            this.guardar.Size = new System.Drawing.Size(93, 35);
-            this.guardar.TabIndex = 15;
-            this.guardar.Text = "Guardar";
-            this.guardar.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
             // 
@@ -112,6 +102,16 @@
             this.gestPagos.Size = new System.Drawing.Size(195, 50);
             this.gestPagos.Text = "Estado de Pago";
             // 
+            // agendaToolStripMenuItem
+            // 
+            this.agendaToolStripMenuItem.AutoSize = false;
+            this.agendaToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
+            this.agendaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agendaToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
+            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
+            this.agendaToolStripMenuItem.Text = "Agenda";
+            // 
             // menuStrip2
             // 
             this.menuStrip2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -145,15 +145,10 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 60);
             // 
-            // agendaToolStripMenuItem
+            // toolStripMenuItem2
             // 
-            this.agendaToolStripMenuItem.AutoSize = false;
-            this.agendaToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.agendaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agendaToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
-            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
-            this.agendaToolStripMenuItem.Text = "Agenda";
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 60);
             // 
             // label1
             // 
@@ -169,11 +164,6 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Bienvenido, usuario!";
             // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 60);
-            // 
             // UsuarioClienteMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,7 +173,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.guardar);
             this.Name = "UsuarioClienteMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioClienteMain";
@@ -197,7 +186,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button guardar;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem controlAsist;
         private System.Windows.Forms.ToolStripMenuItem dardeBaja;
