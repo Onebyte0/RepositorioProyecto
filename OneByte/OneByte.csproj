@@ -82,6 +82,12 @@
     <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.Designer.cs">
       <DependentUpon>UsuarioAvanzadoGestionDeCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="capaPresentacion\UsuarioClienteAgendaDisponibilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\UsuarioClienteAgendaDisponibilidad.Designer.cs">
+      <DependentUpon>UsuarioClienteAgendaDisponibilidad.cs</DependentUpon>
+    </Compile>
     <Compile Include="capaPresentacion\UsuarioClienteAgendaRutinasAsignadas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,6 +278,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.resx">
       <DependentUpon>UsuarioAvanzadoGestionDeCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\UsuarioClienteAgendaDisponibilidad.resx">
+      <DependentUpon>UsuarioClienteAgendaDisponibilidad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\UsuarioClienteAgendaRutinasAsignadas.resx">
       <DependentUpon>UsuarioClienteAgendaRutinasAsignadas.cs</DependentUpon>

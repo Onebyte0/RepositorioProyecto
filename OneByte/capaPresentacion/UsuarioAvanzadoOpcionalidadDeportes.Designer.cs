@@ -35,28 +35,26 @@
             this.eliminarDeporte = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.guardar = new System.Windows.Forms.Button();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestiónDeEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestiónDeEjerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestiónDeClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.controlAsist = new System.Windows.Forms.ToolStripMenuItem();
+            this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
+            this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Franklin Gothic Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(125, 72);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(378, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(395, 37);
+            this.label1.Size = new System.Drawing.Size(376, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Opcionalidad de Deportes";
             // 
@@ -65,9 +63,9 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.deportes});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 140);
+            this.dataGridView1.Location = new System.Drawing.Point(228, 130);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(453, 279);
+            this.dataGridView1.Size = new System.Drawing.Size(299, 279);
             this.dataGridView1.TabIndex = 1;
             // 
             // deportes
@@ -79,26 +77,26 @@
             // agregarDeporte
             // 
             this.agregarDeporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregarDeporte.Location = new System.Drawing.Point(508, 205);
+            this.agregarDeporte.Location = new System.Drawing.Point(434, 417);
             this.agregarDeporte.Name = "agregarDeporte";
             this.agregarDeporte.Size = new System.Drawing.Size(94, 32);
             this.agregarDeporte.TabIndex = 2;
-            this.agregarDeporte.Text = "Agregar Deporte";
+            this.agregarDeporte.Text = "Agregar ";
             this.agregarDeporte.UseVisualStyleBackColor = true;
             // 
             // eliminarDeporte
             // 
             this.eliminarDeporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eliminarDeporte.Location = new System.Drawing.Point(508, 256);
+            this.eliminarDeporte.Location = new System.Drawing.Point(334, 417);
             this.eliminarDeporte.Name = "eliminarDeporte";
             this.eliminarDeporte.Size = new System.Drawing.Size(94, 32);
             this.eliminarDeporte.TabIndex = 3;
-            this.eliminarDeporte.Text = "Eliminar Deporte";
+            this.eliminarDeporte.Text = "Eliminar ";
             this.eliminarDeporte.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(609, 162);
+            this.textBox1.Location = new System.Drawing.Point(686, 130);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(173, 20);
             this.textBox1.TabIndex = 4;
@@ -107,107 +105,101 @@
             // 
             this.guardar.BackColor = System.Drawing.Color.LightGreen;
             this.guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guardar.Location = new System.Drawing.Point(777, 402);
+            this.guardar.Location = new System.Drawing.Point(788, 417);
             this.guardar.Name = "guardar";
-            this.guardar.Size = new System.Drawing.Size(84, 37);
+            this.guardar.Size = new System.Drawing.Size(84, 32);
             this.guardar.TabIndex = 5;
             this.guardar.Text = "Guardar";
             this.guardar.UseVisualStyleBackColor = false;
             // 
-            // menuStrip2
-            // 
-            this.menuStrip2.AutoSize = false;
-            this.menuStrip2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.menuStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem5,
-            this.cToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip2.Size = new System.Drawing.Size(884, 60);
-            this.menuStrip2.Stretch = false;
-            this.menuStrip2.TabIndex = 98;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gestiónDeEmpleadosToolStripMenuItem,
-            this.gestiónDeEjerciciosToolStripMenuItem,
-            this.gestiónDeClienteToolStripMenuItem});
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(88, 56);
-            this.toolStripMenuItem1.Text = "Gestiones";
-            // 
-            // gestiónDeEmpleadosToolStripMenuItem
-            // 
-            this.gestiónDeEmpleadosToolStripMenuItem.Name = "gestiónDeEmpleadosToolStripMenuItem";
-            this.gestiónDeEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(303, 26);
-            this.gestiónDeEmpleadosToolStripMenuItem.Text = "Gestión de empleados";
-            this.gestiónDeEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.gestiónDeEmpleadosToolStripMenuItem_Click);
-            // 
-            // gestiónDeEjerciciosToolStripMenuItem
-            // 
-            this.gestiónDeEjerciciosToolStripMenuItem.Name = "gestiónDeEjerciciosToolStripMenuItem";
-            this.gestiónDeEjerciciosToolStripMenuItem.Size = new System.Drawing.Size(303, 26);
-            this.gestiónDeEjerciciosToolStripMenuItem.Text = "Gestión de ejercicios (estás aquí)";
-            this.gestiónDeEjerciciosToolStripMenuItem.Click += new System.EventHandler(this.gestiónDeEjerciciosToolStripMenuItem_Click);
-            // 
-            // gestiónDeClienteToolStripMenuItem
-            // 
-            this.gestiónDeClienteToolStripMenuItem.Name = "gestiónDeClienteToolStripMenuItem";
-            this.gestiónDeClienteToolStripMenuItem.Size = new System.Drawing.Size(303, 26);
-            this.gestiónDeClienteToolStripMenuItem.Text = "Gestión de cliente";
-            this.gestiónDeClienteToolStripMenuItem.Click += new System.EventHandler(this.gestiónDeClienteToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(197, 56);
-            this.toolStripMenuItem2.Text = "Opcionalidad de deportes";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(112, 56);
-            this.toolStripMenuItem3.Text = "Cerrar Sesión";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(12, 56);
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(12, 56);
-            // 
-            // cToolStripMenuItem
-            // 
-            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(25, 56);
-            this.cToolStripMenuItem.Text = "c";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(506, 168);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(539, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.Size = new System.Drawing.Size(141, 16);
             this.label2.TabIndex = 99;
-            this.label2.Text = "Ingrese un deporte";
+            this.label2.Text = "Ingrese un deporte:";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.controlAsist,
+            this.dardeBaja,
+            this.habilitarUsu});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 461);
+            this.menuStrip1.TabIndex = 100;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // controlAsist
+            // 
+            this.controlAsist.AutoSize = false;
+            this.controlAsist.BackColor = System.Drawing.Color.LightSlateGray;
+            this.controlAsist.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlAsist.Margin = new System.Windows.Forms.Padding(0, 60, 0, 60);
+            this.controlAsist.Name = "controlAsist";
+            this.controlAsist.Size = new System.Drawing.Size(195, 50);
+            this.controlAsist.Text = "Gestión de empleados";
+            // 
+            // dardeBaja
+            // 
+            this.dardeBaja.AutoSize = false;
+            this.dardeBaja.BackColor = System.Drawing.Color.LightSlateGray;
+            this.dardeBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dardeBaja.Margin = new System.Windows.Forms.Padding(0, -40, 0, -40);
+            this.dardeBaja.Name = "dardeBaja";
+            this.dardeBaja.Size = new System.Drawing.Size(195, 50);
+            this.dardeBaja.Text = "Gestión de clientes";
+            // 
+            // habilitarUsu
+            // 
+            this.habilitarUsu.AutoSize = false;
+            this.habilitarUsu.BackColor = System.Drawing.Color.LightSlateGray;
+            this.habilitarUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
+            this.habilitarUsu.Name = "habilitarUsu";
+            this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
+            this.habilitarUsu.Text = "Gestión de ejercicios";
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.menuStrip2.AutoSize = false;
+            this.menuStrip2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cerrarSesionToolStripMenuItem,
+            this.toolStripMenuItem1});
+            this.menuStrip2.Location = new System.Drawing.Point(219, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip2.Size = new System.Drawing.Size(665, 62);
+            this.menuStrip2.TabIndex = 139;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.AutoSize = false;
+            this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
+            this.cerrarSesionToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarSesionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(530, 0, 0, 0);
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 60);
             // 
             // UsuarioAvanzadoOpcionalidadDeportes
             // 
@@ -215,8 +207,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(884, 461);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.menuStrip2);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.guardar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.eliminarDeporte);
@@ -226,7 +219,10 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "UsuarioAvanzadoOpcionalidadDeportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "UsuarioAvanzadoOpcionalidadDeportes";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -243,16 +239,13 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button guardar;
         private System.Windows.Forms.DataGridViewTextBoxColumn deportes;
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem gestiónDeEmpleadosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestiónDeEjerciciosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestiónDeClienteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
-        private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem controlAsist;
+        private System.Windows.Forms.ToolStripMenuItem dardeBaja;
+        private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

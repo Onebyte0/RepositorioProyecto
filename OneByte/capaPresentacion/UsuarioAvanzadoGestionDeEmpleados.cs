@@ -19,57 +19,6 @@ namespace OneByte
         }
 
         
-        private void gestionClient_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void opcDeportes_Click(object sender, EventArgs e)
-        {
-            var opcDeportes = new UsuarioAvanzadoOpcionalidadDeportes();
-            opcDeportes.Show();
-            this.Hide();
-        }
-
-        private void gestionEjer_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void cerrarSesion_Click(object sender, EventArgs e)
-        {
-            var cerrarsesion = new Form1();
-            cerrarsesion.Show();
-            this.Hide();
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gestiónDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var gestionClient = new UsuarioAvanzadoGestionDeCliente();
-            gestionClient.Show();
-            this.Hide();
-        }
-
-        private void gestiónDeEjerciciosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var gestionEjer = new UsuarioAvanzadoIngresoEjercicios();
-            gestionEjer.Show();
-            this.Hide();
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

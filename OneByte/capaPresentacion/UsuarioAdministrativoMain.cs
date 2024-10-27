@@ -19,7 +19,9 @@ namespace OneByte
 
         private void controlAsist_Click(object sender, EventArgs e)
         {
-             
+            UsuarioAdministrativoControlDeAsistencia usuCntrolAsist = new UsuarioAdministrativoControlDeAsistencia();
+            usuCntrolAsist.Show();
+            this.Close();
         }
     }
 }

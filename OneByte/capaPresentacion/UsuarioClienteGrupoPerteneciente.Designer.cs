@@ -28,203 +28,195 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.consEstado = new System.Windows.Forms.ToolStripMenuItem();
-            this.estadoDepor = new System.Windows.Forms.ToolStripMenuItem();
-            this.grupoPerte = new System.Windows.Forms.ToolStripMenuItem();
-            this.verDatos = new System.Windows.Forms.ToolStripMenuItem();
-            this.consEvolucion = new System.Windows.Forms.ToolStripMenuItem();
-            this.rendiDepor = new System.Windows.Forms.ToolStripMenuItem();
-            this.consRutinas = new System.Windows.Forms.ToolStripMenuItem();
-            this.agendaRutinas = new System.Windows.Forms.ToolStripMenuItem();
-            this.descripEjer = new System.Windows.Forms.ToolStripMenuItem();
-            this.estadoPago = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.menuStrip1.SuspendLayout();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.controlAsist = new System.Windows.Forms.ToolStripMenuItem();
+            this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
+            this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.AutoSize = false;
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.consEstado,
-            this.consEvolucion,
-            this.consRutinas,
-            this.estadoPago,
-            this.cerrarsesion,
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(796, 37);
-            this.menuStrip1.Stretch = false;
-            this.menuStrip1.TabIndex = 18;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // consEstado
-            // 
-            this.consEstado.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.estadoDepor,
-            this.grupoPerte,
-            this.verDatos});
-            this.consEstado.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consEstado.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.consEstado.Name = "consEstado";
-            this.consEstado.Size = new System.Drawing.Size(155, 33);
-            this.consEstado.Text = "Consultar Estado";
-            // 
-            // estadoDepor
-            // 
-            this.estadoDepor.Name = "estadoDepor";
-            this.estadoDepor.Size = new System.Drawing.Size(337, 26);
-            this.estadoDepor.Text = "Estado del Deportista";
-            this.estadoDepor.Click += new System.EventHandler(this.estadoDepor_Click);
-            // 
-            // grupoPerte
-            // 
-            this.grupoPerte.Name = "grupoPerte";
-            this.grupoPerte.Size = new System.Drawing.Size(337, 26);
-            this.grupoPerte.Text = "Grupo Perteneciente (estas aqui)";
-            // 
-            // verDatos
-            // 
-            this.verDatos.Name = "verDatos";
-            this.verDatos.Size = new System.Drawing.Size(337, 26);
-            this.verDatos.Text = "Ver mis Datos";
-            this.verDatos.Click += new System.EventHandler(this.verDatos_Click);
-            // 
-            // consEvolucion
-            // 
-            this.consEvolucion.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.consEvolucion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rendiDepor});
-            this.consEvolucion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consEvolucion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.consEvolucion.Name = "consEvolucion";
-            this.consEvolucion.Size = new System.Drawing.Size(179, 33);
-            this.consEvolucion.Text = "Consultar Evolucion";
-            // 
-            // rendiDepor
-            // 
-            this.rendiDepor.Name = "rendiDepor";
-            this.rendiDepor.Size = new System.Drawing.Size(372, 26);
-            this.rendiDepor.Text = "Rendimiento del Deportista (Puntaje)";
-            this.rendiDepor.Click += new System.EventHandler(this.rendiDepor_Click);
-            // 
-            // consRutinas
-            // 
-            this.consRutinas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agendaRutinas,
-            this.descripEjer});
-            this.consRutinas.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.consRutinas.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.consRutinas.Name = "consRutinas";
-            this.consRutinas.Size = new System.Drawing.Size(162, 33);
-            this.consRutinas.Text = "Consultar Rutinas";
-            // 
-            // agendaRutinas
-            // 
-            this.agendaRutinas.Name = "agendaRutinas";
-            this.agendaRutinas.Size = new System.Drawing.Size(312, 26);
-            this.agendaRutinas.Text = "Agenda de Rutinas Asignadas";
-            this.agendaRutinas.Click += new System.EventHandler(this.agendaRutinas_Click);
-            // 
-            // descripEjer
-            // 
-            this.descripEjer.Name = "descripEjer";
-            this.descripEjer.Size = new System.Drawing.Size(312, 26);
-            this.descripEjer.Text = "Descrip. Ejercicios";
-            this.descripEjer.Click += new System.EventHandler(this.descripEjer_Click);
-            // 
-            // estadoPago
-            // 
-            this.estadoPago.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.estadoPago.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.estadoPago.Name = "estadoPago";
-            this.estadoPago.Size = new System.Drawing.Size(142, 33);
-            this.estadoPago.Text = "Estado de Pago";
-            this.estadoPago.Click += new System.EventHandler(this.estadoPago_Click);
-            // 
-            // cerrarsesion
-            // 
-            this.cerrarsesion.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cerrarsesion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.cerrarsesion.Name = "cerrarsesion";
-            this.cerrarsesion.Size = new System.Drawing.Size(129, 33);
-            this.cerrarsesion.Text = "Cerrar Sesion";
-            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 33);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 33);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(278, 78);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(411, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 30);
+            this.label1.Size = new System.Drawing.Size(302, 33);
             this.label1.TabIndex = 19;
             this.label1.Text = "Grupo Perteneciente";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(33, 143);
+            this.dataGridView1.Location = new System.Drawing.Point(253, 136);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(722, 127);
+            this.dataGridView1.Size = new System.Drawing.Size(607, 157);
             this.dataGridView1.TabIndex = 20;
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.menuStrip2.AutoSize = false;
+            this.menuStrip2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cerrarSesionToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem2});
+            this.menuStrip2.Location = new System.Drawing.Point(219, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip2.Size = new System.Drawing.Size(666, 62);
+            this.menuStrip2.TabIndex = 26;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.AutoSize = false;
+            this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
+            this.cerrarSesionToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarSesionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(530, 0, 0, 0);
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 60);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 60);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.controlAsist,
+            this.dardeBaja,
+            this.habilitarUsu,
+            this.gestPagos,
+            this.agendaToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 461);
+            this.menuStrip1.TabIndex = 25;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // controlAsist
+            // 
+            this.controlAsist.AutoSize = false;
+            this.controlAsist.BackColor = System.Drawing.Color.LightSlateGray;
+            this.controlAsist.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlAsist.Margin = new System.Windows.Forms.Padding(0, 60, 0, 60);
+            this.controlAsist.Name = "controlAsist";
+            this.controlAsist.Size = new System.Drawing.Size(195, 50);
+            this.controlAsist.Text = "Estado deportista";
+            // 
+            // dardeBaja
+            // 
+            this.dardeBaja.AutoSize = false;
+            this.dardeBaja.BackColor = System.Drawing.Color.LightSlateGray;
+            this.dardeBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dardeBaja.Margin = new System.Windows.Forms.Padding(0, -40, 0, -40);
+            this.dardeBaja.Name = "dardeBaja";
+            this.dardeBaja.Size = new System.Drawing.Size(195, 50);
+            this.dardeBaja.Text = "Evolucion deportista";
+            // 
+            // habilitarUsu
+            // 
+            this.habilitarUsu.AutoSize = false;
+            this.habilitarUsu.BackColor = System.Drawing.Color.LightSlateGray;
+            this.habilitarUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
+            this.habilitarUsu.Name = "habilitarUsu";
+            this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
+            this.habilitarUsu.Text = "Rutinas deportista";
+            // 
+            // gestPagos
+            // 
+            this.gestPagos.AutoSize = false;
+            this.gestPagos.BackColor = System.Drawing.Color.LightSlateGray;
+            this.gestPagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gestPagos.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.gestPagos.Name = "gestPagos";
+            this.gestPagos.Size = new System.Drawing.Size(195, 50);
+            this.gestPagos.Text = "Estado de Pago";
+            // 
+            // agendaToolStripMenuItem
+            // 
+            this.agendaToolStripMenuItem.AutoSize = false;
+            this.agendaToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
+            this.agendaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agendaToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
+            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
+            this.agendaToolStripMenuItem.Text = "Agenda";
+            // 
+            // guardar
+            // 
+            this.guardar.Location = new System.Drawing.Point(779, 420);
+            this.guardar.Name = "guardar";
+            this.guardar.Size = new System.Drawing.Size(93, 35);
+            this.guardar.TabIndex = 24;
+            this.guardar.Text = "Guardar";
+            this.guardar.UseVisualStyleBackColor = true;
             // 
             // UsuarioClienteGrupoPerteneciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(796, 336);
+            this.BackColor = System.Drawing.Color.SlateGray;
+            this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.menuStrip2);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.guardar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
             this.Name = "UsuarioClienteGrupoPerteneciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioClienteGrupoPerteneciente";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem consEstado;
-        private System.Windows.Forms.ToolStripMenuItem estadoDepor;
-        private System.Windows.Forms.ToolStripMenuItem grupoPerte;
-        private System.Windows.Forms.ToolStripMenuItem verDatos;
-        private System.Windows.Forms.ToolStripMenuItem consEvolucion;
-        private System.Windows.Forms.ToolStripMenuItem rendiDepor;
-        private System.Windows.Forms.ToolStripMenuItem consRutinas;
-        private System.Windows.Forms.ToolStripMenuItem agendaRutinas;
-        private System.Windows.Forms.ToolStripMenuItem descripEjer;
-        private System.Windows.Forms.ToolStripMenuItem estadoPago;
-        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem controlAsist;
+        private System.Windows.Forms.ToolStripMenuItem dardeBaja;
+        private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
+        private System.Windows.Forms.ToolStripMenuItem gestPagos;
+        private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem;
+        private System.Windows.Forms.Button guardar;
     }
 }

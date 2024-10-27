@@ -1,5 +1,4 @@
-﻿using OneByte.capaPresentacion;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,15 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OneByte
+namespace OneByte.capaPresentacion
 {
-    public partial class UsuarioAvanzadoMain : Form
+    public partial class UsuarioClienteAgendaDisponibilidad : Form
     {
-        public UsuarioAvanzadoMain()
+        public UsuarioClienteAgendaDisponibilidad()
         {
             InitializeComponent();
         }
-
-      
     }
 }
