@@ -202,6 +202,12 @@
     <Compile Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasSanos.Designer.cs">
       <DependentUpon>UsuarioEntrenadorRutinasDeportistasSanos.cs</DependentUpon>
     </Compile>
+    <Compile Include="capaPresentacion\UsuarioSeleccionadorConsultaDeportista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\UsuarioSeleccionadorConsultaDeportista.Designer.cs">
+      <DependentUpon>UsuarioSeleccionadorConsultaDeportista.cs</DependentUpon>
+    </Compile>
     <Compile Include="capaPresentacion\UsuarioSeleccionadorEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -338,6 +344,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasSanos.resx">
       <DependentUpon>UsuarioEntrenadorRutinasDeportistasSanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\UsuarioSeleccionadorConsultaDeportista.resx">
+      <DependentUpon>UsuarioSeleccionadorConsultaDeportista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\UsuarioSeleccionadorEquipo.resx">
       <DependentUpon>UsuarioSeleccionadorEquipo.cs</DependentUpon>

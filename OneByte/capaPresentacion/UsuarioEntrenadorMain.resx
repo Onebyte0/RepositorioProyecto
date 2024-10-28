@@ -123,19 +123,19 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 27.75pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 21.75pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 31</value>
+    <value>412, 65</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>419, 43</value>
+    <value>304, 33</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Bienvenido, Entrenador!</value>
+    <value>Bienvenido, Usuario!</value>
   </data>
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -150,32 +150,101 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>287, 17</value>
   </metadata>
+  <data name="menuStrip1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
+  <data name="controlAsist.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="menuStrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>On</value>
+  <data name="controlAsist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="controlAsist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 50</value>
+  </data>
+  <data name="controlAsist.Text" xml:space="preserve">
+    <value>Rutinas</value>
+  </data>
+  <data name="dardeBaja.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dardeBaja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="dardeBaja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 50</value>
+  </data>
+  <data name="dardeBaja.Text" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="habilitarUsu.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="habilitarUsu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="habilitarUsu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 50</value>
+  </data>
+  <data name="habilitarUsu.Text" xml:space="preserve">
+    <value>Deportista</value>
+  </data>
+  <data name="gestPagos.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gestPagos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gestPagos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 50</value>
+  </data>
+  <data name="gestPagos.Text" xml:space="preserve">
+    <value>Evolucion</value>
+  </data>
+  <data name="datosDelClienteToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="datosDelClienteToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="datosDelClienteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 50</value>
+  </data>
+  <data name="datosDelClienteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datos del cliente</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="menuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 1, 0, 1</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 461</value>
+    <value>219, 461</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
+    <value>23</value>
   </data>
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
@@ -192,305 +261,62 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="agendaDeRrutinasToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
+  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>520, 17</value>
+  </metadata>
+  <data name="menuStrip2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="agendaDeRrutinasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
+  <data name="menuStrip2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="agendaDeRrutinasToolStripMenuItem.Text" xml:space="preserve">
-    <value>Agendar rutinas</value>
+  <data name="menuStrip2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
+  <data name="menuStrip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 0</value>
   </data>
-  <data name="toolStripMenuItem10.Text" xml:space="preserve">
-    <value>xzz</value>
+  <data name="menuStrip2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 1, 0, 1</value>
   </data>
-  <data name="consRutinas.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
+  <data name="menuStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>666, 62</value>
   </data>
-  <data name="consRutinas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
+  <data name="menuStrip2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
-  <data name="consRutinas.Text" xml:space="preserve">
-    <value>Agenda</value>
+  <data name="menuStrip2.Text" xml:space="preserve">
+    <value>menuStrip2</value>
   </data>
-  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
+  <data name="&gt;&gt;menuStrip2.Name" xml:space="preserve">
+    <value>menuStrip2</value>
   </data>
-  <data name="toolStripMenuItem9.Text" xml:space="preserve">
-    <value>xzz</value>
+  <data name="&gt;&gt;menuStrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="estadoPago.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
+  <data name="&gt;&gt;menuStrip2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="estadoPago.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
+  <data name="&gt;&gt;menuStrip2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="estadoPago.Text" xml:space="preserve">
-    <value>Agrupar deportistas</value>
+  <data name="cerrarSesionToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
+  <data name="cerrarSesionToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="toolStripMenuItem5.Text" xml:space="preserve">
-    <value>xzz</value>
+  <data name="cerrarSesionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 50</value>
   </data>
-  <data name="toolStripMenuItem2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
+  <data name="cerrarSesionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cerrar Sesion</value>
   </data>
-  <data name="toolStripMenuItem2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 60</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
-  </data>
-  <data name="toolStripMenuItem2.Text" xml:space="preserve">
-    <value>Consultar estado del deportista</value>
-  </data>
-  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
-  </data>
-  <data name="toolStripMenuItem7.Text" xml:space="preserve">
-    <value>xzz</value>
-  </data>
-  <data name="estadoDelLesionadoToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
-  </data>
-  <data name="estadoDelLesionadoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
-  </data>
-  <data name="estadoDelLesionadoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Consultar estado del lesionado</value>
-  </data>
-  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
-  </data>
-  <data name="toolStripMenuItem8.Text" xml:space="preserve">
-    <value>xzz</value>
-  </data>
-  <data name="consultarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 12pt, style=Bold</value>
-  </data>
-  <data name="consultarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 25</value>
-  </data>
-  <data name="consultarToolStripMenuItem.Text" xml:space="preserve">
-    <value>Consultar datos del cliente</value>
-  </data>
-  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 9.75pt, style=Bold</value>
-  </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>758, 412</value>
-  </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 37</value>
-  </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>Cerrar sesión</value>
-  </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 15.75pt</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, 149</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 26</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Seleccione una opción:</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
-    <value>contextMenuStrip1</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 9.75pt</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 15</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 63</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Asignar rutina a deportista</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="gestionCliente.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 9.75pt</value>
-  </data>
-  <data name="gestionCliente.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 98</value>
-  </data>
-  <data name="gestionCliente.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 63</value>
-  </data>
-  <data name="gestionCliente.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="gestionCliente.Text" xml:space="preserve">
-    <value>Asignar ejercicio a lesionado</value>
-  </data>
-  <data name="&gt;&gt;gestionCliente.Name" xml:space="preserve">
-    <value>gestionCliente</value>
-  </data>
-  <data name="&gt;&gt;gestionCliente.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gestionCliente.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;gestionCliente.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 9.75pt</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 15</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 63</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Asignar ejercicios a rutinas</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>403, 208</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>402, 182</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Franklin Gothic Medium, 9.75pt</value>
-  </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 98</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 63</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Consultar especificación de ejercicios</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>12, 60</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -516,40 +342,40 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Form3</value>
   </data>
-  <data name="&gt;&gt;agendaDeRrutinasToolStripMenuItem.Name" xml:space="preserve">
-    <value>agendaDeRrutinasToolStripMenuItem</value>
+  <data name="&gt;&gt;controlAsist.Name" xml:space="preserve">
+    <value>controlAsist</value>
   </data>
-  <data name="&gt;&gt;agendaDeRrutinasToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;controlAsist.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem10.Name" xml:space="preserve">
-    <value>toolStripMenuItem10</value>
+  <data name="&gt;&gt;dardeBaja.Name" xml:space="preserve">
+    <value>dardeBaja</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem10.Type" xml:space="preserve">
+  <data name="&gt;&gt;dardeBaja.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;consRutinas.Name" xml:space="preserve">
-    <value>consRutinas</value>
+  <data name="&gt;&gt;habilitarUsu.Name" xml:space="preserve">
+    <value>habilitarUsu</value>
   </data>
-  <data name="&gt;&gt;consRutinas.Type" xml:space="preserve">
+  <data name="&gt;&gt;habilitarUsu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem9.Name" xml:space="preserve">
-    <value>toolStripMenuItem9</value>
+  <data name="&gt;&gt;gestPagos.Name" xml:space="preserve">
+    <value>gestPagos</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem9.Type" xml:space="preserve">
+  <data name="&gt;&gt;gestPagos.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;estadoPago.Name" xml:space="preserve">
-    <value>estadoPago</value>
+  <data name="&gt;&gt;cerrarSesionToolStripMenuItem.Name" xml:space="preserve">
+    <value>cerrarSesionToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;estadoPago.Type" xml:space="preserve">
+  <data name="&gt;&gt;cerrarSesionToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
-    <value>toolStripMenuItem5</value>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
@@ -558,28 +384,10 @@
   <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
-    <value>toolStripMenuItem7</value>
+  <data name="&gt;&gt;datosDelClienteToolStripMenuItem.Name" xml:space="preserve">
+    <value>datosDelClienteToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;estadoDelLesionadoToolStripMenuItem.Name" xml:space="preserve">
-    <value>estadoDelLesionadoToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;estadoDelLesionadoToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
-    <value>toolStripMenuItem8</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;consultarToolStripMenuItem.Name" xml:space="preserve">
-    <value>consultarToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;consultarToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;datosDelClienteToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

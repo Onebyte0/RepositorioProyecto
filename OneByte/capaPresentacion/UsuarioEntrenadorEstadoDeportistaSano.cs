@@ -172,9 +172,6 @@ namespace OneByte
             this.Close();
         }
 
-        private void UsuarioEntrenadorEstadoDeportistaSano_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
