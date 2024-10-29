@@ -51,8 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="capaLogica\Cliente\ClienteControlador.cs" />
     <Compile Include="capaLogica\Entrenador\Calificacion.cs" />
-    <Compile Include="capaLogica\Cliente\Cliente.cs" />
+    <Compile Include="capaLogica\Cliente\cliente.cs" />
     <Compile Include="capaLogica\conexionBD.cs" />
     <Compile Include="capaLogica\Cliente\Deportista.cs" />
     <Compile Include="capaLogica\Rutinas\Ejercicio.cs" />

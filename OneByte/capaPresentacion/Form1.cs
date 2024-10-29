@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using OneByte.capaLogica;
 
+
 namespace OneByte
 {
     public partial class Form1 : Form
@@ -29,12 +30,12 @@ namespace OneByte
             iniciarsesion.Click -= iniciarsesion_Click;
             iniciarsesion.Click += iniciarsesion_Click;
 
-            comboBox2.Items.Add("CI");
-            comboBox2.Items.Add("PAS");
+            
         }
 
         private void iniciarsesion_Click(object sender, EventArgs e)
         {
+          
             // Verificar si se ha seleccionado una opción en la ComboBox
             if (comboBox1.SelectedItem != null)
             {

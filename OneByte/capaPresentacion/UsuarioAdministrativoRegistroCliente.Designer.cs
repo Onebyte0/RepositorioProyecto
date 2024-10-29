@@ -40,9 +40,9 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.departamentoCliente = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.fechaNacCliente = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
             this.calleCliente = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -55,7 +55,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.numCalleCliente = new System.Windows.Forms.TextBox();
             this.posicionCliente = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.apellidoCliente = new System.Windows.Forms.TextBox();
             this.nombreCliente = new System.Windows.Forms.TextBox();
             this.docCliente = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -204,13 +204,13 @@
             this.label14.Size = new System.Drawing.Size(0, 18);
             this.label14.TabIndex = 81;
             // 
-            // textBox1
+            // departamentoCliente
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(264, 408);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 24);
-            this.textBox1.TabIndex = 80;
+            this.departamentoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.departamentoCliente.Location = new System.Drawing.Point(264, 408);
+            this.departamentoCliente.Name = "departamentoCliente";
+            this.departamentoCliente.Size = new System.Drawing.Size(243, 24);
+            this.departamentoCliente.TabIndex = 80;
             // 
             // comboBox1
             // 
@@ -224,14 +224,14 @@
             this.comboBox1.Size = new System.Drawing.Size(106, 26);
             this.comboBox1.TabIndex = 79;
             // 
-            // dateTimePicker1
+            // fechaNacCliente
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(264, 301);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(118, 24);
-            this.dateTimePicker1.TabIndex = 78;
+            this.fechaNacCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fechaNacCliente.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.fechaNacCliente.Location = new System.Drawing.Point(264, 301);
+            this.fechaNacCliente.Name = "fechaNacCliente";
+            this.fechaNacCliente.Size = new System.Drawing.Size(118, 24);
+            this.fechaNacCliente.TabIndex = 78;
             // 
             // label10
             // 
@@ -347,13 +347,13 @@
             this.posicionCliente.Size = new System.Drawing.Size(100, 24);
             this.posicionCliente.TabIndex = 66;
             // 
-            // textBox3
+            // apellidoCliente
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(385, 247);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(126, 24);
-            this.textBox3.TabIndex = 65;
+            this.apellidoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.apellidoCliente.Location = new System.Drawing.Point(385, 247);
+            this.apellidoCliente.Name = "apellidoCliente";
+            this.apellidoCliente.Size = new System.Drawing.Size(126, 24);
+            this.apellidoCliente.TabIndex = 65;
             // 
             // nombreCliente
             // 
@@ -391,6 +391,7 @@
             this.button1.TabIndex = 61;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -650,9 +651,9 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.departamentoCliente);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.fechaNacCliente);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.calleCliente);
             this.Controls.Add(this.label9);
@@ -669,7 +670,7 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.numCalleCliente);
             this.Controls.Add(this.posicionCliente);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.apellidoCliente);
             this.Controls.Add(this.nombreCliente);
             this.Controls.Add(this.docCliente);
             this.Controls.Add(this.button2);
@@ -677,7 +678,7 @@
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UsuarioAdministrativoRegistroCliente";
             this.Text = "UsuarioAdministrativoRegistroCliente";
             this.menuStrip1.ResumeLayout(false);
@@ -703,9 +704,9 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox departamentoCliente;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker fechaNacCliente;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox calleCliente;
         private System.Windows.Forms.Label label9;
@@ -718,7 +719,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox numCalleCliente;
         private System.Windows.Forms.TextBox posicionCliente;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox apellidoCliente;
         private System.Windows.Forms.TextBox nombreCliente;
         private System.Windows.Forms.TextBox docCliente;
         private System.Windows.Forms.Button button2;
