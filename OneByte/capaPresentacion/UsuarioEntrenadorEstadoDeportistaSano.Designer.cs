@@ -171,6 +171,7 @@
             this.Name = "UsuarioEntrenadorEstadoDeportistaSano";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioEntrenadorEstadoDeportistaSano";
+            this.Load += new System.EventHandler(this.UsuarioEntrenadorEstadoDeportistaSano_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);

@@ -16,56 +16,9 @@ namespace OneByte
         public UsuarioEntrenadorAgruparDeportistas()
         {
             InitializeComponent();
-            InitializeDataGridView();
-            AddRowsToDataGridView();
+       
         }
-        private void InitializeDataGridView()
-        {
-            // Configurar columnas
-            dataGridView1.ColumnCount = 3;
-
-            // Poner nombres de columnas
-            dataGridView1.Columns[0].HeaderText = "Deportistas";
-            dataGridView1.Columns[1].HeaderText = "Libre";
-            dataGridView1.Columns[2].HeaderText = "Dirigido";
-            
-
-            // Configurar la propiedad ReadOnly de las columnas (deben ser false para permitir la edición)
-            dataGridView1.Columns[0].ReadOnly = false;
-            dataGridView1.Columns[1].ReadOnly = false;
-            dataGridView1.Columns[2].ReadOnly = false;
-            
-
-            // Ajustar el modo de tamaño de las columnas
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-            // Configurar la propiedad ReadOnly del DataGridView como false para permitir edición
-            dataGridView1.ReadOnly = false;
-
-            // Configurar el modo de selección para seleccionar celdas individuales
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.CellSelect;
-
-            // Configurar la propiedad EditMode para permitir la edición inmediata
-            dataGridView1.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2;
-
-            // Llamar a la función que agrega las filas con texto predeterminado
-            AddRowsToDataGridView();
-        }
-
-        private void AddRowsToDataGridView()
-        {
-            // Altura de fila por defecto
-            int rowHeight = dataGridView1.RowTemplate.Height;
-
-            // Cantidad de filas hasta que complete el tamaño el dataGridView
-            int rows = dataGridView1.Height / rowHeight;
-
-            // Agregar filas
-            for (int i = 0; i < rows; i++)
-            {
-                dataGridView1.Rows.Add();
-            }
-        }
+        
 
 
         private void rutinasSanos_Click(object sender, EventArgs e)

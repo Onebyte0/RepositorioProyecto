@@ -30,13 +30,13 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.controlAsist = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaDelDeportistaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaEvolucionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaDelDeportistaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaEvolucionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
@@ -70,6 +70,18 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Consulta deportista";
+            // 
+            // consultaDelDeportistaToolStripMenuItem
+            // 
+            this.consultaDelDeportistaToolStripMenuItem.Name = "consultaDelDeportistaToolStripMenuItem";
+            this.consultaDelDeportistaToolStripMenuItem.Size = new System.Drawing.Size(234, 22);
+            this.consultaDelDeportistaToolStripMenuItem.Text = "Consulta del deportista";
+            // 
+            // consultaEvolucionToolStripMenuItem
+            // 
+            this.consultaEvolucionToolStripMenuItem.Name = "consultaEvolucionToolStripMenuItem";
+            this.consultaEvolucionToolStripMenuItem.Size = new System.Drawing.Size(234, 22);
+            this.consultaEvolucionToolStripMenuItem.Text = "Consulta de evolucion";
             // 
             // dardeBaja
             // 
@@ -119,18 +131,6 @@
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 60);
             // 
-            // consultaDelDeportistaToolStripMenuItem
-            // 
-            this.consultaDelDeportistaToolStripMenuItem.Name = "consultaDelDeportistaToolStripMenuItem";
-            this.consultaDelDeportistaToolStripMenuItem.Size = new System.Drawing.Size(234, 22);
-            this.consultaDelDeportistaToolStripMenuItem.Text = "Consulta del deportista";
-            // 
-            // consultaEvolucionToolStripMenuItem
-            // 
-            this.consultaEvolucionToolStripMenuItem.Name = "consultaEvolucionToolStripMenuItem";
-            this.consultaEvolucionToolStripMenuItem.Size = new System.Drawing.Size(234, 22);
-            this.consultaEvolucionToolStripMenuItem.Text = "Consulta de evolucion";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -154,6 +154,7 @@
             this.Name = "UsuarioSeleccionadorMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioSeleccionadorMain";
+            this.Load += new System.EventHandler(this.UsuarioSeleccionadorMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);

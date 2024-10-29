@@ -1,54 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorrutinasdeportistassanos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorrutinasdeportistassanos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorinfodeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorinfodeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorrutinasdeportistaslesionados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorrutinasdeportistaslesionados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorestadodeportistasano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorestadodeportistasano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorinfodeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorinfodeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorinfodeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadordescripcionejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadordescripcionejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorestadodeportistalesionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioseleccionadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorestadodeportistasano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorestadodeportistasano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorestadodeportistasano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorestadodeportistasano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorestadodeportistalesionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorestadodeportistalesionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorestadodeportistalesionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorestadodeportistalesionado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorasignarejerciciosrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadordescripcionejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadordescripcionejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadordescripcionejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadordescripcionejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorasignarejerciciosrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorasignarejerciciosrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadorasignarejerciciosrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadorasignarejerciciosrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragrupardeportistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragrupardeportistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragrupardeportistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragrupardeportistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragrupardeportistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragendarutinasasignadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragendarutinasasignadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lab5\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioseleccionadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioentrenadoragendadisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadoragendadisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\usuarioseleccionadorconsultaevolucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioseleccionadorconsultaevolucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\usuarioseleccionadorconsultadeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioseleccionadorconsultadeportista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioentrenadormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\blanc\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\usuarioclientemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\usuarioclientemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,163 +82,227 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioEntrenadorRutinasDeportistasSanos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasSanos.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasSanos.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasSanos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasSanos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:56:30.581Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioEntrenadorRutinasDeportistasLesionados.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasLesionados.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasLesionados.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasLesionados.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorRutinasDeportistasLesionados.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:52:53.854Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioEntrenadorInfoDeportista.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
+              "Title": "UsuarioEntrenadorInfoDeportista.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
               "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAArwBEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:50:31.792Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-29T17:29:41.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioEntrenadorEstadoDeportistaSano.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs [Dise\u00F1o]",
+              "Title": "UsuarioSeleccionadorMain.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:48:13.05Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-29T17:29:02.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioEntrenadorEstadoDeportistaLesionado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "UsuarioEntrenadorInfoDeportista.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorInfoDeportista.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:32:44.815Z",
+              "WhenOpened": "2024-10-29T17:28:56.753Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsuarioEntrenadorDescripcionEjercicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:30:53.4Z",
+              "WhenOpened": "2024-10-29T17:28:43.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioSeleccionadorMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T20:46:42.068Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioEntrenadorEstadoDeportistaSano.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaSano.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:28:41.164Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UsuarioEntrenadorAsignarEjerciciosRutinas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:26:31.092Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-29T17:28:21.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UsuarioEntrenadorAgruparDeportistas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorEstadoDeportistaLesionado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorEstadoDeportistaLesionado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:19:40.682Z",
+              "WhenOpened": "2024-10-29T17:28:07.272Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UsuarioEntrenadorAgendaRutinasAsignadas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaRutinasAsignadas.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorDescripcionEjercicios.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:16:51.789Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-29T17:27:54.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UsuarioEntrenadorAgendaDisponibilidad.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgendaDisponibilidad.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorDescripcionEjercicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorDescripcionEjercicios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:58:15.896Z",
+              "WhenOpened": "2024-10-29T17:27:50.598Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "UsuarioEntrenadorMain.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwBQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:18:05.323Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-29T17:27:37.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "UsuarioClienteMain.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioClienteMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioClienteMain.cs",
-              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioClienteMain.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioClienteMain.cs [Dise\u00F1o]",
+              "Title": "UsuarioEntrenadorAsignarEjerciciosRutinas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAsignarEjerciciosRutinas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T05:27:53.127Z",
+              "WhenOpened": "2024-10-29T17:27:36.739Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioEntrenadorAgruparDeportistas.cs",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:27:19.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioEntrenadorAgruparDeportistas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioEntrenadorAgruparDeportistas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:27:02.318Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorEquipo.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioSeleccionadorEquipo.cs",
+              "ToolTip": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\UsuarioSeleccionadorEquipo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T21:16:33.807Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioSeleccionadorConsultaDeportista.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaDeportista.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaDeportista.cs",
+              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaDeportista.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaDeportista.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T21:10:03.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioSeleccionadorConsultaEvolucion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaEvolucion.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaEvolucion.cs",
+              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaEvolucion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioSeleccionadorConsultaEvolucion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T21:05:25.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab5\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs",
+              "ToolTip": "C:\\Users\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Blanc\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\UsuarioEntrenadorMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T07:18:05.323Z"
             }
           ]
         }

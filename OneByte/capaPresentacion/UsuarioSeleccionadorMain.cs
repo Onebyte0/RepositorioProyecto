@@ -33,36 +33,11 @@ namespace OneByte
             this.Close();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked)
-            {
-                checkBox2.Checked = false; // Desactivar CheckBox2
-            }
-        }
+      
 
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        private void UsuarioSeleccionadorMain_Load(object sender, EventArgs e)
         {
-            if (checkBox3.Checked)
-            {
-                checkBox4.Checked = false; // Desactivar CheckBox2
-            }
-        }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox2.Checked)
-            {
-                checkBox1.Checked = false; // Desactivar CheckBox2
-            }
-        }
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox4.Checked)
-            {
-                checkBox3.Checked = false; // Desactivar CheckBox2
-            }
         }
     }
 }

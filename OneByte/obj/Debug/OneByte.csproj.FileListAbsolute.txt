@@ -366,3 +366,5 @@ C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoRegistroCliente.resources
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioClienteAgendaDisponibilidad.resources
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioClienteAgendaDisponibilidad.resources
+C:\Users\Lab5\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources
