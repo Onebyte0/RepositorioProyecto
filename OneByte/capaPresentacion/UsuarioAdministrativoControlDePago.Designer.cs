@@ -102,7 +102,6 @@
             this.label6.Size = new System.Drawing.Size(58, 21);
             this.label6.TabIndex = 36;
             this.label6.Text = "Enero:";
-            
             // 
             // label2
             // 
@@ -143,7 +142,6 @@
             this.label5.Size = new System.Drawing.Size(62, 21);
             this.label5.TabIndex = 40;
             this.label5.Text = "Marzo:";
-            
             // 
             // label1
             // 
@@ -264,7 +262,6 @@
             this.label17.Size = new System.Drawing.Size(44, 13);
             this.label17.TabIndex = 52;
             this.label17.Text = "label17";
-            
             // 
             // label18
             // 
@@ -410,6 +407,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -438,6 +436,7 @@
             this.controlDeAsistenciaToolStripMenuItem.Name = "controlDeAsistenciaToolStripMenuItem";
             this.controlDeAsistenciaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.controlDeAsistenciaToolStripMenuItem.Text = "Control de asistencia ";
+            this.controlDeAsistenciaToolStripMenuItem.Click += new System.EventHandler(this.controlDeAsistenciaToolStripMenuItem_Click);
             // 
             // darDeBajaToolStripMenuItem
             // 
@@ -448,6 +447,7 @@
             this.darDeBajaToolStripMenuItem.Name = "darDeBajaToolStripMenuItem";
             this.darDeBajaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.darDeBajaToolStripMenuItem.Text = "Dar de baja";
+            this.darDeBajaToolStripMenuItem.Click += new System.EventHandler(this.darDeBajaToolStripMenuItem_Click);
             // 
             // habilitarUsuarioToolStripMenuItem
             // 
@@ -458,6 +458,7 @@
             this.habilitarUsuarioToolStripMenuItem.Name = "habilitarUsuarioToolStripMenuItem";
             this.habilitarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsuarioToolStripMenuItem.Text = "Habilitar usuario";
+            this.habilitarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.habilitarUsuarioToolStripMenuItem_Click);
             // 
             // vToolStripMenuItem
             // 
@@ -532,6 +533,7 @@
             this.Name = "UsuarioAdministrativoControlDePago";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAdministrativoControlDePago";
+            this.Load += new System.EventHandler(this.UsuarioAdministrativoControlDePago_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

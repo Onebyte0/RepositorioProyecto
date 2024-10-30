@@ -89,6 +89,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Estado deportista";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click_1);
             // 
             // dardeBaja
             // 
@@ -99,6 +100,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Evolucion deportista";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click_1);
             // 
             // habilitarUsu
             // 
@@ -107,8 +109,9 @@
             this.habilitarUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
             this.habilitarUsu.Name = "habilitarUsu";
-            this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
+            this.habilitarUsu.Size = new System.Drawing.Size(195, 22);
             this.habilitarUsu.Text = "Rutinas deportista";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // agendaToolStripMenuItem
             // 
@@ -119,6 +122,7 @@
             this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
             this.agendaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.agendaToolStripMenuItem.Text = "Agenda";
+            this.agendaToolStripMenuItem.Click += new System.EventHandler(this.agendaToolStripMenuItem_Click);
             // 
             // menuStrip2
             // 
@@ -147,6 +151,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -171,6 +176,7 @@
             this.Name = "UsuarioClienteEstadoPago";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioClienteEstadoPago";
+            this.Load += new System.EventHandler(this.UsuarioClienteEstadoPago_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

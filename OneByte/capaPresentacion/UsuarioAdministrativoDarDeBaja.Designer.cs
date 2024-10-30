@@ -75,7 +75,6 @@
             this.label2.Size = new System.Drawing.Size(279, 31);
             this.label2.TabIndex = 64;
             this.label2.Text = "Deshabilitar Usuario";
-           
             // 
             // button2
             // 
@@ -143,6 +142,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -170,6 +170,7 @@
             this.controlDeAsistenciaToolStripMenuItem.Name = "controlDeAsistenciaToolStripMenuItem";
             this.controlDeAsistenciaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.controlDeAsistenciaToolStripMenuItem.Text = "Control de asistencia ";
+            this.controlDeAsistenciaToolStripMenuItem.Click += new System.EventHandler(this.controlDeAsistenciaToolStripMenuItem_Click);
             // 
             // habilitarUsuarioToolStripMenuItem
             // 
@@ -180,6 +181,7 @@
             this.habilitarUsuarioToolStripMenuItem.Name = "habilitarUsuarioToolStripMenuItem";
             this.habilitarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsuarioToolStripMenuItem.Text = "Habilitar usuario";
+            this.habilitarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.habilitarUsuarioToolStripMenuItem_Click);
             // 
             // gestionDePagosToolStripMenuItem1
             // 
@@ -190,6 +192,7 @@
             this.gestionDePagosToolStripMenuItem1.Name = "gestionDePagosToolStripMenuItem1";
             this.gestionDePagosToolStripMenuItem1.Size = new System.Drawing.Size(195, 50);
             this.gestionDePagosToolStripMenuItem1.Text = "Gestion de Pagos";
+            this.gestionDePagosToolStripMenuItem1.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem1_Click);
             // 
             // radioButton4
             // 
@@ -235,6 +238,7 @@
             this.Name = "UsuarioAdministrativoDarDeBaja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAdministrativoDarDeBaja";
+            this.Load += new System.EventHandler(this.UsuarioAdministrativoDarDeBaja_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

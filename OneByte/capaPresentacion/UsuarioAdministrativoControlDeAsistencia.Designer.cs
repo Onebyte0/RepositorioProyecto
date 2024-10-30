@@ -198,6 +198,7 @@
             this.darDeBajaToolStripMenuItem.Name = "darDeBajaToolStripMenuItem";
             this.darDeBajaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.darDeBajaToolStripMenuItem.Text = "Dar de baja";
+            this.darDeBajaToolStripMenuItem.Click += new System.EventHandler(this.darDeBajaToolStripMenuItem_Click);
             // 
             // habilitarUsuarioToolStripMenuItem
             // 
@@ -208,6 +209,7 @@
             this.habilitarUsuarioToolStripMenuItem.Name = "habilitarUsuarioToolStripMenuItem";
             this.habilitarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsuarioToolStripMenuItem.Text = "Habilitar usuario";
+            this.habilitarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.habilitarUsuarioToolStripMenuItem_Click);
             // 
             // gestionDePagosToolStripMenuItem1
             // 
@@ -218,6 +220,7 @@
             this.gestionDePagosToolStripMenuItem1.Name = "gestionDePagosToolStripMenuItem1";
             this.gestionDePagosToolStripMenuItem1.Size = new System.Drawing.Size(195, 50);
             this.gestionDePagosToolStripMenuItem1.Text = "Gestion de Pagos";
+            this.gestionDePagosToolStripMenuItem1.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem1_Click);
             // 
             // menuStrip2
             // 
@@ -244,6 +247,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // UsuarioAdministrativoControlDeAsistencia
             // 

@@ -439,6 +439,7 @@
             this.controlDeAsistenciaToolStripMenuItem.Name = "controlDeAsistenciaToolStripMenuItem";
             this.controlDeAsistenciaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.controlDeAsistenciaToolStripMenuItem.Text = "Control de asistencia ";
+            this.controlDeAsistenciaToolStripMenuItem.Click += new System.EventHandler(this.controlDeAsistenciaToolStripMenuItem_Click);
             // 
             // darDeBajaToolStripMenuItem
             // 
@@ -449,6 +450,7 @@
             this.darDeBajaToolStripMenuItem.Name = "darDeBajaToolStripMenuItem";
             this.darDeBajaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.darDeBajaToolStripMenuItem.Text = "Dar de baja";
+            this.darDeBajaToolStripMenuItem.Click += new System.EventHandler(this.darDeBajaToolStripMenuItem_Click);
             // 
             // gestionDePagosToolStripMenuItem1
             // 
@@ -459,6 +461,7 @@
             this.gestionDePagosToolStripMenuItem1.Name = "gestionDePagosToolStripMenuItem1";
             this.gestionDePagosToolStripMenuItem1.Size = new System.Drawing.Size(195, 50);
             this.gestionDePagosToolStripMenuItem1.Text = "Gestion de Pagos";
+            this.gestionDePagosToolStripMenuItem1.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem1_Click);
             // 
             // menuStrip2
             // 
@@ -475,6 +478,7 @@
             this.menuStrip2.Size = new System.Drawing.Size(643, 62);
             this.menuStrip2.TabIndex = 95;
             this.menuStrip2.Text = "menuStrip2";
+            this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
             // cerrarSesionToolStripMenuItem
             // 
@@ -485,6 +489,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // label18
             // 

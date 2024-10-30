@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using OneByte.capaPresentacion;
 
 namespace OneByte
 {
@@ -71,43 +72,64 @@ namespace OneByte
 
         private void grupoPerte_Click(object sender, EventArgs e)
         {
-            var grupoPerte =  new UsuarioClienteGrupoPerteneciente();
-            grupoPerte.Show();
-            this.Close();
+       
         }
 
         private void verDatos_Click(object sender, EventArgs e)
         {
-            var verDatos = new UsuarioClienteDatosDeportista();
-            verDatos.Show();
-            this.Close();
+            
         }
 
         private void agendaRutinas_Click(object sender, EventArgs e)
         {
-            var agendaRutinas = new UsuarioClienteAgendaRutinasAsignadas();
-            agendaRutinas.Show();
-            this.Close();
+            
         }
 
         private void descripEjer_Click(object sender, EventArgs e)
         {
-            var descripEjer = new UsuarioClienteDescripcionEjercicios();
-            descripEjer.Show();
-            this.Close();
+            
         }
 
         private void estadoPago_Click(object sender, EventArgs e)
         {
-            var estadoPago = new UsuarioClienteEstadoPago();
-            estadoPago.Show();
-            this.Close();
+            
         }
 
         private void cerrarsesion_Click(object sender, EventArgs e)
         {
-            var cerrarsesion = new Form1();
-            cerrarsesion.Show();
+            
+        }
+
+        private void UsuarioClienteRendimientoDeportista_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void controlAsist_Click(object sender, EventArgs e)
+        {
+            UsuarioClienteEstadoDeportista usuClienteEstadoDep = new UsuarioClienteEstadoDeportista();
+            usuClienteEstadoDep.Show();
+            this.Close();
+        }
+
+        private void habilitarUsu_Click(object sender, EventArgs e)
+        {
+            UsuarioClienteAgendaRutinasAsignadas usuRutina = new UsuarioClienteAgendaRutinasAsignadas();
+            usuRutina.Show();
+            this.Close();
+        }
+
+        private void gestPagos_Click(object sender, EventArgs e)
+        {
+            UsuarioClienteEstadoPago usuEstPago = new UsuarioClienteEstadoPago();
+            usuEstPago.Show();
+            this.Close();
+        }
+
+        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuarioClienteAgendaDisponibilidad usuDisp = new UsuarioClienteAgendaDisponibilidad();
+            usuDisp.Show();
             this.Close();
         }
     }

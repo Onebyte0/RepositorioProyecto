@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ejercicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descEjercicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreEjercicio = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.descripEjercicio = new System.Windows.Forms.TextBox();
@@ -42,8 +44,6 @@
             this.eliminarCliente = new System.Windows.Forms.Button();
             this.editarCliente = new System.Windows.Forms.Button();
             this.agregarCliente = new System.Windows.Forms.Button();
-            this.ejercicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descEjercicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,6 +72,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(241, 282);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // ejercicio
+            // 
+            this.ejercicio.HeaderText = "Ejercicio";
+            this.ejercicio.Name = "ejercicio";
+            // 
+            // descEjercicio
+            // 
+            this.descEjercicio.HeaderText = "Descripción";
+            this.descEjercicio.Name = "descEjercicio";
             // 
             // nombreEjercicio
             // 
@@ -145,6 +155,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Gestión de empleados";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // dardeBaja
             // 
@@ -155,6 +166,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Gestión de clientes";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // gestPagos
             // 
@@ -165,6 +177,7 @@
             this.gestPagos.Name = "gestPagos";
             this.gestPagos.Size = new System.Drawing.Size(195, 50);
             this.gestPagos.Text = "Gestión de deportes";
+            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
             // 
             // eliminarCliente
             // 
@@ -196,16 +209,6 @@
             this.agregarCliente.Text = "Agregar ";
             this.agregarCliente.UseVisualStyleBackColor = true;
             // 
-            // ejercicio
-            // 
-            this.ejercicio.HeaderText = "Ejercicio";
-            this.ejercicio.Name = "ejercicio";
-            // 
-            // descEjercicio
-            // 
-            this.descEjercicio.HeaderText = "Descripción";
-            this.descEjercicio.Name = "descEjercicio";
-            // 
             // menuStrip2
             // 
             this.menuStrip2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -232,6 +235,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -259,6 +263,7 @@
             this.Name = "UsuarioAvanzadoIngresoEjercicios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoIngresoEjercicios";
+            this.Load += new System.EventHandler(this.UsuarioAvanzadoIngresoEjercicios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

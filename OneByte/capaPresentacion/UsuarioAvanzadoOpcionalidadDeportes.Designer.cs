@@ -148,6 +148,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Gestión de empleados";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // dardeBaja
             // 
@@ -158,6 +159,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Gestión de clientes";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // habilitarUsu
             // 
@@ -168,6 +170,7 @@
             this.habilitarUsu.Name = "habilitarUsu";
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsu.Text = "Gestión de ejercicios";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // menuStrip2
             // 
@@ -195,6 +198,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -220,6 +224,7 @@
             this.Name = "UsuarioAvanzadoOpcionalidadDeportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoOpcionalidadDeportes";
+            this.Load += new System.EventHandler(this.UsuarioAvanzadoOpcionalidadDeportes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

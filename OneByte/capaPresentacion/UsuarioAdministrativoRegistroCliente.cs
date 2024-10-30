@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySqlX.XDevAPI;
 using OneByte.capaLogica.Cliente;
+using OneByte.capaPresentacion;
 
 namespace OneByte.capaPresentacion
 {
@@ -49,6 +50,36 @@ namespace OneByte.capaPresentacion
             }
         }
 
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void controlDeAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoControlDeAsistencia usuCntrolAsist = new UsuarioAdministrativoControlDeAsistencia();
+            usuCntrolAsist.Show();
+            this.Close();
+        }
+
+        private void darDeBajaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoDarDeBaja usuDarDeBaja = new UsuarioAdministrativoDarDeBaja();
+            usuDarDeBaja.Show();
+            this.Close();
+        }
+
+        private void gestionDePagosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoControlDePago usuControlPago = new UsuarioAdministrativoControlDePago();
+            usuControlPago.Show();
+            this.Close();
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     };
         }
     

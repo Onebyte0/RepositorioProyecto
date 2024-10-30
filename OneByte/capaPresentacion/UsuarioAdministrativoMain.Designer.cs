@@ -78,6 +78,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Dar de baja";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // habilitarUsu
             // 
@@ -99,6 +100,7 @@
             this.gestPagos.Name = "gestPagos";
             this.gestPagos.Size = new System.Drawing.Size(195, 50);
             this.gestPagos.Text = "Gestion de Pagos";
+            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
             // 
             // menuStrip2
             // 
@@ -125,6 +127,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // label2
             // 

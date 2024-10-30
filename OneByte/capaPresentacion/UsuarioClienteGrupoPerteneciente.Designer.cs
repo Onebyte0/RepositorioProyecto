@@ -91,6 +91,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -130,6 +131,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Estado deportista";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // dardeBaja
             // 
@@ -140,6 +142,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Evolucion deportista";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // habilitarUsu
             // 
@@ -150,6 +153,7 @@
             this.habilitarUsu.Name = "habilitarUsu";
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsu.Text = "Rutinas deportista";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // gestPagos
             // 
@@ -160,6 +164,7 @@
             this.gestPagos.Name = "gestPagos";
             this.gestPagos.Size = new System.Drawing.Size(195, 50);
             this.gestPagos.Text = "Estado de Pago";
+            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
             // 
             // agendaToolStripMenuItem
             // 
@@ -170,6 +175,7 @@
             this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
             this.agendaToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.agendaToolStripMenuItem.Text = "Agenda";
+            this.agendaToolStripMenuItem.Click += new System.EventHandler(this.agendaToolStripMenuItem_Click);
             // 
             // guardar
             // 

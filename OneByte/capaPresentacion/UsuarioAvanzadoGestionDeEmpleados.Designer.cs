@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nomEntrenador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.documentoEntrenador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button4 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.calleCliente = new System.Windows.Forms.TextBox();
@@ -48,8 +50,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.nomEntrenador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.documentoEntrenador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.eliminarCliente = new System.Windows.Forms.Button();
             this.editarCliente = new System.Windows.Forms.Button();
             this.agregarCliente = new System.Windows.Forms.Button();
@@ -58,6 +58,7 @@
             this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
             this.gestPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -68,7 +69,6 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
@@ -95,6 +95,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(209, 287);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // nomEntrenador
+            // 
+            this.nomEntrenador.HeaderText = "Nombre ";
+            this.nomEntrenador.Name = "nomEntrenador";
+            // 
+            // documentoEntrenador
+            // 
+            this.documentoEntrenador.HeaderText = "ID Cliente";
+            this.documentoEntrenador.Name = "documentoEntrenador";
             // 
             // button4
             // 
@@ -226,7 +236,6 @@
             this.label13.Size = new System.Drawing.Size(113, 13);
             this.label13.TabIndex = 98;
             this.label13.Text = "*Campo obligatorio";
-           
             // 
             // label14
             // 
@@ -258,7 +267,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(199, 20);
             this.dateTimePicker1.TabIndex = 102;
             this.dateTimePicker1.Value = new System.DateTime(2024, 10, 13, 0, 0, 0, 0);
-            
             // 
             // comboBox3
             // 
@@ -287,16 +295,6 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(101, 21);
             this.comboBox3.TabIndex = 131;
-            // 
-            // nomEntrenador
-            // 
-            this.nomEntrenador.HeaderText = "Nombre ";
-            this.nomEntrenador.Name = "nomEntrenador";
-            // 
-            // documentoEntrenador
-            // 
-            this.documentoEntrenador.HeaderText = "ID Cliente";
-            this.documentoEntrenador.Name = "documentoEntrenador";
             // 
             // eliminarCliente
             // 
@@ -365,6 +363,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Gestión de clientes";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // habilitarUsu
             // 
@@ -374,6 +373,7 @@
             this.habilitarUsu.Name = "habilitarUsu";
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsu.Text = "Gestión de ejercicios";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // gestPagos
             // 
@@ -384,6 +384,12 @@
             this.gestPagos.Name = "gestPagos";
             this.gestPagos.Size = new System.Drawing.Size(195, 50);
             this.gestPagos.Text = "Gestión de deportes";
+            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
+            // 
+            // cToolStripMenuItem
+            // 
+            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(214, 4);
             // 
             // comboBox2
             // 
@@ -468,16 +474,12 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 60);
-            // 
-            // cToolStripMenuItem
-            // 
-            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(214, 4);
             // 
             // UsuarioAvanzadoGestionDeEmpleados
             // 
@@ -521,6 +523,7 @@
             this.Name = "UsuarioAvanzadoGestionDeEmpleados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoGestionDeEmpleados";
+            this.Load += new System.EventHandler(this.UsuarioAvanzadoGestionDeEmpleados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

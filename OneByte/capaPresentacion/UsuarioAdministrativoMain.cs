@@ -27,9 +27,28 @@ namespace OneByte
 
         private void habilitarUsu_Click(object sender, EventArgs e)
         {
-            UsuarioAdministrativoRegistroCliente usuCntrolAsist = new UsuarioAdministrativoRegistroCliente();
-            usuCntrolAsist.Show();
+            UsuarioAdministrativoRegistroCliente usuRegistroCli = new UsuarioAdministrativoRegistroCliente();
+            usuRegistroCli.Show();
             this.Close();
+        }
+
+        private void dardeBaja_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoDarDeBaja usuDarDeBaja = new UsuarioAdministrativoDarDeBaja();
+            usuDarDeBaja.Show();
+            this.Close();
+        }
+
+        private void gestPagos_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoControlDePago usuControlPago = new UsuarioAdministrativoControlDePago();
+            usuControlPago.Show();
+            this.Close();
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

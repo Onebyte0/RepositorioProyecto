@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using OneByte.capaPresentacion;
 
 namespace OneByte
 {
@@ -17,8 +18,35 @@ namespace OneByte
             InitializeComponent();
         }
 
-        
+        private void UsuarioAdministrativoControlDePago_Load(object sender, EventArgs e)
+        {
 
-        
+        }
+
+        private void controlDeAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoControlDeAsistencia usuCntrolAsist = new UsuarioAdministrativoControlDeAsistencia();
+            usuCntrolAsist.Show();
+            this.Close();
+        }
+
+        private void darDeBajaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoDarDeBaja usuDarDeBaja = new UsuarioAdministrativoDarDeBaja();
+            usuDarDeBaja.Show();
+            this.Close();
+        }
+
+        private void habilitarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoRegistroCliente usuRegistroCli = new UsuarioAdministrativoRegistroCliente();
+            usuRegistroCli.Show();
+            this.Close();
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
