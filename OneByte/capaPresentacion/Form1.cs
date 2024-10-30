@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using OneByte.capaLogica;
+using OneByte.capaLogica.Cliente;
 
 
 namespace OneByte
@@ -35,7 +36,22 @@ namespace OneByte
 
         private void iniciarsesion_Click(object sender, EventArgs e)
         {
-          
+
+            string numDoc = documento.Text;        
+            string contraseña = contraseñaUsuario.Text;
+
+            ClienteControlador controlador = new ClienteControlador();
+            if (controlador.IniciarSesion(numDoc, contraseña))
+            {
+                MessageBox.Show("Inicio de sesión exitoso");
+                // Redirigir al usuario o abrir la siguiente pantalla aquí
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos.");
+            }
+
+
             // Verificar si se ha seleccionado una opción en la ComboBox
             if (comboBox1.SelectedItem != null)
             {

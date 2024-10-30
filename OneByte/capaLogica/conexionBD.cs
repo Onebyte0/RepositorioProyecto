@@ -12,6 +12,7 @@ namespace OneByte.capaLogica
     internal class conexionBD
     {
         private readonly string connectionString = "server=localhost;database=onebyte;uid=root;pwd=;";
+        internal MySqlConnection Connection;
         private MySqlConnection con;
 
         public conexionBD()

@@ -88,6 +88,7 @@
             this.habilitarUsu.Name = "habilitarUsu";
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsu.Text = "Habilitar usuario";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // gestPagos
             // 

@@ -11,7 +11,7 @@ namespace OneByte.capaLogica
        
             public int IdCliente { get; set; }
             public string TipoDoc { get; set; }
-            public string NumDoc { get; set; }
+            public string numDoc { get; set; }
             public string PrimerNom { get; set; }
             public string SegundoNom { get; set; }
             public string PrimerApe { get; set; }
@@ -21,6 +21,7 @@ namespace OneByte.capaLogica
             public string Departamento { get; set; }
             public DateTime Fecha { get; set; }
             public bool EstPago { get; set; }
-        }
+            public bool contraseña { get; set; }
+    }
     }
 

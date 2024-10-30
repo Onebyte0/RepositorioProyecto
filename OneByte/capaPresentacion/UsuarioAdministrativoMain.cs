@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using OneByte.capaPresentacion;
 
 namespace OneByte
 {
@@ -20,6 +21,13 @@ namespace OneByte
         private void controlAsist_Click(object sender, EventArgs e)
         {
             UsuarioAdministrativoControlDeAsistencia usuCntrolAsist = new UsuarioAdministrativoControlDeAsistencia();
+            usuCntrolAsist.Show();
+            this.Close();
+        }
+
+        private void habilitarUsu_Click(object sender, EventArgs e)
+        {
+            UsuarioAdministrativoRegistroCliente usuCntrolAsist = new UsuarioAdministrativoRegistroCliente();
             usuCntrolAsist.Show();
             this.Close();
         }

@@ -38,7 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.contraseña = new System.Windows.Forms.TextBox();
+            this.contraseñaUsuario = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
@@ -142,17 +142,17 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Contraseña:";
             // 
-            // contraseña
+            // contraseñaUsuario
             // 
-            this.contraseña.Location = new System.Drawing.Point(571, 265);
-            this.contraseña.Name = "contraseña";
-            this.contraseña.Size = new System.Drawing.Size(178, 20);
-            this.contraseña.TabIndex = 9;
+            this.contraseñaUsuario.Location = new System.Drawing.Point(571, 265);
+            this.contraseñaUsuario.Name = "contraseñaUsuario";
+            this.contraseñaUsuario.Size = new System.Drawing.Size(178, 20);
+            this.contraseñaUsuario.TabIndex = 9;
             // 
             // panel1
             // 
             this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(347, 372);
             this.panel1.TabIndex = 14;
@@ -167,7 +167,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.contraseña);
+            this.Controls.Add(this.contraseñaUsuario);
             this.Controls.Add(this.documento);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox2);
@@ -194,7 +194,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox contraseña;
+        private System.Windows.Forms.TextBox contraseñaUsuario;
         private System.Windows.Forms.Panel panel1;
     }
 }

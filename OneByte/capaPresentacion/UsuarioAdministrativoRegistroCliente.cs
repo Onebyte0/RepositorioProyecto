@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySqlX.XDevAPI;
-
+using OneByte.capaLogica.Cliente;
 
 namespace OneByte.capaPresentacion
 {
@@ -26,7 +26,7 @@ namespace OneByte.capaPresentacion
             cliente nuevoCliente = new cliente()
             {
                
-                NumDoc = docCliente.Text,
+                numDoc = docCliente.Text,
                 PrimerNom = nombreCliente.Text,
                 PrimerApe = apellidoCliente.Text,
                 Direccion = calleCliente.Text,
