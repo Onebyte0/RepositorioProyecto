@@ -28,12 +28,12 @@ namespace OneByte.capaPresentacion
             {
                
                 numDoc = docCliente.Text,
-                PrimerNom = nombreCliente.Text,
-                PrimerApe = apellidoCliente.Text,
-                Direccion = calleCliente.Text,
-                NumCalle = int.Parse(numCalleCliente.Text),
-                Departamento = departamentoCliente.Text,
-                Fecha = DateTime.Parse(fechaNacCliente.Text),
+                primerNom = nombreCliente.Text,
+                primerApe = apellidoCliente.Text,
+                direccion = calleCliente.Text,
+                numCalle = int.Parse(numCalleCliente.Text),
+                departamento = departamentoCliente.Text,
+                fecha = DateTime.Parse(fechaNacCliente.Text),
                 
             };
 

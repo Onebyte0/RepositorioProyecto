@@ -18,7 +18,10 @@ namespace OneByte
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+
 
             // Agregar opciones a la ComboBox
             comboBox1.Items.Add("Administrativo");
@@ -116,6 +119,11 @@ namespace OneByte
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

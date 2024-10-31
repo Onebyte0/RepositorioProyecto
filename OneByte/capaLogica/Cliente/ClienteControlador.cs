@@ -16,18 +16,18 @@ namespace OneByte.capaLogica.Cliente
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
-                command.Parameters.AddWithValue("@idCliente", cliente.IdCliente);
-                command.Parameters.AddWithValue("@tipoDoc", cliente.TipoDoc);
+                command.Parameters.AddWithValue("@idCliente", cliente.idCliente);
+                command.Parameters.AddWithValue("@tipoDoc", cliente.tipoDoc);
                 command.Parameters.AddWithValue("@numDoc", cliente.numDoc);
-                command.Parameters.AddWithValue("@primerNom", cliente.PrimerNom);
-                command.Parameters.AddWithValue("@segundoNom", cliente.SegundoNom);
-                command.Parameters.AddWithValue("@primerApe", cliente.PrimerApe);
-                command.Parameters.AddWithValue("@segundoApe", cliente.SegundoApe);
-                command.Parameters.AddWithValue("@direccion", cliente.Direccion);
-                command.Parameters.AddWithValue("@numCalle", cliente.NumCalle);
-                command.Parameters.AddWithValue("@departamento", cliente.Departamento);
-                command.Parameters.AddWithValue("@fecha", cliente.Fecha);
-                command.Parameters.AddWithValue("@estPago", cliente.EstPago);
+                command.Parameters.AddWithValue("@primerNom", cliente.primerNom);
+                command.Parameters.AddWithValue("@segundoNom", cliente.segundoNom);
+                command.Parameters.AddWithValue("@primerApe", cliente.primerApe);
+                command.Parameters.AddWithValue("@segundoApe", cliente.segundoApe);
+                command.Parameters.AddWithValue("@direccion", cliente.direccion);
+                command.Parameters.AddWithValue("@numCalle", cliente.numCalle);
+                command.Parameters.AddWithValue("@departamento", cliente.departamento);
+                command.Parameters.AddWithValue("@fecha", cliente.fecha);
+                command.Parameters.AddWithValue("@estPago", cliente.estPago);
                 command.Parameters.AddWithValue("@contraseña", cliente.contraseña);
 
                 connection.Open();
@@ -36,15 +36,17 @@ namespace OneByte.capaLogica.Cliente
             }
         }
 
-        public bool IniciarSesion(string usuario, string contraseña)
+   
+
+        public bool IniciarSesion(string documento, string contraseña)
         {
             try
             {
-                string query = "SELECT COUNT(*) FROM Cliente WHERE documento = @documento AND contraseña = @contraseña";
+                string query = "SELECT COUNT(*) FROM cliente WHERE documento = @documento AND contraseña = @contraseña";
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     MySqlCommand command = new MySqlCommand(query, connection);
-                    command.Parameters.AddWithValue("@documento", usuario);
+                    command.Parameters.AddWithValue("@documento", documento);
                     command.Parameters.AddWithValue("@contraseña", contraseña);
 
                     connection.Open();
