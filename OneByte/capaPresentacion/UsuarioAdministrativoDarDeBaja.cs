@@ -25,11 +25,6 @@ namespace OneByte
             this.Close();
         }
 
-        private void UsuarioAdministrativoDarDeBaja_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void habilitarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UsuarioAdministrativoRegistroCliente usuRegistroCli = new UsuarioAdministrativoRegistroCliente();
@@ -44,9 +39,11 @@ namespace OneByte
             this.Close();
         }
 
-        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        private void main_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            UsuarioAdministrativoMain usuAdminMain = new UsuarioAdministrativoMain();
+            usuAdminMain.Show();
+            this.Close();
         }
     }
 }

@@ -423,8 +423,6 @@
   <ItemGroup>
     <None Include="Resources\31BeKrgtq5L._AC_UF894,1000_QL80_.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="capaPersistencia\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

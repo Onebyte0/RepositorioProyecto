@@ -33,9 +33,10 @@
             this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
             this.gestPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label2 = new System.Windows.Forms.Label();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -54,7 +55,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(219, 469);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 457);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -102,6 +103,17 @@
             this.gestPagos.Text = "Gestion de Pagos";
             this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(408, 66);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(295, 33);
+            this.label2.TabIndex = 61;
+            this.label2.Text = "Bienvenido Usuario!";
+            // 
             // menuStrip2
             // 
             this.menuStrip2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -110,12 +122,13 @@
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cerrarSesionToolStripMenuItem});
+            this.cerrarSesionToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.menuStrip2.Location = new System.Drawing.Point(219, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip2.Size = new System.Drawing.Size(643, 62);
-            this.menuStrip2.TabIndex = 1;
+            this.menuStrip2.Size = new System.Drawing.Size(666, 62);
+            this.menuStrip2.TabIndex = 62;
             this.menuStrip2.Text = "menuStrip2";
             // 
             // cerrarSesionToolStripMenuItem
@@ -123,32 +136,25 @@
             this.cerrarSesionToolStripMenuItem.AutoSize = false;
             this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
             this.cerrarSesionToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cerrarSesionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(510, 0, 510, 0);
+            this.cerrarSesionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(530, 0, 0, 0);
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
-            // label2
+            // toolStripMenuItem1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(396, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(295, 33);
-            this.label2.TabIndex = 61;
-            this.label2.Text = "Bienvenido Usuario!";
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 60);
             // 
             // UsuarioAdministrativoMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
-            this.ClientSize = new System.Drawing.Size(862, 469);
+            this.ClientSize = new System.Drawing.Size(880, 457);
+            this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.menuStrip2);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "UsuarioAdministrativoMain";
@@ -166,12 +172,13 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem controlAsist;
         private System.Windows.Forms.ToolStripMenuItem dardeBaja;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem gestPagos;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

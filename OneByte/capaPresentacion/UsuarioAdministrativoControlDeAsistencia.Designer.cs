@@ -45,14 +45,14 @@
             this.habilitarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDePagosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.main = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(631, 416);
+            this.button2.Location = new System.Drawing.Point(656, 416);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 34);
             this.button2.TabIndex = 68;
@@ -62,7 +62,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightGreen;
-            this.button3.Location = new System.Drawing.Point(742, 416);
+            this.button3.Location = new System.Drawing.Point(767, 416);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 34);
             this.button3.TabIndex = 67;
@@ -73,9 +73,9 @@
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.dateTimePicker1.Location = new System.Drawing.Point(738, 171);
+            this.dateTimePicker1.Location = new System.Drawing.Point(738, 155);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(107, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker1.TabIndex = 94;
             this.dateTimePicker1.Value = new System.DateTime(2024, 7, 14, 19, 58, 44, 0);
             // 
@@ -83,7 +83,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(562, 169);
+            this.label1.Location = new System.Drawing.Point(562, 153);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(160, 21);
             this.label1.TabIndex = 95;
@@ -93,7 +93,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(254, 166);
+            this.label25.Location = new System.Drawing.Point(254, 150);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(104, 21);
             this.label25.TabIndex = 69;
@@ -102,7 +102,7 @@
             // docCliente
             // 
             this.docCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.docCliente.Location = new System.Drawing.Point(249, 190);
+            this.docCliente.Location = new System.Drawing.Point(249, 174);
             this.docCliente.Name = "docCliente";
             this.docCliente.Size = new System.Drawing.Size(119, 24);
             this.docCliente.TabIndex = 68;
@@ -111,7 +111,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(249, 227);
+            this.radioButton3.Location = new System.Drawing.Point(249, 211);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(96, 25);
             this.radioButton3.TabIndex = 70;
@@ -123,7 +123,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(355, 227);
+            this.radioButton4.Location = new System.Drawing.Point(355, 211);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(76, 25);
             this.radioButton4.TabIndex = 71;
@@ -135,7 +135,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(254, 305);
+            this.label26.Location = new System.Drawing.Point(245, 305);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(156, 21);
             this.label26.TabIndex = 72;
@@ -145,7 +145,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(424, 305);
+            this.label27.Location = new System.Drawing.Point(416, 305);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(61, 21);
             this.label27.TabIndex = 73;
@@ -154,7 +154,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(740, 300);
+            this.button1.Location = new System.Drawing.Point(767, 300);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 34);
             this.button1.TabIndex = 97;
@@ -166,7 +166,7 @@
             this.controlDePago.AutoSize = true;
             this.controlDePago.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.controlDePago.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.controlDePago.Location = new System.Drawing.Point(382, 89);
+            this.controlDePago.Location = new System.Drawing.Point(398, 65);
             this.controlDePago.Name = "controlDePago";
             this.controlDePago.Size = new System.Drawing.Size(317, 33);
             this.controlDePago.TabIndex = 97;
@@ -185,7 +185,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(219, 464);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 461);
             this.menuStrip1.TabIndex = 98;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -230,31 +230,31 @@
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cerrarSesionToolStripMenuItem});
+            this.main});
             this.menuStrip2.Location = new System.Drawing.Point(219, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip2.Size = new System.Drawing.Size(643, 62);
+            this.menuStrip2.Size = new System.Drawing.Size(666, 62);
             this.menuStrip2.TabIndex = 99;
             this.menuStrip2.Text = "menuStrip2";
             // 
-            // cerrarSesionToolStripMenuItem
+            // main
             // 
-            this.cerrarSesionToolStripMenuItem.AutoSize = false;
-            this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
-            this.cerrarSesionToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cerrarSesionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(510, 0, 510, 0);
-            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
-            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
-            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
+            this.main.AutoSize = false;
+            this.main.BackColor = System.Drawing.Color.LightSlateGray;
+            this.main.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.main.Margin = new System.Windows.Forms.Padding(530, 0, 0, 0);
+            this.main.Name = "main";
+            this.main.Size = new System.Drawing.Size(120, 50);
+            this.main.Text = "Ventana Principal";
+            this.main.Click += new System.EventHandler(this.main_Click);
             // 
             // UsuarioAdministrativoControlDeAsistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
-            this.ClientSize = new System.Drawing.Size(860, 464);
+            this.ClientSize = new System.Drawing.Size(884, 461);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label27);
@@ -299,6 +299,6 @@
         private System.Windows.Forms.ToolStripMenuItem habilitarUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem1;
         private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem main;
     }
 }

@@ -51,9 +51,9 @@
             this.label1.Location = new System.Drawing.Point(412, 65);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(299, 33);
+            this.label1.Size = new System.Drawing.Size(295, 33);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Bienvenido, usuario!";
+            this.label1.Text = "Bienvenido Usuario!";
             // 
             // menuStrip1
             // 

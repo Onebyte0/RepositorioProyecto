@@ -419,3 +419,4 @@ C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\On
 C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
 C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.exe
 C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.pdb
+C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources

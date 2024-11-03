@@ -61,13 +61,13 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(178, 21);
             this.comboBox1.TabIndex = 4;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+           
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(425, 118);
+            this.label1.Location = new System.Drawing.Point(429, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 18);
             this.label1.TabIndex = 5;
@@ -93,13 +93,13 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(178, 21);
             this.comboBox2.TabIndex = 7;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+           
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(392, 166);
+            this.label2.Location = new System.Drawing.Point(393, 167);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 18);
             this.label2.TabIndex = 8;
@@ -136,7 +136,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(445, 264);
+            this.label4.Location = new System.Drawing.Point(451, 264);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 18);
             this.label4.TabIndex = 13;
@@ -178,7 +178,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 

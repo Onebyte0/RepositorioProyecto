@@ -50,10 +50,7 @@ namespace OneByte.capaPresentacion
             }
         }
 
-        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
+       
 
         private void controlDeAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -76,11 +73,13 @@ namespace OneByte.capaPresentacion
             this.Close();
         }
 
-        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        private void main_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            UsuarioAdministrativoMain usuAdminMain = new UsuarioAdministrativoMain();
+            usuAdminMain.Show();
+            this.Close();
         }
-    };
-        }
+    }
+ }
     
 
