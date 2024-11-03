@@ -186,6 +186,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Consulta deportista";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // consultaDelDeportistaToolStripMenuItem
             // 
@@ -202,6 +203,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Consulta equipo";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // menuStrip2
             // 
@@ -230,6 +232,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

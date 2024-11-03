@@ -106,8 +106,9 @@
             // consultaEvolucionToolStripMenuItem
             // 
             this.consultaEvolucionToolStripMenuItem.Name = "consultaEvolucionToolStripMenuItem";
-            this.consultaEvolucionToolStripMenuItem.Size = new System.Drawing.Size(234, 22);
+            this.consultaEvolucionToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.consultaEvolucionToolStripMenuItem.Text = "Consulta de evolucion";
+            this.consultaEvolucionToolStripMenuItem.Click += new System.EventHandler(this.consultaEvolucionToolStripMenuItem_Click);
             // 
             // dardeBaja
             // 
@@ -118,6 +119,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Consulta equipo";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // menuStrip2
             // 
@@ -146,6 +148,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

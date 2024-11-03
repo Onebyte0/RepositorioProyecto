@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OneByte.capaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,24 +18,21 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void consDepor_Click(object sender, EventArgs e)
+    
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var consDepor = new UsuarioSeleccionadorMain();
-            consDepor.Show();
-            this.Close();
+            Application.Exit();
         }
 
-        private void consEvoDepor_Click(object sender, EventArgs e)
+        private void controlAsist_Click(object sender, EventArgs e)
         {
-            var consEvoDepor = new UsuarioSeleccionadorConsultaEvolucion();
-            consEvoDepor.Show();
-            this.Close();
+
         }
 
-        private void cerrarsesion_Click(object sender, EventArgs e)
+        private void consultaEvolucionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var cerrarsesion = new Form1();
-            cerrarsesion.Show();
+            UsuarioSeleccionadorConsultaEvolucion usuSeleccionadorConsultaEvolucion = new UsuarioSeleccionadorConsultaEvolucion();
+            usuSeleccionadorConsultaEvolucion.Show();
             this.Close();
         }
     }

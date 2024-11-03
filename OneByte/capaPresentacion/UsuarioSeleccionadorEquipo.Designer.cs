@@ -225,12 +225,14 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Consulta deportista";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // consultaEvolucionToolStripMenuItem
             // 
             this.consultaEvolucionToolStripMenuItem.Name = "consultaEvolucionToolStripMenuItem";
             this.consultaEvolucionToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.consultaEvolucionToolStripMenuItem.Text = "Consulta de evolucion";
+            this.consultaEvolucionToolStripMenuItem.Click += new System.EventHandler(this.consultaEvolucionToolStripMenuItem_Click);
             // 
             // dardeBaja
             // 
@@ -269,6 +271,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using OneByte.capaPresentacion;
 namespace OneByte
 {
     public partial class UsuarioSeleccionadorConsultaEvolucion : Form
@@ -17,18 +17,23 @@ namespace OneByte
             InitializeComponent();
         }
 
-        private void consDepor_Click(object sender, EventArgs e)
+        private void controlAsist_Click(object sender, EventArgs e)
         {
-            var consDepor = new UsuarioSeleccionadorMain();
-            consDepor.Show();
+            UsuarioSeleccionadorConsultaDeportista usuSeleccionadorConsultaDeportista = new UsuarioSeleccionadorConsultaDeportista();
+            usuSeleccionadorConsultaDeportista.Show();
             this.Close();
         }
 
-        private void agregarDepor_Click(object sender, EventArgs e)
+        private void dardeBaja_Click(object sender, EventArgs e)
         {
-            var agregarDepor = new UsuarioSeleccionadorEquipos();
-            agregarDepor.Show();
+            UsuarioSeleccionadorEquipos usuEntrenadorInfoDeportista = new UsuarioSeleccionadorEquipos();
+            usuEntrenadorInfoDeportista.Show();
             this.Close();
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

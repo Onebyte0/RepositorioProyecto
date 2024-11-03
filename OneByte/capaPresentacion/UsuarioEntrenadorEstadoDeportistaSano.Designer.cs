@@ -71,6 +71,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Rutinas";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // dardeBaja
             // 
@@ -81,6 +82,7 @@
             this.dardeBaja.Name = "dardeBaja";
             this.dardeBaja.Size = new System.Drawing.Size(195, 50);
             this.dardeBaja.Text = "Agenda";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // habilitarUsu
             // 
@@ -91,6 +93,7 @@
             this.habilitarUsu.Name = "habilitarUsu";
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsu.Text = "Deportista";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // gestPagos
             // 
@@ -101,6 +104,7 @@
             this.gestPagos.Name = "gestPagos";
             this.gestPagos.Size = new System.Drawing.Size(195, 50);
             this.gestPagos.Text = "Evolucion";
+            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
             // 
             // datosDelClienteToolStripMenuItem
             // 
@@ -110,6 +114,7 @@
             this.datosDelClienteToolStripMenuItem.Name = "datosDelClienteToolStripMenuItem";
             this.datosDelClienteToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
             this.datosDelClienteToolStripMenuItem.Text = "Datos del cliente";
+            this.datosDelClienteToolStripMenuItem.Click += new System.EventHandler(this.datosDelClienteToolStripMenuItem_Click);
             // 
             // menuStrip2
             // 
@@ -138,6 +143,7 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(120, 50);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

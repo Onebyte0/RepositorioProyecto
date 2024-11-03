@@ -37,11 +37,11 @@
             this.dardeBaja = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
             this.gestPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.datosDelClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.datosDelClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +79,7 @@
             this.controlAsist.BackColor = System.Drawing.Color.LightSlateGray;
             this.controlAsist.Margin = new System.Windows.Forms.Padding(0, 60, 0, 60);
             this.controlAsist.Name = "controlAsist";
+            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
             // 
             // dardeBaja
             // 
@@ -86,6 +87,7 @@
             this.dardeBaja.BackColor = System.Drawing.Color.LightSlateGray;
             this.dardeBaja.Margin = new System.Windows.Forms.Padding(0, -40, 0, -40);
             this.dardeBaja.Name = "dardeBaja";
+            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
             // 
             // habilitarUsu
             // 
@@ -93,6 +95,7 @@
             this.habilitarUsu.BackColor = System.Drawing.Color.LightSlateGray;
             this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
             this.habilitarUsu.Name = "habilitarUsu";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // gestPagos
             // 
@@ -100,6 +103,14 @@
             this.gestPagos.BackColor = System.Drawing.Color.LightSlateGray;
             this.gestPagos.Margin = new System.Windows.Forms.Padding(0, 10, 0, 20);
             this.gestPagos.Name = "gestPagos";
+            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
+            // 
+            // datosDelClienteToolStripMenuItem
+            // 
+            resources.ApplyResources(this.datosDelClienteToolStripMenuItem, "datosDelClienteToolStripMenuItem");
+            this.datosDelClienteToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
+            this.datosDelClienteToolStripMenuItem.Name = "datosDelClienteToolStripMenuItem";
+            this.datosDelClienteToolStripMenuItem.Click += new System.EventHandler(this.datosDelClienteToolStripMenuItem_Click);
             // 
             // menuStrip2
             // 
@@ -118,6 +129,7 @@
             this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
             this.cerrarSesionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(530, 0, 0, 0);
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -128,12 +140,6 @@
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
-            // 
-            // datosDelClienteToolStripMenuItem
-            // 
-            resources.ApplyResources(this.datosDelClienteToolStripMenuItem, "datosDelClienteToolStripMenuItem");
-            this.datosDelClienteToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.datosDelClienteToolStripMenuItem.Name = "datosDelClienteToolStripMenuItem";
             // 
             // UsuarioEntrenadorMain
             // 

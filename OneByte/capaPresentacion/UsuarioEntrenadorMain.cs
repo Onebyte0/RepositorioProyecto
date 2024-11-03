@@ -21,12 +21,7 @@ namespace OneByte
         }
 
 
-        private void agendaRutinas_Click(object sender, EventArgs e)
-        {
-            var agendaRutinas = new UsuarioEntrenadorAgendaRutinasAsignadas();
-            agendaRutinas.Show();
-            this.Close();
-        }
+        
 
        
 
@@ -45,77 +40,45 @@ namespace OneByte
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void controlAsist_Click(object sender, EventArgs e)
         {
-            var cerrarsesion = new Form1();
-            cerrarsesion.Show();
+            UsuarioEntrenadorAgendaRutinasAsignadas usuEntrenadorRutinas= new UsuarioEntrenadorAgendaRutinasAsignadas();
+            usuEntrenadorRutinas.Show();
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void dardeBaja_Click(object sender, EventArgs e)
         {
-            var rutinasSanos = new UsuarioEntrenadorRutinasDeportistasSanos();
-            rutinasSanos.Show();
+            UsuarioEntrenadorAgendaDisponibilidad usuEntrenadorAgenda = new UsuarioEntrenadorAgendaDisponibilidad();
+            usuEntrenadorAgenda.Show();
             this.Close();
         }
 
-        private void gestionCliente_Click(object sender, EventArgs e)
+        private void habilitarUsu_Click(object sender, EventArgs e)
         {
-            var rutinasLesio = new UsuarioEntrenadorRutinasDeportistasLesionados();
-            rutinasLesio.Show();
+            UsuarioEntrenadorEstadoDeportistaSano usuEntrenadorDeportista = new UsuarioEntrenadorEstadoDeportistaSano();
+            usuEntrenadorDeportista.Show();
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void gestPagos_Click(object sender, EventArgs e)
         {
-            var asignarEjerSanos = new UsuarioEntrenadorAsignarEjerciciosRutinas();
-            asignarEjerSanos.Show();
+            UsuarioEntrenadorEstadoDeportistaLesionado usuEntrenadorDeportistaLesionado = new UsuarioEntrenadorEstadoDeportistaLesionado();
+            usuEntrenadorDeportistaLesionado.Show();
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void datosDelClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var descripEjer = new UsuarioEntrenadorDescripcionEjercicios();
-            descripEjer.Show();
+            UsuarioEntrenadorInfoDeportista usuEntrenadorInfoDeportista = new UsuarioEntrenadorInfoDeportista();
+            usuEntrenadorInfoDeportista.Show();
             this.Close();
+
         }
 
-
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var estadoDepor = new UsuarioEntrenadorEstadoDeportistaSano();
-            estadoDepor.Show();
-            this.Close();
-        }
-
-        private void estadoDelLesionadoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var estadoDeporLesio = new UsuarioEntrenadorEstadoDeportistaLesionado();
-            estadoDeporLesio.Show();
-            this.Close();
-        }
-
-        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var infoDepor = new UsuarioEntrenadorInfoDeportista();
-            infoDepor.Show();
-            this.Close();
-        }
-
-     
-
-        private void consRutinas_Click(object sender, EventArgs e)
-        {
-            var agenda = new UsuarioEntrenadorAgendaDisponibilidad();
-            agenda.Show();
-            this.Close();
-        }
-
-        private void estadoPago_Click(object sender, EventArgs e)
-        {
-            var agruparDepor = new UsuarioEntrenadorAgruparDeportistas();
-            agruparDepor.Show();
-            this.Close();
+            Application.Exit();
         }
     }
 
