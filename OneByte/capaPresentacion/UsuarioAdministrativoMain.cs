@@ -46,9 +46,11 @@ namespace OneByte
             this.Close();
         }
 
-        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cerrarSesionToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            Form1 form = new Form1();
+            form.Show();
+            this.Close();
         }
     }
 }

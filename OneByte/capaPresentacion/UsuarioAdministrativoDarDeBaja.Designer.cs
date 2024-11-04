@@ -41,8 +41,8 @@
             this.controlDeAsistenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDePagosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.menuStrip2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -50,10 +50,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(260, 148);
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(249, 145);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 18);
+            this.label6.Size = new System.Drawing.Size(104, 21);
             this.label6.TabIndex = 60;
             this.label6.Text = "Documento:";
             // 
@@ -194,29 +194,27 @@
             this.gestionDePagosToolStripMenuItem1.Text = "Gestion de Pagos";
             this.gestionDePagosToolStripMenuItem1.Click += new System.EventHandler(this.gestionDePagosToolStripMenuItem1_Click);
             // 
-            // radioButton4
+            // radioButton8
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(431, 185);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(76, 25);
-            this.radioButton4.TabIndex = 76;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Cédula";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton8.Location = new System.Drawing.Point(435, 189);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(77, 24);
+            this.radioButton8.TabIndex = 96;
+            this.radioButton8.Text = "Cédula";
+            this.radioButton8.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioButton7
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(325, 185);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(96, 25);
-            this.radioButton3.TabIndex = 75;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Pasaporte";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.Location = new System.Drawing.Point(329, 189);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(100, 24);
+            this.radioButton7.TabIndex = 94;
+            this.radioButton7.Text = "Pasaporte";
+            this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // UsuarioAdministrativoDarDeBaja
             // 
@@ -224,8 +222,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(884, 461);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton8);
+            this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.label1);
@@ -261,7 +259,7 @@
         private System.Windows.Forms.ToolStripMenuItem controlDeAsistenciaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDePagosToolStripMenuItem1;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.RadioButton radioButton7;
     }
 }

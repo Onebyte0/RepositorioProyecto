@@ -208,7 +208,7 @@
             this.departamentoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.departamentoCliente.Location = new System.Drawing.Point(264, 382);
             this.departamentoCliente.Name = "departamentoCliente";
-            this.departamentoCliente.Size = new System.Drawing.Size(243, 24);
+            this.departamentoCliente.Size = new System.Drawing.Size(265, 24);
             this.departamentoCliente.TabIndex = 80;
             // 
             // comboBox1

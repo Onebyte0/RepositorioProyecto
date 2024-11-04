@@ -9,16 +9,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using OneByte.capaLogica;
-using OneByte.capaLogica.Cliente;
+using MySql.Data.MySqlClient;
 
 
 namespace OneByte
 {
     public partial class Form1 : Form
     {
+       
         public Form1()
         {
-            InitializeComponent(); 
+            InitializeComponent();
+
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
 
@@ -39,80 +41,19 @@ namespace OneByte
 
         private void iniciarsesion_Click(object sender, EventArgs e)
         {
-
-            string numDoc = documento.Text;        
-            string contraseña = contraseñaUsuario.Text;
-
-            ClienteControlador controlador = new ClienteControlador();
-            if (controlador.IniciarSesion(numDoc, contraseña))
-            {
-                MessageBox.Show("Inicio de sesión exitoso");
-                // Redirigir al usuario o abrir la siguiente pantalla aquí
-            }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos.");
-            }
+           
+             
 
 
-            // Verificar si se ha seleccionado una opción en la ComboBox
-            if (comboBox1.SelectedItem != null)
-            {
-                conexionBD con = new conexionBD();
-                if (con.AbrirConexion()) {
-                    Console.WriteLine("Conexion exitosa");
 
-                }else
-                {
-                    Console.WriteLine("Error");
-                }
 
-                // Obtener la opción seleccionada
-                string selectedOption = comboBox1.SelectedItem.ToString();
-
-                // Abrir la ventana correspondiente según la opción seleccionada
-                switch (selectedOption)
-                {
-                    case "Administrativo":
-                        UsuarioAdministrativoMain Usuadmin = new UsuarioAdministrativoMain(); // Ventana para "Administrativo"
-                        Usuadmin.Show();
-                        break;
-                    case "Avanzado":
-                        UsuarioAvanzadoMain Usuavanzado = new UsuarioAvanzadoMain(); // Ventana para "Avanzado"
-                        Usuavanzado.Show();
-                        break;
-                    case "Cliente":
-                        UsuarioClienteMain Usucliente = new UsuarioClienteMain(); // Ventana para "Cliente"
-                        Usucliente.Show();
-                        break;
-                    case "Entrenador":
-                        UsuarioEntrenadorMain Usuentrenador = new UsuarioEntrenadorMain(); // Ventana para "Entrenador"
-                        Usuentrenador.Show();
-                        break;
-                    case "Seleccionador":
-                        UsuarioSeleccionadorMain Ususeleccionador = new UsuarioSeleccionadorMain(); // Ventana para "Seleccionador"
-                        Ususeleccionador.Show();
-                        break;
-                    default:
-                        MessageBox.Show("Seleccione una opción válida.");
-                        break;
-                }
-
-                // Si deseas cerrar la ventana actual al abrir la nueva
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Por favor, seleccione una opción antes de iniciar sesión.");
-            }
             
         }
 
         private void salir_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+    }
 
-        
     }
 }

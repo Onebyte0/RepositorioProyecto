@@ -61,7 +61,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(178, 21);
             this.comboBox1.TabIndex = 4;
-           
             // 
             // label1
             // 
@@ -93,7 +92,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(178, 21);
             this.comboBox2.TabIndex = 7;
-           
             // 
             // label2
             // 
@@ -178,7 +176,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-           
             this.ResumeLayout(false);
             this.PerformLayout();
 

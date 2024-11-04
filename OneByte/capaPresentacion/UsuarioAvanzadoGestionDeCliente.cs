@@ -46,7 +46,7 @@ namespace OneByte.capaPresentacion
 
         private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
         }
     }
     
