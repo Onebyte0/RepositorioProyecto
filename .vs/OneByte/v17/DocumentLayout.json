@@ -1,25 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capalogica\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\onebyte\\capalogica\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capalogica\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capalogica\\cliente\\clientecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capalogica\\cliente\\clientecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\lucia\\onedrive\\documentos\\github\\repositorioproyecto\\onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\christian\\documents\\github\\repositorioproyecto\\onebyte\\capalogica\\cliente\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capalogica\\cliente\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,79 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteControlador.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\Cliente\\ClienteControlador.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaLogica\\Cliente\\ClienteControlador.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\Cliente\\ClienteControlador.cs",
-              "RelativeToolTip": "OneByte\\capaLogica\\Cliente\\ClienteControlador.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:49:19.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\Cliente\\Cliente.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaLogica\\Cliente\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\Cliente\\Cliente.cs",
-              "RelativeToolTip": "OneByte\\capaLogica\\Cliente\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T16:22:54.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "conexionBD.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\conexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\conexionBD.cs",
               "RelativeDocumentMoniker": "OneByte\\capaLogica\\conexionBD.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\conexionBD.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\OneByte\\capaLogica\\conexionBD.cs",
               "RelativeToolTip": "OneByte\\capaLogica\\conexionBD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAADwvzsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T22:54:20.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs",
               "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\Form1.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs",
               "RelativeToolTip": "OneByte\\capaPresentacion\\Form1.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T16:19:00.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs",
               "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\Form1.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Documentos\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "OneByte\\capaPresentacion\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T02:32:28.93Z",

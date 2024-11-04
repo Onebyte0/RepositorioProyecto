@@ -16,21 +16,19 @@ namespace OneByte
 {
     public partial class Form1 : Form
     {
-       
+        ConexionBD con = new ConexionBD();
         public Form1()
         {
             InitializeComponent();
 
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-
+            cmbRol.DropDownStyle = ComboBoxStyle.DropDownList;
 
             // Agregar opciones a la ComboBox
-            comboBox1.Items.Add("Administrativo");
-            comboBox1.Items.Add("Avanzado");
-            comboBox1.Items.Add("Cliente");
-            comboBox1.Items.Add("Entrenador");
-            comboBox1.Items.Add("Seleccionador");
+            cmbRol.Items.Add("Administrativo");
+            cmbRol.Items.Add("Avanzado");
+            cmbRol.Items.Add("Cliente");
+            cmbRol.Items.Add("Entrenador");
+            cmbRol.Items.Add("Seleccionador");
 
             // Asociar el evento Click del botón con el manejador
             iniciarsesion.Click -= iniciarsesion_Click;
@@ -41,13 +39,55 @@ namespace OneByte
 
         private void iniciarsesion_Click(object sender, EventArgs e)
         {
-           
-             
+            string nroDoc = documento.Text;
+            string contraseña = contraseñaUsuario.Text;
+            string rol = cmbRol.SelectedItem.ToString();
 
+            // Verificamos las credenciales
+            if (con.User(nroDoc, contraseña, rol))
+            {
+                IniciarSesionPorRol(rol, nroDoc); // Llamamos a la función para abrir el form según el rol
+            }
+            else
+            {
+                MessageBox.Show("Usuario, contraseña o rol incorrectos." + MessageBoxButtons.OK);
+            }
 
+        }
+        private void IniciarSesionPorRol(string rol, string nroDoc)
+        {
+            Form formulario = null;
 
+            // Verificamos el rol
+            switch (rol)
+            {
+                case "Administrativo":
+                    formulario = new UsuarioAdministrativoMain();
+                    break;
+                case "Avanzado":
+                    formulario = new UsuarioAvanzadoMain();
+                    break;
+                case "Cliente":
+                    formulario = new UsuarioClienteMain();
+                    break;
+                case "Entrenador":
+                    formulario = new UsuarioEntrenadorMain();
+                    break;
+                case "Seleccionador":
+                    formulario = new UsuarioSeleccionadorMain();
+                    break;
+                default:
+                    MessageBox.Show("Usuario no reconocido");
+                    break;
+            }
 
-            
+            // Si existe un formulario asociado al rol, lo mostramos
+            if (formulario != null)
+            {
+                this.Hide(); // Ocultamos el formulario de login
+                formulario.ShowDialog(); // Mostramos el formulario
+                this.Show(); // Mostramos nuevamente el formulario de login cuando se cierre el form del rol
+            }
         }
 
         private void salir_Click(object sender, EventArgs e)
@@ -55,5 +95,9 @@ namespace OneByte
             Application.Exit();
     }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

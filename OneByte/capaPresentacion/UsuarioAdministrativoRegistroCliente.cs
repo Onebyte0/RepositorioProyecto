@@ -23,7 +23,7 @@ namespace OneByte.capaPresentacion
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {/*
             cliente nuevoCliente = new cliente()
             {
                
@@ -36,9 +36,9 @@ namespace OneByte.capaPresentacion
                 fecha = DateTime.Parse(fechaNacCliente.Text),
                 
             };
-
+            */
             ClienteControlador clienteControlador = new ClienteControlador();
-            bool success = clienteControlador.AgregarCliente(nuevoCliente);
+           /*bool success = clienteControlador.AgregarCliente(nuevoCliente);
 
             if (success)
             {
@@ -47,7 +47,7 @@ namespace OneByte.capaPresentacion
             else
             {
                 MessageBox.Show("Error al agregar el cliente.");
-            }
+            }*/
         }
 
        

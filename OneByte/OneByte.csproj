@@ -65,6 +65,7 @@
     <Compile Include="capaLogica\Rutinas\Rutina.cs" />
     <Compile Include="capaLogica\Seleccionador\Seleccionador.cs" />
     <Compile Include="capaLogica\Sucursal\Sucursal.cs" />
+    <Compile Include="capaLogica\usuario.cs" />
     <Compile Include="capaPresentacion\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
