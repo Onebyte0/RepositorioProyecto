@@ -16,6 +16,8 @@ namespace OneByte.capaPresentacion
 {
     public partial class UsuarioAdministrativoRegistroCliente : Form
     {
+        private ClienteControlador cc = new ClienteControlador();
+        private usuarioControlador uc = new usuarioControlador();
         public UsuarioAdministrativoRegistroCliente()
         {
             InitializeComponent();
@@ -23,31 +25,28 @@ namespace OneByte.capaPresentacion
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {/*
-            cliente nuevoCliente = new cliente()
-            {
-               
-                numDoc = docCliente.Text,
-                primerNom = nombreCliente.Text,
-                primerApe = apellidoCliente.Text,
-                direccion = calleCliente.Text,
-                numCalle = int.Parse(numCalleCliente.Text),
-                departamento = departamentoCliente.Text,
-                fecha = DateTime.Parse(fechaNacCliente.Text),
-                
-            };
-            */
-            ClienteControlador clienteControlador = new ClienteControlador();
-           /*bool success = clienteControlador.AgregarCliente(nuevoCliente);
+        {
+            string idCliente = txtIDCliente.Text;
+            string numDoc = docCliente.Text;
+            string tipoDoc = cmbTipoDoc.SelectedItem.ToString();
+            string primerNom = txtPrimerNombre.Text;
+            string segundoNom = txtSegundoNombre.Text;
+            string primerApe = txtPrimerApellido.Text;
+            string segundoApe = txtSegundoApellido.Text;
+            string Direccion = txtCalle.Text;
+            int numCalle = int.TryParse(txtNroCalle.Text, out int n) ? n : 0;
+            string Departamento = cmbDepartamento.SelectedItem?.ToString();
+            string Deporte = deporteCliente.Text; 
+            DateTime? Fecha = fechaNacimiento.Value;
+            string estPago = txtCalle.Text;
+            string contraseña = txtContraseña.Text;
+            string rol = cmbRol.SelectedItem?.ToString();
 
-            if (success)
-            {
-                MessageBox.Show("Cliente agregado exitosamente.");
-            }
-            else
-            {
-                MessageBox.Show("Error al agregar el cliente.");
-            }*/
+            ClienteControlador controlador = new ClienteControlador();
+            controlador.addCliente(idCliente, tipoDoc, numDoc, primerNom, segundoNom, primerApe, segundoApe, Direccion, numCalle, Departamento, Fecha, estPago, Deporte, Contraseña);
+
+            usuarioControlador controlador1 = new usuarioControlador();
+            controlador1.addUsuario(numDoc, contraseña, rol);
         }
 
        
@@ -78,6 +77,21 @@ namespace OneByte.capaPresentacion
             UsuarioAdministrativoMain usuAdminMain = new UsuarioAdministrativoMain();
             usuAdminMain.Show();
             this.Close();
+        }
+
+        private void UsuarioAdministrativoRegistroCliente_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void docCliente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
  }

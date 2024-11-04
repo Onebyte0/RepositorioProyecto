@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
+            this.guardarCliente = new System.Windows.Forms.Button();
             this.eliminarCliente = new System.Windows.Forms.Button();
             this.editarCliente = new System.Windows.Forms.Button();
             this.agregarCliente = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabla = new System.Windows.Forms.DataGridView();
             this.nombreCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbTipoDoc = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtSegundoNombre = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSegundoApellido = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtPrimerApellido = new System.Windows.Forms.TextBox();
+            this.cmbTipoCliente = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.calleCliente = new System.Windows.Forms.TextBox();
+            this.txtCalle = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,13 +56,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.numCalleCliente = new System.Windows.Forms.TextBox();
+            this.txtNroCalle = new System.Windows.Forms.TextBox();
             this.posicionCliente = new System.Windows.Forms.TextBox();
             this.deporteCliente = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPrimerNombre = new System.Windows.Forms.TextBox();
             this.docCliente = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.fechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.cmbDepartamento = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.controlAsist = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,20 +70,25 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.cmbRol = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.tabla)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button3
+            // guardarCliente
             // 
-            this.button3.BackColor = System.Drawing.Color.LightGreen;
-            this.button3.Location = new System.Drawing.Point(771, 420);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 34);
-            this.button3.TabIndex = 95;
-            this.button3.Text = "Guardar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.guardarCliente.BackColor = System.Drawing.Color.LightGreen;
+            this.guardarCliente.Location = new System.Drawing.Point(771, 420);
+            this.guardarCliente.Name = "guardarCliente";
+            this.guardarCliente.Size = new System.Drawing.Size(105, 34);
+            this.guardarCliente.TabIndex = 95;
+            this.guardarCliente.Text = "Guardar";
+            this.guardarCliente.UseVisualStyleBackColor = false;
+            this.guardarCliente.Click += new System.EventHandler(this.guardarCliente_Click);
             // 
             // eliminarCliente
             // 
@@ -94,6 +99,7 @@
             this.eliminarCliente.TabIndex = 74;
             this.eliminarCliente.Text = "Eliminar ";
             this.eliminarCliente.UseVisualStyleBackColor = true;
+            this.eliminarCliente.Click += new System.EventHandler(this.eliminarCliente_Click);
             // 
             // editarCliente
             // 
@@ -115,16 +121,16 @@
             this.agregarCliente.Text = "Agregar ";
             this.agregarCliente.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // tabla
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nombreCliente,
             this.idCliente});
-            this.dataGridView1.Location = new System.Drawing.Point(233, 122);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(207, 279);
-            this.dataGridView1.TabIndex = 71;
+            this.tabla.Location = new System.Drawing.Point(233, 122);
+            this.tabla.Name = "tabla";
+            this.tabla.Size = new System.Drawing.Size(207, 279);
+            this.tabla.TabIndex = 71;
             // 
             // nombreCliente
             // 
@@ -159,16 +165,16 @@
             this.label15.TabIndex = 128;
             this.label15.Text = "*Tipo de Doc";
             // 
-            // comboBox2
+            // cmbTipoDoc
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmbTipoDoc.FormattingEnabled = true;
+            this.cmbTipoDoc.Items.AddRange(new object[] {
             "Pasaporte",
             "CI"});
-            this.comboBox2.Location = new System.Drawing.Point(572, 170);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 127;
+            this.cmbTipoDoc.Location = new System.Drawing.Point(572, 170);
+            this.cmbTipoDoc.Name = "cmbTipoDoc";
+            this.cmbTipoDoc.Size = new System.Drawing.Size(100, 21);
+            this.cmbTipoDoc.TabIndex = 127;
             // 
             // label14
             // 
@@ -200,12 +206,12 @@
             this.label12.TabIndex = 124;
             this.label12.Text = "Segundo nombre";
             // 
-            // textBox4
+            // txtSegundoNombre
             // 
-            this.textBox4.Location = new System.Drawing.Point(572, 266);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 123;
+            this.txtSegundoNombre.Location = new System.Drawing.Point(572, 266);
+            this.txtSegundoNombre.Name = "txtSegundoNombre";
+            this.txtSegundoNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtSegundoNombre.TabIndex = 123;
             // 
             // label11
             // 
@@ -217,12 +223,12 @@
             this.label11.TabIndex = 122;
             this.label11.Text = "Segundo apellido";
             // 
-            // textBox2
+            // txtSegundoApellido
             // 
-            this.textBox2.Location = new System.Drawing.Point(572, 339);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 121;
+            this.txtSegundoApellido.Location = new System.Drawing.Point(572, 339);
+            this.txtSegundoApellido.Name = "txtSegundoApellido";
+            this.txtSegundoApellido.Size = new System.Drawing.Size(100, 20);
+            this.txtSegundoApellido.TabIndex = 121;
             // 
             // label8
             // 
@@ -234,23 +240,23 @@
             this.label8.TabIndex = 120;
             this.label8.Text = "*Primer apellido";
             // 
-            // textBox3
+            // txtPrimerApellido
             // 
-            this.textBox3.Location = new System.Drawing.Point(572, 302);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 119;
+            this.txtPrimerApellido.Location = new System.Drawing.Point(572, 302);
+            this.txtPrimerApellido.Name = "txtPrimerApellido";
+            this.txtPrimerApellido.Size = new System.Drawing.Size(100, 20);
+            this.txtPrimerApellido.TabIndex = 119;
             // 
-            // comboBox1
+            // cmbTipoCliente
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbTipoCliente.FormattingEnabled = true;
+            this.cmbTipoCliente.Items.AddRange(new object[] {
             "Lesionado",
             "Deportista"});
-            this.comboBox1.Location = new System.Drawing.Point(572, 135);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 118;
+            this.cmbTipoCliente.Location = new System.Drawing.Point(572, 135);
+            this.cmbTipoCliente.Name = "cmbTipoCliente";
+            this.cmbTipoCliente.Size = new System.Drawing.Size(100, 21);
+            this.cmbTipoCliente.TabIndex = 118;
             // 
             // label10
             // 
@@ -262,12 +268,13 @@
             this.label10.TabIndex = 117;
             this.label10.Text = "*Calle";
             // 
-            // calleCliente
+            // txtCalle
             // 
-            this.calleCliente.Location = new System.Drawing.Point(772, 203);
-            this.calleCliente.Name = "calleCliente";
-            this.calleCliente.Size = new System.Drawing.Size(100, 20);
-            this.calleCliente.TabIndex = 116;
+            this.txtCalle.Location = new System.Drawing.Point(772, 203);
+            this.txtCalle.Name = "txtCalle";
+            this.txtCalle.Size = new System.Drawing.Size(100, 20);
+            this.txtCalle.TabIndex = 116;
+            this.txtCalle.TextChanged += new System.EventHandler(this.calleCliente_TextChanged);
             // 
             // label9
             // 
@@ -339,12 +346,12 @@
             this.label16.TabIndex = 109;
             this.label16.Text = "Deporte";
             // 
-            // numCalleCliente
+            // txtNroCalle
             // 
-            this.numCalleCliente.Location = new System.Drawing.Point(772, 135);
-            this.numCalleCliente.Name = "numCalleCliente";
-            this.numCalleCliente.Size = new System.Drawing.Size(100, 20);
-            this.numCalleCliente.TabIndex = 107;
+            this.txtNroCalle.Location = new System.Drawing.Point(772, 135);
+            this.txtNroCalle.Name = "txtNroCalle";
+            this.txtNroCalle.Size = new System.Drawing.Size(100, 20);
+            this.txtNroCalle.TabIndex = 107;
             // 
             // posicionCliente
             // 
@@ -355,17 +362,17 @@
             // 
             // deporteCliente
             // 
-            this.deporteCliente.Location = new System.Drawing.Point(772, 239);
+            this.deporteCliente.Location = new System.Drawing.Point(771, 239);
             this.deporteCliente.Name = "deporteCliente";
             this.deporteCliente.Size = new System.Drawing.Size(99, 20);
             this.deporteCliente.TabIndex = 105;
             // 
-            // textBox1
+            // txtPrimerNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(572, 235);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 103;
+            this.txtPrimerNombre.Location = new System.Drawing.Point(572, 235);
+            this.txtPrimerNombre.Name = "txtPrimerNombre";
+            this.txtPrimerNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtPrimerNombre.TabIndex = 103;
             // 
             // docCliente
             // 
@@ -374,17 +381,17 @@
             this.docCliente.Size = new System.Drawing.Size(100, 20);
             this.docCliente.TabIndex = 102;
             // 
-            // dateTimePicker1
+            // fechaNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(616, 375);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(191, 20);
-            this.dateTimePicker1.TabIndex = 129;
+            this.fechaNacimiento.Location = new System.Drawing.Point(616, 375);
+            this.fechaNacimiento.Name = "fechaNacimiento";
+            this.fechaNacimiento.Size = new System.Drawing.Size(191, 20);
+            this.fechaNacimiento.TabIndex = 129;
             // 
-            // comboBox3
+            // cmbDepartamento
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cmbDepartamento.FormattingEnabled = true;
+            this.cmbDepartamento.Items.AddRange(new object[] {
             "Montevideo",
             "Canelones",
             "Colonia",
@@ -404,10 +411,10 @@
             "Treinta Y Tres",
             "Lavalleja",
             "Soriano"});
-            this.comboBox3.Location = new System.Drawing.Point(771, 170);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(100, 21);
-            this.comboBox3.TabIndex = 130;
+            this.cmbDepartamento.Location = new System.Drawing.Point(771, 170);
+            this.cmbDepartamento.Name = "cmbDepartamento";
+            this.cmbDepartamento.Size = new System.Drawing.Size(100, 21);
+            this.cmbDepartamento.TabIndex = 130;
             // 
             // menuStrip1
             // 
@@ -492,28 +499,71 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 60);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(680, 309);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 16);
+            this.label3.TabIndex = 134;
+            this.label3.Text = "*Contraseña";
+            // 
+            // txtContraseña
+            // 
+            this.txtContraseña.Location = new System.Drawing.Point(772, 305);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(100, 20);
+            this.txtContraseña.TabIndex = 133;
+            // 
+            // cmbRol
+            // 
+            this.cmbRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.cmbRol.FormattingEnabled = true;
+            this.cmbRol.Items.AddRange(new object[] {
+            "Cliente"});
+            this.cmbRol.Location = new System.Drawing.Point(772, 334);
+            this.cmbRol.Name = "cmbRol";
+            this.cmbRol.Size = new System.Drawing.Size(100, 21);
+            this.cmbRol.TabIndex = 136;
+            this.cmbRol.Text = "Cliente";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(729, 339);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(37, 16);
+            this.label17.TabIndex = 135;
+            this.label17.Text = "*Rol";
+            // 
             // UsuarioAvanzadoGestionDeCliente
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.cmbRol);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.cmbDepartamento);
+            this.Controls.Add(this.fechaNacimiento);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cmbTipoDoc);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtSegundoNombre);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtSegundoApellido);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txtPrimerApellido);
+            this.Controls.Add(this.cmbTipoCliente);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.calleCliente);
+            this.Controls.Add(this.txtCalle);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -521,16 +571,16 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.numCalleCliente);
+            this.Controls.Add(this.txtNroCalle);
             this.Controls.Add(this.posicionCliente);
             this.Controls.Add(this.deporteCliente);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPrimerNombre);
             this.Controls.Add(this.docCliente);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.guardarCliente);
             this.Controls.Add(this.eliminarCliente);
             this.Controls.Add(this.editarCliente);
             this.Controls.Add(this.agregarCliente);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.tabla);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "UsuarioAvanzadoGestionDeCliente";
@@ -538,7 +588,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoGestionDeCliente";
             this.Load += new System.EventHandler(this.UsuarioAvanzadoGestionDeCliente_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tabla)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
@@ -550,25 +600,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button guardarCliente;
         private System.Windows.Forms.Button eliminarCliente;
         private System.Windows.Forms.Button editarCliente;
         private System.Windows.Forms.Button agregarCliente;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView tabla;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbTipoDoc;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtSegundoNombre;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSegundoApellido;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtPrimerApellido;
+        private System.Windows.Forms.ComboBox cmbTipoCliente;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox calleCliente;
+        private System.Windows.Forms.TextBox txtCalle;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -576,13 +626,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox numCalleCliente;
+        private System.Windows.Forms.TextBox txtNroCalle;
         private System.Windows.Forms.TextBox posicionCliente;
         private System.Windows.Forms.TextBox deporteCliente;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPrimerNombre;
         private System.Windows.Forms.TextBox docCliente;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.DateTimePicker fechaNacimiento;
+        private System.Windows.Forms.ComboBox cmbDepartamento;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem controlAsist;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
@@ -592,5 +642,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn idCliente;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.ComboBox cmbRol;
+        private System.Windows.Forms.Label label17;
     }
 }
