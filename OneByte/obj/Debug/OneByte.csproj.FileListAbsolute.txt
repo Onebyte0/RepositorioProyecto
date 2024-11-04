@@ -422,7 +422,6 @@ C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\On
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.AssemblyReference.cache
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Form1.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoRegistroCliente.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAvanzadoGestionDeCliente.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioClienteAgendaDisponibilidad.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioClienteAgendaRutinasAsignadas.resources
@@ -447,10 +446,6 @@ C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioSeleccionadorEquipos.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Properties.Resources.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDeAsistencia.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoControlDePago.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoDarDeBaja.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAdministrativoMain.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoGestionDeEmpleados.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoIngresoEjercicios.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoMain.resources
@@ -468,3 +463,4 @@ C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\bin\Debug\
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\bin\Debug\Google.Protobuf.dll
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.Data.xml
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
+C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoMain.resources

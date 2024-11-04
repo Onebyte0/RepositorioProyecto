@@ -27,7 +27,7 @@ namespace OneByte.capaLogica
             while (reader.Read())
             {
                 // Evitar duplicados comprobando si el usuario ya está en la lista antes de agregarlo
-                string nroDocumento = Convert.ToString(reader["NRO_DOCUMENTO"]);
+                string nroDocumento = Convert.ToString(reader["numDoc"]);
                 if (this.usuarios.Any(c => c.nro_documento == nroDocumento))
                 {
                     // usuario ya existe, omitir
@@ -35,19 +35,19 @@ namespace OneByte.capaLogica
                 }
 
                 this.addUsuario(
-                    Convert.ToString(reader["NRO_DOCUMENTO"]),
-                    Convert.ToString(reader["CONTRASEÑA"]),
-                    Convert.ToString(reader["ROL"])
+                    Convert.ToString(reader["numDoc"]),
+                    Convert.ToString(reader["contraseña"]),
+                    Convert.ToString(reader["rol"])
                 );
             }
 
             con.closeCon();
         }
 
-        public void addUsuario(string nroDocumento, string contraseña, string rol)
+        public void addUsuario(string numDoc, string contraseña, string rol)
         {
             // Verificar si el cliente ya está en la lista para evitar duplicación
-            if (this.usuarios.Any(c => c.nro_documento == nroDocumento))
+            if (this.usuarios.Any(c => c.nro_documento == numDoc))
             {
                 return;
             }
@@ -58,10 +58,10 @@ namespace OneByte.capaLogica
                 {
                     con.Open();
 
-                    string checkQuery = "SELECT COUNT(*) FROM USUARIO WHERE NRO_DOCUMENTO = @NroDocumento";
+                    string checkQuery = "SELECT COUNT(*) FROM USUARIO WHERE NUMDOC = @NumDoc";
                     using (MySqlCommand checkCmd = new MySqlCommand(checkQuery, con))
                     {
-                        checkCmd.Parameters.AddWithValue("@NroDocumento", nroDocumento);
+                        checkCmd.Parameters.AddWithValue("@NumDoc", numDoc);
                         int count = Convert.ToInt32(checkCmd.ExecuteScalar());
 
                         if (count > 0)
@@ -71,17 +71,16 @@ namespace OneByte.capaLogica
                         }
                     }
 
-                    string query = @"INSERT INTO USUARIO (NRO_DOCUMENTO, CONTRASENIA, ROL)
-                             VALUES (@NroDocumento, @Contrasenia, @Rol)";
+                    string query = @"INSERT INTO USUARIO (NUMDOC, CONTRASEÑA, ROL)
+                             VALUES (@NumDoc, @Contraseña, @Rol)";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, con))
                     {
-                        cmd.Parameters.AddWithValue("@NroDocumento", nroDocumento);
-                        cmd.Parameters.AddWithValue("@Contrasenia", contrasenia);
+                        cmd.Parameters.AddWithValue("@NumDoc", numDoc);
+                        cmd.Parameters.AddWithValue("@Contraseña", contraseña);
                         cmd.Parameters.AddWithValue("@Rol", rol);
 
                         cmd.ExecuteNonQuery();
-
                         
                     }
                 }
@@ -96,9 +95,9 @@ namespace OneByte.capaLogica
             return this.usuarios;
         }
 
-        public usuario findUsuario(string NRO_DOCUMENTO)
+        public usuario findUsuario(string NUMDOC)
         {
-            return this.usuarios.Find(x => x.nro_documento.Contains(NRO_DOCUMENTO));
+            return this.usuarios.Find(x => x.nro_documento.Contains(NUMDOC));
         }
 
         public bool RegistrarUsuario(usuario usuario)

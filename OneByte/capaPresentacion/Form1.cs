@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using OneByte.capaLogica;
 using MySql.Data.MySqlClient;
+using OneByte.capaPresentacion;
 
 
 namespace OneByte

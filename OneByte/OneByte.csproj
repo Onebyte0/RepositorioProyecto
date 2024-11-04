@@ -73,11 +73,11 @@
     <Compile Include="capaPresentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoRegistroCliente.cs">
+    <Compile Include="capaPresentacion\Administrativo\UsuarioAdministrativoMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoRegistroCliente.Designer.cs">
-      <DependentUpon>UsuarioAdministrativoRegistroCliente.cs</DependentUpon>
+    <Compile Include="capaPresentacion\Administrativo\UsuarioAdministrativoMain.Designer.cs">
+      <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
     </Compile>
     <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.cs">
       <SubType>Form</SubType>
@@ -219,30 +219,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="capaPresentacion\UsuarioAdministrativoControlDeAsistencia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoControlDeAsistencia.Designer.cs">
-      <DependentUpon>UsuarioAdministrativoControlDeAsistencia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoControlDePago.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoControlDePago.Designer.cs">
-      <DependentUpon>UsuarioAdministrativoControlDePago.cs</DependentUpon>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoDarDeBaja.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoDarDeBaja.Designer.cs">
-      <DependentUpon>UsuarioAdministrativoDarDeBaja.cs</DependentUpon>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAdministrativoMain.Designer.cs">
-      <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
-    </Compile>
     <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -282,8 +258,8 @@
     <EmbeddedResource Include="capaPresentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAdministrativoRegistroCliente.resx">
-      <DependentUpon>UsuarioAdministrativoRegistroCliente.cs</DependentUpon>
+    <EmbeddedResource Include="capaPresentacion\Administrativo\UsuarioAdministrativoMain.resx">
+      <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.resx">
       <DependentUpon>UsuarioAvanzadoGestionDeCliente.cs</DependentUpon>
@@ -364,18 +340,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAdministrativoControlDeAsistencia.resx">
-      <DependentUpon>UsuarioAdministrativoControlDeAsistencia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAdministrativoControlDePago.resx">
-      <DependentUpon>UsuarioAdministrativoControlDePago.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAdministrativoDarDeBaja.resx">
-      <DependentUpon>UsuarioAdministrativoDarDeBaja.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAdministrativoMain.resx">
-      <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoGestionDeEmpleados.resx">
       <DependentUpon>UsuarioAvanzadoGestionDeEmpleados.cs</DependentUpon>
     </EmbeddedResource>
@@ -425,6 +389,8 @@
   <ItemGroup>
     <None Include="Resources\31BeKrgtq5L._AC_UF894,1000_QL80_.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="capaPresentacion\Cliente\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ namespace OneByte.capaPresentacion
     {
 
         private MySqlConnection con;
-        string connectionString = "server=localhost;database=onebye;uid=root;pwd=;";
+        string connectionString = "server=localhost;database=onebtye;uid=root;pwd=;";
         public UsuarioAvanzadoGestionDeCliente()
         {
             InitializeComponent();

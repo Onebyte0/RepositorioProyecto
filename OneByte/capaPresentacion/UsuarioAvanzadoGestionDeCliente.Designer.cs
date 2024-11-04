@@ -429,7 +429,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(219, 461);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 583);
             this.menuStrip1.TabIndex = 131;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -468,10 +468,8 @@
             // 
             // menuStrip2
             // 
-            this.menuStrip2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.menuStrip2.AutoSize = false;
             this.menuStrip2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cerrarSesionToolStripMenuItem,
@@ -479,7 +477,7 @@
             this.menuStrip2.Location = new System.Drawing.Point(219, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip2.Size = new System.Drawing.Size(665, 62);
+            this.menuStrip2.Size = new System.Drawing.Size(863, 62);
             this.menuStrip2.TabIndex = 132;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -542,7 +540,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SlateGray;
-            this.ClientSize = new System.Drawing.Size(884, 461);
+            this.ClientSize = new System.Drawing.Size(1082, 583);
             this.Controls.Add(this.cmbRol);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label3);
@@ -587,6 +585,7 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoGestionDeCliente";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.UsuarioAvanzadoGestionDeCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabla)).EndInit();
             this.menuStrip1.ResumeLayout(false);

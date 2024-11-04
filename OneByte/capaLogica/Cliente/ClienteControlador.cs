@@ -44,16 +44,17 @@ namespace OneByte.capaLogica.Cliente
                 }
 
                 this.Clientes.Add(new cliente(
-                    Convert.ToString(reader["idCliente"]),
+                    Convert.ToInt32(reader["idCliente"]),
                     Convert.ToString(reader["tipoDoc"]),
                     Convert.ToString(reader["numDoc"]),
                     Convert.ToString(reader["primerNom"]),
+                    Convert.ToString(reader["segundoNom"]),
                     Convert.ToString(reader["primerApe"]),
                     Convert.ToString(reader["segundoApe"]),
                     Convert.ToString(reader["Direccion"]),
                     Convert.ToInt32(reader["numCalle"]),
-                    fechaNac,
                     Convert.ToString(reader["Departamento"]),
+                    fechaNac,
                     Convert.ToString(reader["estPago"]),
                     Convert.ToString(reader["Deporte"]),
                     Convert.ToString(reader["Contraseña"])
@@ -64,7 +65,7 @@ namespace OneByte.capaLogica.Cliente
             con.closeCon();
         }
 
-        public void addCliente(string idCliente, string tipoDoc, string numDoc,string primerNom, string segundoNom, string primerApe, string segundoApe, string Direccion, int numCalle, string Departamento, DateTime? Fecha, string estPago, string Deporte, string Contraseña)
+        public void addCliente(int idCliente, string tipoDoc, string numDoc,string primerNom, string segundoNom, string primerApe, string segundoApe, string Direccion, int numCalle, string Departamento, DateTime? Fecha, string estPago, string Deporte, string Contraseña)
         {
             // Verificar si el cliente ya está en la lista para evitar duplicación
             if (this.Clientes.Any(c => c.num_doc == numDoc))
@@ -130,7 +131,7 @@ namespace OneByte.capaLogica.Cliente
             }
 
             addCliente(
-                cliente.idCliente,
+                cliente.id_cliente,
                 cliente.tipo_doc,
                 cliente.num_doc,
                 cliente.primer_nom,
@@ -144,8 +145,6 @@ namespace OneByte.capaLogica.Cliente
                 cliente.est_pago,
                 cliente.deporte,
                 cliente.contraseña
-
-
             );
 
             return true;
