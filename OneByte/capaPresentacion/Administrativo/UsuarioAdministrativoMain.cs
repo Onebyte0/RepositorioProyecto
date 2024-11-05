@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using MySqlX.XDevAPI;
 using OneByte.capaLogica.Cliente;
 using OneByte.capaPresentacion;
-using MySql.Data.MySqlClient.Memcached;
+//using MySql.Data.MySqlClient.Memcached;
 using MySql.Data.MySqlClient;
 
 namespace OneByte.capaPresentacion

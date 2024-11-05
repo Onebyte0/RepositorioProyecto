@@ -64,57 +64,22 @@
             // 
             // controlAsist
             // 
-            this.controlAsist.AutoSize = false;
-            this.controlAsist.BackColor = System.Drawing.Color.LightSlateGray;
-            this.controlAsist.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.controlAsist.Margin = new System.Windows.Forms.Padding(0, 60, 0, 60);
-            this.controlAsist.Name = "controlAsist";
-            this.controlAsist.Size = new System.Drawing.Size(195, 50);
-            this.controlAsist.Text = "Rutinas";
-            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
+       
             // 
             // dardeBaja
             // 
-            this.dardeBaja.AutoSize = false;
-            this.dardeBaja.BackColor = System.Drawing.Color.LightSlateGray;
-            this.dardeBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dardeBaja.Margin = new System.Windows.Forms.Padding(0, -40, 0, -40);
-            this.dardeBaja.Name = "dardeBaja";
-            this.dardeBaja.Size = new System.Drawing.Size(195, 50);
-            this.dardeBaja.Text = "Agenda";
-            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
-            // 
+         
             // habilitarUsu
             // 
-            this.habilitarUsu.AutoSize = false;
-            this.habilitarUsu.BackColor = System.Drawing.Color.LightSlateGray;
-            this.habilitarUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
-            this.habilitarUsu.Name = "habilitarUsu";
-            this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
-            this.habilitarUsu.Text = "Deportista";
-            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
+      
             // 
             // gestPagos
             // 
-            this.gestPagos.AutoSize = false;
-            this.gestPagos.BackColor = System.Drawing.Color.LightSlateGray;
-            this.gestPagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.gestPagos.Margin = new System.Windows.Forms.Padding(0, 10, 0, 20);
-            this.gestPagos.Name = "gestPagos";
-            this.gestPagos.Size = new System.Drawing.Size(195, 50);
-            this.gestPagos.Text = "Evolucion";
-            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
+     
             // 
             // datosDelClienteToolStripMenuItem
             // 
-            this.datosDelClienteToolStripMenuItem.AutoSize = false;
-            this.datosDelClienteToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.datosDelClienteToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.datosDelClienteToolStripMenuItem.Name = "datosDelClienteToolStripMenuItem";
-            this.datosDelClienteToolStripMenuItem.Size = new System.Drawing.Size(195, 50);
-            this.datosDelClienteToolStripMenuItem.Text = "Datos del cliente";
-            this.datosDelClienteToolStripMenuItem.Click += new System.EventHandler(this.datosDelClienteToolStripMenuItem_Click);
+     
             // 
             // menuStrip2
             // 

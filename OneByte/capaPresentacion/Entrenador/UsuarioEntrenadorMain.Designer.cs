@@ -75,42 +75,23 @@
             // 
             // controlAsist
             // 
-            resources.ApplyResources(this.controlAsist, "controlAsist");
-            this.controlAsist.BackColor = System.Drawing.Color.LightSlateGray;
-            this.controlAsist.Margin = new System.Windows.Forms.Padding(0, 60, 0, 60);
-            this.controlAsist.Name = "controlAsist";
-            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
+      
             // 
             // dardeBaja
             // 
-            resources.ApplyResources(this.dardeBaja, "dardeBaja");
-            this.dardeBaja.BackColor = System.Drawing.Color.LightSlateGray;
-            this.dardeBaja.Margin = new System.Windows.Forms.Padding(0, -40, 0, -40);
-            this.dardeBaja.Name = "dardeBaja";
-            this.dardeBaja.Click += new System.EventHandler(this.dardeBaja_Click);
+
             // 
             // habilitarUsu
             // 
-            resources.ApplyResources(this.habilitarUsu, "habilitarUsu");
-            this.habilitarUsu.BackColor = System.Drawing.Color.LightSlateGray;
-            this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
-            this.habilitarUsu.Name = "habilitarUsu";
-            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
+
             // 
             // gestPagos
             // 
-            resources.ApplyResources(this.gestPagos, "gestPagos");
-            this.gestPagos.BackColor = System.Drawing.Color.LightSlateGray;
-            this.gestPagos.Margin = new System.Windows.Forms.Padding(0, 10, 0, 20);
-            this.gestPagos.Name = "gestPagos";
-            this.gestPagos.Click += new System.EventHandler(this.gestPagos_Click);
+        
             // 
             // datosDelClienteToolStripMenuItem
             // 
-            resources.ApplyResources(this.datosDelClienteToolStripMenuItem, "datosDelClienteToolStripMenuItem");
-            this.datosDelClienteToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.datosDelClienteToolStripMenuItem.Name = "datosDelClienteToolStripMenuItem";
-            this.datosDelClienteToolStripMenuItem.Click += new System.EventHandler(this.datosDelClienteToolStripMenuItem_Click);
+
             // 
             // menuStrip2
             // 

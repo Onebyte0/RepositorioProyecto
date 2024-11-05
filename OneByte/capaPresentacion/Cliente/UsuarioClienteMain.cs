@@ -17,7 +17,7 @@ namespace OneByte
     public partial class UsuarioClienteMain : Form
     {
         private EjercicioControlador ec = new EjercicioControlador();
-        private RutianaControlador rutc = new RutinaControlador();
+        private RutinaControlador rutc = new RutinaControlador();
 
         private MySqlConnection con;
         string connectionString = "server=localhost;database=onebyte;uid=root;pwd=;";
@@ -40,7 +40,7 @@ namespace OneByte
             tablaRutina.Columns[4].Name = "REPS";
             tablaRutina.Columns[5].Name = "DESCANSO";
             tablaRutina.Columns[6].Name = "EJERCICIO";
-            rut.CargarRutinas();
+            rutc.bdcargarRutinas();
         }
 
         private void UsuarioClienteMain_Load(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace OneByte
 
         private void button_buscarEjercicio_Click(object sender, EventArgs e)
         {
-            Ejercicio ejer = ec.findEjercicio(txtIDEjercicio.Text);
+            Ejercicio ejer = ec.findEjercicio(txtIDEjercicioBuscar.Text);
 
             if (ejer != null)
             {
