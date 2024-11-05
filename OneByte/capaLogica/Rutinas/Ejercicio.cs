@@ -42,9 +42,11 @@ namespace OneByte.capaLogica
         }
         public Object[] toObject()
         {
-            object[] ejer = new object[2];
+            object[] ejer = new object[4];
             ejer[0] = idEjercicio;
             ejer[1] = descripcion;
+            ejer[2] = nombreEjercicio;
+            ejer[3] = grupoMuscular;
             return ejer;
         }
     }

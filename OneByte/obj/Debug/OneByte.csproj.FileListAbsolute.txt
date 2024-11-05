@@ -421,7 +421,6 @@ C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\On
 C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.pdb
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.AssemblyReference.cache
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAvanzadoGestionDeCliente.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioClienteAgendaDisponibilidad.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioClienteAgendaRutinasAsignadas.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioClienteDatosDeportista.resources
@@ -445,8 +444,6 @@ C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioSeleccionadorEquipos.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Properties.Resources.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoGestionDeEmpleados.resources
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoIngresoEjercicios.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoMain.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioAvanzadoOpcionalidadDeportes.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioSeleccionadorConsultaEvolucion.resources

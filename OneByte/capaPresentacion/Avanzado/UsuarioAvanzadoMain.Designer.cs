@@ -39,19 +39,19 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripVentanaPrincial = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
-            this.tablaDeporte = new System.Windows.Forms.DataGridView();
+            this.tablaEjercicio = new System.Windows.Forms.DataGridView();
             this.ListBox_GrupoMuscular = new System.Windows.Forms.CheckedListBox();
             this.textBox_descripcionEjercicio = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.button_guardarEjercicio = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtNombreDeporte = new System.Windows.Forms.TextBox();
+            this.txtNombreEjercicio = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtIDDeporte = new System.Windows.Forms.TextBox();
+            this.txtIDEjercicio = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.menuStrip2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaDeporte)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaEjercicio)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -64,6 +64,7 @@
             this.label6.Size = new System.Drawing.Size(225, 31);
             this.label6.TabIndex = 202;
             this.label6.Text = "Buscar Ejercicio";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label1
             // 
@@ -88,6 +89,7 @@
             this.button_eliminarEjercicio.Text = "Eliminar";
             this.button_eliminarEjercicio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_eliminarEjercicio.UseVisualStyleBackColor = false;
+            this.button_eliminarEjercicio.Click += new System.EventHandler(this.button_eliminarEjercicio_Click);
             // 
             // label4
             // 
@@ -98,6 +100,7 @@
             this.label4.Size = new System.Drawing.Size(20, 16);
             this.label4.TabIndex = 198;
             this.label4.Text = "ID";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button_buscarEjercicio
             // 
@@ -111,6 +114,7 @@
             this.button_buscarEjercicio.Text = "Buscar";
             this.button_buscarEjercicio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_buscarEjercicio.UseVisualStyleBackColor = false;
+            this.button_buscarEjercicio.Click += new System.EventHandler(this.button_buscarEjercicio_Click);
             // 
             // txtIDEjercicioBuscar
             // 
@@ -120,6 +124,7 @@
             this.txtIDEjercicioBuscar.Name = "txtIDEjercicioBuscar";
             this.txtIDEjercicioBuscar.Size = new System.Drawing.Size(94, 22);
             this.txtIDEjercicioBuscar.TabIndex = 196;
+            this.txtIDEjercicioBuscar.TextChanged += new System.EventHandler(this.txtIDEjercicioBuscar_TextChanged);
             // 
             // menuStrip2
             // 
@@ -177,13 +182,14 @@
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
             this.habilitarUsu.Text = "Gestión de ejercicios";
             // 
-            // tablaDeporte
+            // tablaEjercicio
             // 
-            this.tablaDeporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaDeporte.Location = new System.Drawing.Point(260, 184);
-            this.tablaDeporte.Name = "tablaDeporte";
-            this.tablaDeporte.Size = new System.Drawing.Size(454, 252);
-            this.tablaDeporte.TabIndex = 189;
+            this.tablaEjercicio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaEjercicio.Location = new System.Drawing.Point(260, 184);
+            this.tablaEjercicio.Name = "tablaEjercicio";
+            this.tablaEjercicio.Size = new System.Drawing.Size(454, 252);
+            this.tablaEjercicio.TabIndex = 189;
+            this.tablaEjercicio.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaEjercicio_CellContentClick);
             // 
             // ListBox_GrupoMuscular
             // 
@@ -237,6 +243,7 @@
             this.button_guardarEjercicio.Text = "Guardar";
             this.button_guardarEjercicio.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_guardarEjercicio.UseVisualStyleBackColor = false;
+            this.button_guardarEjercicio.Click += new System.EventHandler(this.button_guardarEjercicio_Click);
             // 
             // label3
             // 
@@ -248,14 +255,14 @@
             this.label3.TabIndex = 208;
             this.label3.Text = "Nombre:";
             // 
-            // txtNombreDeporte
+            // txtNombreEjercicio
             // 
-            this.txtNombreDeporte.BackColor = System.Drawing.Color.SlateGray;
-            this.txtNombreDeporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreDeporte.Location = new System.Drawing.Point(837, 217);
-            this.txtNombreDeporte.Name = "txtNombreDeporte";
-            this.txtNombreDeporte.Size = new System.Drawing.Size(110, 22);
-            this.txtNombreDeporte.TabIndex = 207;
+            this.txtNombreEjercicio.BackColor = System.Drawing.Color.SlateGray;
+            this.txtNombreEjercicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreEjercicio.Location = new System.Drawing.Point(837, 217);
+            this.txtNombreEjercicio.Name = "txtNombreEjercicio";
+            this.txtNombreEjercicio.Size = new System.Drawing.Size(110, 22);
+            this.txtNombreEjercicio.TabIndex = 207;
             // 
             // label2
             // 
@@ -267,14 +274,14 @@
             this.label2.TabIndex = 206;
             this.label2.Text = "ID del ejercicio";
             // 
-            // txtIDDeporte
+            // txtIDEjercicio
             // 
-            this.txtIDDeporte.BackColor = System.Drawing.Color.SlateGray;
-            this.txtIDDeporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDDeporte.Location = new System.Drawing.Point(735, 217);
-            this.txtIDDeporte.Name = "txtIDDeporte";
-            this.txtIDDeporte.Size = new System.Drawing.Size(94, 22);
-            this.txtIDDeporte.TabIndex = 205;
+            this.txtIDEjercicio.BackColor = System.Drawing.Color.SlateGray;
+            this.txtIDEjercicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDEjercicio.Location = new System.Drawing.Point(735, 217);
+            this.txtIDEjercicio.Name = "txtIDEjercicio";
+            this.txtIDEjercicio.Size = new System.Drawing.Size(94, 22);
+            this.txtIDEjercicio.TabIndex = 205;
             // 
             // label5
             // 
@@ -298,9 +305,9 @@
             this.Controls.Add(this.label18);
             this.Controls.Add(this.button_guardarEjercicio);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtNombreDeporte);
+            this.Controls.Add(this.txtNombreEjercicio);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtIDDeporte);
+            this.Controls.Add(this.txtIDEjercicio);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_eliminarEjercicio);
@@ -309,7 +316,7 @@
             this.Controls.Add(this.txtIDEjercicioBuscar);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.tablaDeporte);
+            this.Controls.Add(this.tablaEjercicio);
             this.Name = "UsuarioAvanzadoMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoMain";
@@ -319,7 +326,7 @@
             this.menuStrip2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tablaDeporte)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaEjercicio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -338,15 +345,15 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripVentanaPrincial;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
-        private System.Windows.Forms.DataGridView tablaDeporte;
+        private System.Windows.Forms.DataGridView tablaEjercicio;
         private System.Windows.Forms.CheckedListBox ListBox_GrupoMuscular;
         private System.Windows.Forms.TextBox textBox_descripcionEjercicio;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button button_guardarEjercicio;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtNombreDeporte;
+        private System.Windows.Forms.TextBox txtNombreEjercicio;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtIDDeporte;
+        private System.Windows.Forms.TextBox txtIDEjercicio;
         private System.Windows.Forms.Label label5;
     }
 }
