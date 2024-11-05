@@ -24,27 +24,6 @@ namespace OneByte
 
         }
 
-        private void controlAsist_Click(object sender, EventArgs e)
-        {
-            UsuarioAvanzadoGestionDeEmpleados usuGestionEmpleados = new UsuarioAvanzadoGestionDeEmpleados();
-            usuGestionEmpleados.Show();
-            this.Close();
-        }
-
-        private void dardeBaja_Click(object sender, EventArgs e)
-        {
-            UsuarioAvanzadoGestionDeCliente usuDarDeBaja = new UsuarioAvanzadoGestionDeCliente();
-            usuDarDeBaja.Show();
-            this.Close();
-        }
-
-        private void habilitarUsu_Click(object sender, EventArgs e)
-        {
-            UsuarioAvanzadoIngresoEjercicios usuEjercicios = new UsuarioAvanzadoIngresoEjercicios();
-            usuEjercicios.Show();
-            this.Close();
-        }
-
         private void gestPagos_Click(object sender, EventArgs e)
         {
             UsuarioAvanzadoOpcionalidadDeportes usuOpcClientes = new UsuarioAvanzadoOpcionalidadDeportes();
@@ -54,8 +33,15 @@ namespace OneByte
 
         private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
+            IniciodeSesion form = new IniciodeSesion();
             form.Show();
+            this.Close();
+        }
+
+        private void toolStripVentanaPrincial_Click(object sender, EventArgs e)
+        {
+            UsuarioAvanzadoMain usuEjercicios = new UsuarioAvanzadoMain();
+            usuEjercicios.Show();
             this.Close();
         }
     }

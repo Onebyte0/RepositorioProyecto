@@ -15,10 +15,10 @@ using OneByte.capaPresentacion;
 
 namespace OneByte
 {
-    public partial class Form1 : Form
+    public partial class IniciodeSesion : Form
     {
         ConexionBD con = new ConexionBD();
-        public Form1()
+        public IniciodeSesion()
         {
             InitializeComponent();
 

@@ -103,6 +103,16 @@ namespace OneByte.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gymLogo {
+            get {
+                object obj = ResourceManager.GetObject("gymLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_arrow_computer_icons_logo_white_down_arrow_miscellaneous_angle_rectangle_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-arrow-computer-icons-logo-white-down-arrow-miscellaneous-angle-re" +

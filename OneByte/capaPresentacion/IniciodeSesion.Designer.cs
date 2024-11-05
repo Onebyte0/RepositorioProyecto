@@ -1,6 +1,6 @@
 ﻿namespace OneByte
 {
-    partial class Form1
+    partial class IniciodeSesion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -38,11 +38,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.contraseñaUsuario = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // salir
             // 
             this.salir.BackColor = System.Drawing.Color.Brown;
+            this.salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.salir.Location = new System.Drawing.Point(353, 333);
             this.salir.Name = "salir";
@@ -54,10 +58,12 @@
             // 
             // cmbRol
             // 
+            this.cmbRol.BackColor = System.Drawing.Color.SlateGray;
+            this.cmbRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbRol.FormattingEnabled = true;
             this.cmbRol.Location = new System.Drawing.Point(571, 120);
             this.cmbRol.Name = "cmbRol";
-            this.cmbRol.Size = new System.Drawing.Size(178, 21);
+            this.cmbRol.Size = new System.Drawing.Size(178, 24);
             this.cmbRol.TabIndex = 4;
             // 
             // label1
@@ -82,9 +88,11 @@
             // 
             // documento
             // 
+            this.documento.BackColor = System.Drawing.Color.SlateGray;
+            this.documento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.documento.Location = new System.Drawing.Point(571, 168);
             this.documento.Name = "documento";
-            this.documento.Size = new System.Drawing.Size(178, 20);
+            this.documento.Size = new System.Drawing.Size(178, 22);
             this.documento.TabIndex = 9;
             // 
             // label3
@@ -101,11 +109,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(366, 167);
+            this.label5.Location = new System.Drawing.Point(451, 168);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(185, 18);
+            this.label5.Size = new System.Drawing.Size(100, 18);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Numero de documento:";
+            this.label5.Text = "Documento:";
             // 
             // label4
             // 
@@ -119,20 +127,34 @@
             // 
             // contraseñaUsuario
             // 
-            this.contraseñaUsuario.Location = new System.Drawing.Point(571, 222);
+            this.contraseñaUsuario.BackColor = System.Drawing.Color.SlateGray;
+            this.contraseñaUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contraseñaUsuario.Location = new System.Drawing.Point(571, 219);
             this.contraseñaUsuario.Name = "contraseñaUsuario";
-            this.contraseñaUsuario.Size = new System.Drawing.Size(178, 20);
+            this.contraseñaUsuario.PasswordChar = '*';
+            this.contraseñaUsuario.Size = new System.Drawing.Size(178, 22);
             this.contraseñaUsuario.TabIndex = 9;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(347, 372);
             this.panel1.TabIndex = 14;
             // 
-            // Form1
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OneByte.Properties.Resources.gymLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(304, 287);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // IniciodeSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -148,10 +170,12 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbRol);
             this.Controls.Add(this.salir);
-            this.Name = "Form1";
+            this.Name = "IniciodeSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,6 +192,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox contraseñaUsuario;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

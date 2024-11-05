@@ -12,6 +12,7 @@ using MySqlX.XDevAPI;
 using OneByte.capaLogica.Cliente;
 using OneByte.capaPresentacion;
 using MySql.Data.MySqlClient.Memcached;
+using MySql.Data.MySqlClient;
 
 namespace OneByte.capaPresentacion
 {
@@ -19,17 +20,17 @@ namespace OneByte.capaPresentacion
     {
         private ClienteControlador cc = new ClienteControlador();
         private usuarioControlador uc = new usuarioControlador();
+        private MySqlConnection connection;
+        string connectionString = "server=localhost;database=onebyte;uid=root;pwd=;";
+
         public UsuarioAdministrativoMain()
         {
             InitializeComponent();
             tablaCliente.MultiSelect = false;
             tablaCliente.ColumnCount = 4;
             tablaCliente.Columns[0].Name = "CI";
-            tablaCliente.Columns[0].Width = 100;
-            tablaCliente.Columns[1].Name = "Nombre";
-            tablaCliente.Columns[1].Width = 130;
-            tablaCliente.Columns[2].Name = "Apellido";
-            tablaCliente.Columns[2].Width = 130;
+            tablaCliente.Columns[1].Name = "1° Nombre";
+            tablaCliente.Columns[2].Name = "2° Apellido";
             tablaCliente.Columns[3].Name = "FechaIngreso";
             cc.bdcargarClientes();
 
@@ -81,7 +82,7 @@ namespace OneByte.capaPresentacion
             if(MessageBox.Show("Estas saliendo del SIGEN!", "Cierre de Sesión!", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 this.Close();
-                Form1 f1 = new Form1();
+                IniciodeSesion f1 = new IniciodeSesion();
                 f1.Show();
             }
         }
@@ -96,6 +97,60 @@ namespace OneByte.capaPresentacion
             else
             {
                 MessageBox.Show("Cliente no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button_eliminarUsuario_Click(object sender, EventArgs e)
+        {
+            if (tablaCliente.SelectedRows.Count > 0)
+            {
+                // Obtener el CI o ID del usuario seleccionado
+                string idUsuario = tablaCliente.SelectedRows[0].Cells["CI"].Value.ToString();
+
+                var confirmResult = MessageBox.Show("¿Queres eliminar este usuario??", "Confirmar Eliminación", MessageBoxButtons.YesNo);
+
+                if (confirmResult == DialogResult.Yes)
+                {
+                    EliminarCliente(idUsuario); // Llamar al método para eliminar el usuario
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, seleccione un usuario para eliminar.");
+            }
+        }
+        private void EliminarCliente(string idCliente)
+        {
+            using (MySqlConnection con = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    con.Open();
+                    using (MySqlTransaction trans = con.BeginTransaction())
+                    {
+                        string consultaCliente = "DELETE FROM CLIENTE WHERE NUMDOC = @ID";
+                        string consultaUsuario = "DELETE FROM USUARIO WHERE NUMDOC = @ID";
+
+                        using (MySqlCommand comandoCliente = new MySqlCommand(consultaCliente, con, trans))
+                        {
+                            comandoCliente.Parameters.AddWithValue("@ID", idCliente);
+                            comandoCliente.ExecuteNonQuery();
+                        }
+                        using (MySqlCommand comandoUsuario = new MySqlCommand(consultaUsuario, con, trans))
+                        {
+                            comandoUsuario.Parameters.AddWithValue("@ID", idCliente);
+                            comandoUsuario.ExecuteNonQuery();
+                        }
+                        
+
+                        trans.Commit(); 
+                    }
+                    MessageBox.Show("Cliente borrado correctamente.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("El sistema ha fallado!: " + ex.Message);
+                }
             }
         }
     }

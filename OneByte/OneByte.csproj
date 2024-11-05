@@ -56,22 +56,25 @@
     <Compile Include="capaLogica\Entrenador\Calificacion.cs" />
     <Compile Include="capaLogica\Cliente\cliente.cs" />
     <Compile Include="capaLogica\Cliente\Deportista.cs" />
+    <Compile Include="capaLogica\Rutinas\Deporte.cs" />
+    <Compile Include="capaLogica\Rutinas\DeporteControlador.cs" />
     <Compile Include="capaLogica\Rutinas\Ejercicio.cs" />
     <Compile Include="capaLogica\Entrenador\Entrenador.cs" />
     <Compile Include="capaLogica\Estados\EstadoD.cs" />
     <Compile Include="capaLogica\Estados\EstadoL.cs" />
     <Compile Include="capaLogica\Cliente\Lesionado.cs" />
     <Compile Include="capaLogica\login.cs" />
+    <Compile Include="capaLogica\Rutinas\EjercicioControlador.cs" />
     <Compile Include="capaLogica\Rutinas\Rutina.cs" />
     <Compile Include="capaLogica\Seleccionador\Seleccionador.cs" />
     <Compile Include="capaLogica\Sucursal\Sucursal.cs" />
-    <Compile Include="capaLogica\usuario.cs" />
-    <Compile Include="capaLogica\usuarioControlador.cs" />
-    <Compile Include="capaPresentacion\Form1.cs">
+    <Compile Include="capaLogica\Cliente\usuario.cs" />
+    <Compile Include="capaLogica\Cliente\usuarioControlador.cs" />
+    <Compile Include="capaPresentacion\IniciodeSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="capaPresentacion\IniciodeSesion.Designer.cs">
+      <DependentUpon>IniciodeSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="capaPresentacion\Administrativo\UsuarioAdministrativoMain.cs">
       <SubType>Form</SubType>
@@ -79,255 +82,234 @@
     <Compile Include="capaPresentacion\Administrativo\UsuarioAdministrativoMain.Designer.cs">
       <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteAgendaDisponibilidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.Designer.cs">
-      <DependentUpon>UsuarioAvanzadoGestionDeCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteAgendaDisponibilidad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteAgendaDisponibilidad.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteAgendaDisponibilidad.Designer.cs">
       <DependentUpon>UsuarioClienteAgendaDisponibilidad.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteAgendaRutinasAsignadas.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteAgendaRutinasAsignadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteAgendaRutinasAsignadas.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteAgendaRutinasAsignadas.Designer.cs">
       <DependentUpon>UsuarioClienteAgendaRutinasAsignadas.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteDatosDeportista.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteDatosDeportista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteDatosDeportista.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteDatosDeportista.Designer.cs">
       <DependentUpon>UsuarioClienteDatosDeportista.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteDescripcionEjercicios.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteDescripcionEjercicios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteDescripcionEjercicios.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteDescripcionEjercicios.Designer.cs">
       <DependentUpon>UsuarioClienteDescripcionEjercicios.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteEstadoDeportista.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteEstadoDeportista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteEstadoDeportista.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteEstadoDeportista.Designer.cs">
       <DependentUpon>UsuarioClienteEstadoDeportista.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteEstadoPago.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteEstadoPago.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteEstadoPago.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteEstadoPago.Designer.cs">
       <DependentUpon>UsuarioClienteEstadoPago.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteGrupoPerteneciente.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteGrupoPerteneciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteGrupoPerteneciente.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteGrupoPerteneciente.Designer.cs">
       <DependentUpon>UsuarioClienteGrupoPerteneciente.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteMain.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteMain.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteMain.Designer.cs">
       <DependentUpon>UsuarioClienteMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteRendimientoDeportista.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteRendimientoDeportista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioClienteRendimientoDeportista.Designer.cs">
+    <Compile Include="capaPresentacion\Cliente\UsuarioClienteRendimientoDeportista.Designer.cs">
       <DependentUpon>UsuarioClienteRendimientoDeportista.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAgendaDisponibilidad.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgendaDisponibilidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAgendaDisponibilidad.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgendaDisponibilidad.Designer.cs">
       <DependentUpon>UsuarioEntrenadorAgendaDisponibilidad.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAgendaRutinasAsignadas.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgendaRutinasAsignadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAgendaRutinasAsignadas.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgendaRutinasAsignadas.Designer.cs">
       <DependentUpon>UsuarioEntrenadorAgendaRutinasAsignadas.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAgruparDeportistas.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgruparDeportistas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAgruparDeportistas.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgruparDeportistas.Designer.cs">
       <DependentUpon>UsuarioEntrenadorAgruparDeportistas.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorDescripcionEjercicios.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorDescripcionEjercicios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorDescripcionEjercicios.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorDescripcionEjercicios.Designer.cs">
       <DependentUpon>UsuarioEntrenadorDescripcionEjercicios.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAsignarEjerciciosRutinas.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAsignarEjerciciosRutinas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorAsignarEjerciciosRutinas.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorAsignarEjerciciosRutinas.Designer.cs">
       <DependentUpon>UsuarioEntrenadorAsignarEjerciciosRutinas.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorEstadoDeportistaLesionado.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorEstadoDeportistaLesionado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorEstadoDeportistaLesionado.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorEstadoDeportistaLesionado.Designer.cs">
       <DependentUpon>UsuarioEntrenadorEstadoDeportistaLesionado.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorEstadoDeportistaSano.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorEstadoDeportistaSano.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorEstadoDeportistaSano.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorEstadoDeportistaSano.Designer.cs">
       <DependentUpon>UsuarioEntrenadorEstadoDeportistaSano.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorInfoDeportista.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorInfoDeportista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorInfoDeportista.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorInfoDeportista.Designer.cs">
       <DependentUpon>UsuarioEntrenadorInfoDeportista.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorMain.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorMain.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorMain.Designer.cs">
       <DependentUpon>UsuarioEntrenadorMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasLesionados.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorRutinasDeportistasLesionados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasLesionados.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorRutinasDeportistasLesionados.Designer.cs">
       <DependentUpon>UsuarioEntrenadorRutinasDeportistasLesionados.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasSanos.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorRutinasDeportistasSanos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasSanos.Designer.cs">
+    <Compile Include="capaPresentacion\Entrenador\UsuarioEntrenadorRutinasDeportistasSanos.Designer.cs">
       <DependentUpon>UsuarioEntrenadorRutinasDeportistasSanos.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorConsultaDeportista.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorConsultaDeportista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorConsultaDeportista.Designer.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorConsultaDeportista.Designer.cs">
       <DependentUpon>UsuarioSeleccionadorConsultaDeportista.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorEquipo.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorEquipo.Designer.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorEquipo.Designer.cs">
       <DependentUpon>UsuarioSeleccionadorEquipo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeEmpleados.cs">
+    <Compile Include="capaPresentacion\Avanzado\UsuarioAvanzadoMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoGestionDeEmpleados.Designer.cs">
-      <DependentUpon>UsuarioAvanzadoGestionDeEmpleados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoIngresoEjercicios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoIngresoEjercicios.Designer.cs">
-      <DependentUpon>UsuarioAvanzadoIngresoEjercicios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoMain.Designer.cs">
+    <Compile Include="capaPresentacion\Avanzado\UsuarioAvanzadoMain.Designer.cs">
       <DependentUpon>UsuarioAvanzadoMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoOpcionalidadDeportes.cs">
+    <Compile Include="capaPresentacion\Avanzado\UsuarioAvanzadoOpcionalidadDeportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioAvanzadoOpcionalidadDeportes.Designer.cs">
+    <Compile Include="capaPresentacion\Avanzado\UsuarioAvanzadoOpcionalidadDeportes.Designer.cs">
       <DependentUpon>UsuarioAvanzadoOpcionalidadDeportes.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorConsultaEvolucion.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorConsultaEvolucion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorConsultaEvolucion.Designer.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorConsultaEvolucion.Designer.cs">
       <DependentUpon>UsuarioSeleccionadorConsultaEvolucion.cs</DependentUpon>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorMain.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="capaPresentacion\UsuarioSeleccionadorMain.Designer.cs">
+    <Compile Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorMain.Designer.cs">
       <DependentUpon>UsuarioSeleccionadorMain.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="capaPresentacion\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="capaPresentacion\IniciodeSesion.resx">
+      <DependentUpon>IniciodeSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\Administrativo\UsuarioAdministrativoMain.resx">
       <DependentUpon>UsuarioAdministrativoMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoGestionDeCliente.resx">
-      <DependentUpon>UsuarioAvanzadoGestionDeCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteAgendaDisponibilidad.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteAgendaDisponibilidad.resx">
       <DependentUpon>UsuarioClienteAgendaDisponibilidad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteAgendaRutinasAsignadas.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteAgendaRutinasAsignadas.resx">
       <DependentUpon>UsuarioClienteAgendaRutinasAsignadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteDatosDeportista.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteDatosDeportista.resx">
       <DependentUpon>UsuarioClienteDatosDeportista.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteDescripcionEjercicios.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteDescripcionEjercicios.resx">
       <DependentUpon>UsuarioClienteDescripcionEjercicios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteEstadoDeportista.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteEstadoDeportista.resx">
       <DependentUpon>UsuarioClienteEstadoDeportista.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteEstadoPago.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteEstadoPago.resx">
       <DependentUpon>UsuarioClienteEstadoPago.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteGrupoPerteneciente.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteGrupoPerteneciente.resx">
       <DependentUpon>UsuarioClienteGrupoPerteneciente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteMain.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteMain.resx">
       <DependentUpon>UsuarioClienteMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioClienteRendimientoDeportista.resx">
+    <EmbeddedResource Include="capaPresentacion\Cliente\UsuarioClienteRendimientoDeportista.resx">
       <DependentUpon>UsuarioClienteRendimientoDeportista.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorAgendaDisponibilidad.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgendaDisponibilidad.resx">
       <DependentUpon>UsuarioEntrenadorAgendaDisponibilidad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorAgendaRutinasAsignadas.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgendaRutinasAsignadas.resx">
       <DependentUpon>UsuarioEntrenadorAgendaRutinasAsignadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorAgruparDeportistas.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorAgruparDeportistas.resx">
       <DependentUpon>UsuarioEntrenadorAgruparDeportistas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorDescripcionEjercicios.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorDescripcionEjercicios.resx">
       <DependentUpon>UsuarioEntrenadorDescripcionEjercicios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorAsignarEjerciciosRutinas.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorAsignarEjerciciosRutinas.resx">
       <DependentUpon>UsuarioEntrenadorAsignarEjerciciosRutinas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorEstadoDeportistaLesionado.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorEstadoDeportistaLesionado.resx">
       <DependentUpon>UsuarioEntrenadorEstadoDeportistaLesionado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorEstadoDeportistaSano.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorEstadoDeportistaSano.resx">
       <DependentUpon>UsuarioEntrenadorEstadoDeportistaSano.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorInfoDeportista.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorInfoDeportista.resx">
       <DependentUpon>UsuarioEntrenadorInfoDeportista.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorMain.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorMain.resx">
       <DependentUpon>UsuarioEntrenadorMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasLesionados.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorRutinasDeportistasLesionados.resx">
       <DependentUpon>UsuarioEntrenadorRutinasDeportistasLesionados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioEntrenadorRutinasDeportistasSanos.resx">
+    <EmbeddedResource Include="capaPresentacion\Entrenador\UsuarioEntrenadorRutinasDeportistasSanos.resx">
       <DependentUpon>UsuarioEntrenadorRutinasDeportistasSanos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioSeleccionadorConsultaDeportista.resx">
+    <EmbeddedResource Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorConsultaDeportista.resx">
       <DependentUpon>UsuarioSeleccionadorConsultaDeportista.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioSeleccionadorEquipo.resx">
+    <EmbeddedResource Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorEquipo.resx">
       <DependentUpon>UsuarioSeleccionadorEquipo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -340,22 +322,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoGestionDeEmpleados.resx">
-      <DependentUpon>UsuarioAvanzadoGestionDeEmpleados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoIngresoEjercicios.resx">
-      <DependentUpon>UsuarioAvanzadoIngresoEjercicios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoMain.resx">
+    <EmbeddedResource Include="capaPresentacion\Avanzado\UsuarioAvanzadoMain.resx">
       <DependentUpon>UsuarioAvanzadoMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioAvanzadoOpcionalidadDeportes.resx">
+    <EmbeddedResource Include="capaPresentacion\Avanzado\UsuarioAvanzadoOpcionalidadDeportes.resx">
       <DependentUpon>UsuarioAvanzadoOpcionalidadDeportes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioSeleccionadorConsultaEvolucion.resx">
+    <EmbeddedResource Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorConsultaEvolucion.resx">
       <DependentUpon>UsuarioSeleccionadorConsultaEvolucion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="capaPresentacion\UsuarioSeleccionadorMain.resx">
+    <EmbeddedResource Include="capaPresentacion\Seleccionador\UsuarioSeleccionadorMain.resx">
       <DependentUpon>UsuarioSeleccionadorMain.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -389,8 +365,9 @@
   <ItemGroup>
     <None Include="Resources\31BeKrgtq5L._AC_UF894,1000_QL80_.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="capaPresentacion\Cliente\" />
+    <None Include="Resources\gymLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

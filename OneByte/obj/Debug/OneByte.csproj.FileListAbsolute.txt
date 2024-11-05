@@ -421,7 +421,6 @@ C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\On
 C:\Users\Administrator\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.pdb
 C:\Users\Christian\Documents\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioSeleccionadorConsultaDeportista.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.AssemblyReference.cache
-C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.Form1.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAvanzadoGestionDeCliente.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioClienteAgendaDisponibilidad.resources
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.UsuarioClienteAgendaRutinasAsignadas.resources
@@ -464,3 +463,4 @@ C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\bin\Debug\
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\bin\Debug\MySql.Data.xml
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.csproj.Up2Date
 C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.capaPresentacion.UsuarioAdministrativoMain.resources
+C:\Users\lucia\OneDrive\Documentos\GitHub\RepositorioProyecto\OneByte\obj\Debug\OneByte.IniciodeSesion.resources

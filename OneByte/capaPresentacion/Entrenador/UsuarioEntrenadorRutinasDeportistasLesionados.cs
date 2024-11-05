@@ -158,7 +158,7 @@ namespace OneByte
 
         private void cerrarsesion_Click(object sender, EventArgs e)
         {
-            var cerrarsesion = new Form1();
+            var cerrarsesion = new IniciodeSesion();
             cerrarsesion.Show();
             this.Close();
         }
