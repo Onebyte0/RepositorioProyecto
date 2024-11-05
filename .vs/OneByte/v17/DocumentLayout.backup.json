@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\proyecto2\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\administrativo\\usuarioadministrativomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\administrativo\\usuarioadministrativomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\proyecto2\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\administrativo\\usuarioadministrativomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\administrativo\\usuarioadministrativomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\proyecto2\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\avanzado\\usuarioavanzadomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\avanzado\\usuarioavanzadomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\proyecto2\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\avanzado\\usuarioavanzadomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\avanzado\\usuarioavanzadomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|c:\\users\\proyecto2\\documents\\github\\repositorioproyecto\\onebyte\\capapresentacion\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8B28648-EF45-440B-92EA-03F9CD5D68B1}|OneByte\\OneByte.csproj|solutionrelative:onebyte\\capapresentacion\\iniciodesesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioAvanzadoMain.cs",
-              "DocumentMoniker": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs",
-              "ToolTip": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA9wDgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T19:26:22.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioAvanzadoMain.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs",
-              "ToolTip": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\Avanzado\\UsuarioAvanzadoMain.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T19:26:19.402Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioAdministrativoMain.cs",
-              "DocumentMoniker": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs",
-              "ToolTip": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs*",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs*",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAYwJ4AAAA+AAAAAAAAAA==",
+              "Title": "IniciodeSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\IniciodeSesion.cs",
+              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\IniciodeSesion.cs",
+              "ToolTip": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\IniciodeSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OneByte\\capaPresentacion\\IniciodeSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T19:23:52.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioAdministrativoMain.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs",
-              "RelativeDocumentMoniker": "OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs",
-              "ToolTip": "C:\\Users\\Proyecto2\\Documents\\GitHub\\RepositorioProyecto\\OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "OneByte\\capaPresentacion\\Administrativo\\UsuarioAdministrativoMain.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T19:23:33.825Z",
+              "WhenOpened": "2024-11-05T20:07:16.76Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

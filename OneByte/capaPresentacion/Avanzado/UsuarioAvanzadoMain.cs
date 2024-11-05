@@ -33,31 +33,13 @@ namespace OneByte
             ec.bdcargarEjercicio();
         }
 
-        private void UsuarioAvanzadoMain_Load(object sender, EventArgs e)
-        {
+        
 
-        }
+        
 
-        private void gestPagos_Click(object sender, EventArgs e)
-        {
-            UsuarioAvanzadoOpcionalidadDeportes usuOpcClientes = new UsuarioAvanzadoOpcionalidadDeportes();
-            usuOpcClientes.Show();
-            this.Close();
-        }
+       
 
-        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            IniciodeSesion form = new IniciodeSesion();
-            form.Show();
-            this.Close();
-        }
-
-        private void toolStripVentanaPrincial_Click(object sender, EventArgs e)
-        {
-            UsuarioAvanzadoMain usuEjercicios = new UsuarioAvanzadoMain();
-            usuEjercicios.Show();
-            this.Close();
-        }
+        
 
         private void button_buscarEjercicio_Click(object sender, EventArgs e)
         {
@@ -132,24 +114,18 @@ namespace OneByte
             }
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void habilitarUsu_Click(object sender, EventArgs e)
         {
-
+            UsuarioAvanzadoOpcionalidadDeportes opcionalidadDeportes = new UsuarioAvanzadoOpcionalidadDeportes();
+            opcionalidadDeportes.Show();
+            this.Close();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void cerrarsesion_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void txtIDEjercicioBuscar_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tablaEjercicio_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            IniciodeSesion IniciodeSesion = new IniciodeSesion();
+            IniciodeSesion.Show();
+            this.Close();
         }
     }
 }

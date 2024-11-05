@@ -21,13 +21,12 @@ namespace OneByte
     
         private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            IniciodeSesion IniciodeSesion = new IniciodeSesion();
+            IniciodeSesion.Show();
+            this.Close();
         }
 
-        private void controlAsist_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void consultaEvolucionToolStripMenuItem_Click(object sender, EventArgs e)
         {

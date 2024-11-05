@@ -108,12 +108,12 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.AutoSize = false;
-            this.toolStripMenuItem2.BackColor = System.Drawing.Color.LightSlateGray;
+            this.toolStripMenuItem2.BackColor = System.Drawing.Color.Salmon;
             this.toolStripMenuItem2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem2.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(195, 50);
-            this.toolStripMenuItem2.Text = "Ventana Principal";
+            this.toolStripMenuItem2.Text = "Cerrar Sesion";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // gestionarEjercicios
@@ -274,7 +274,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoOpcionalidadDeportes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.UsuarioAvanzadoOpcionalidadDeportes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tablaDeporte)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

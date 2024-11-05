@@ -225,7 +225,7 @@
             this.controlAsist.Name = "controlAsist";
             this.controlAsist.Size = new System.Drawing.Size(195, 50);
             this.controlAsist.Text = "Consulta deportista";
-            this.controlAsist.Click += new System.EventHandler(this.controlAsist_Click);
+            
             // 
             // consultaEvolucionToolStripMenuItem
             // 

@@ -76,5 +76,12 @@ namespace OneByte
         {
 
         }
+
+        private void cerrarSesionToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            IniciodeSesion IniciodeSesion = new IniciodeSesion();
+            IniciodeSesion.Show();
+            this.Close();
+        }
     }
 }

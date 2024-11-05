@@ -37,7 +37,7 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripVentanaPrincial = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
             this.tablaEjercicio = new System.Windows.Forms.DataGridView();
             this.ListBox_GrupoMuscular = new System.Windows.Forms.CheckedListBox();
@@ -64,7 +64,6 @@
             this.label6.Size = new System.Drawing.Size(225, 31);
             this.label6.TabIndex = 202;
             this.label6.Text = "Buscar Ejercicio";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label1
             // 
@@ -100,7 +99,6 @@
             this.label4.Size = new System.Drawing.Size(20, 16);
             this.label4.TabIndex = 198;
             this.label4.Text = "ID";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button_buscarEjercicio
             // 
@@ -124,7 +122,6 @@
             this.txtIDEjercicioBuscar.Name = "txtIDEjercicioBuscar";
             this.txtIDEjercicioBuscar.Size = new System.Drawing.Size(94, 22);
             this.txtIDEjercicioBuscar.TabIndex = 196;
-            this.txtIDEjercicioBuscar.TextChanged += new System.EventHandler(this.txtIDEjercicioBuscar_TextChanged);
             // 
             // menuStrip2
             // 
@@ -152,7 +149,7 @@
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripVentanaPrincial,
+            this.cerrarsesion,
             this.habilitarUsu});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -161,16 +158,16 @@
             this.menuStrip1.TabIndex = 192;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripVentanaPrincial
+            // cerrarsesion
             // 
-            this.toolStripVentanaPrincial.AutoSize = false;
-            this.toolStripVentanaPrincial.BackColor = System.Drawing.Color.LightSlateGray;
-            this.toolStripVentanaPrincial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripVentanaPrincial.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
-            this.toolStripVentanaPrincial.Name = "toolStripVentanaPrincial";
-            this.toolStripVentanaPrincial.Size = new System.Drawing.Size(195, 50);
-            this.toolStripVentanaPrincial.Text = "Ventana Principal";
-            this.toolStripVentanaPrincial.Click += new System.EventHandler(this.toolStripVentanaPrincial_Click);
+            this.cerrarsesion.AutoSize = false;
+            this.cerrarsesion.BackColor = System.Drawing.Color.Salmon;
+            this.cerrarsesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarsesion.Margin = new System.Windows.Forms.Padding(0, 60, 0, 10);
+            this.cerrarsesion.Name = "cerrarsesion";
+            this.cerrarsesion.Size = new System.Drawing.Size(195, 50);
+            this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
             // 
             // habilitarUsu
             // 
@@ -180,7 +177,8 @@
             this.habilitarUsu.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.habilitarUsu.Name = "habilitarUsu";
             this.habilitarUsu.Size = new System.Drawing.Size(195, 50);
-            this.habilitarUsu.Text = "Gestión de ejercicios";
+            this.habilitarUsu.Text = "Gestión de Deportes";
+            this.habilitarUsu.Click += new System.EventHandler(this.habilitarUsu_Click);
             // 
             // tablaEjercicio
             // 
@@ -189,7 +187,6 @@
             this.tablaEjercicio.Name = "tablaEjercicio";
             this.tablaEjercicio.Size = new System.Drawing.Size(454, 252);
             this.tablaEjercicio.TabIndex = 189;
-            this.tablaEjercicio.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaEjercicio_CellContentClick);
             // 
             // ListBox_GrupoMuscular
             // 
@@ -321,7 +318,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuarioAvanzadoMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.UsuarioAvanzadoMain_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -343,7 +339,7 @@
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripVentanaPrincial;
+        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
         private System.Windows.Forms.DataGridView tablaEjercicio;
         private System.Windows.Forms.CheckedListBox ListBox_GrupoMuscular;

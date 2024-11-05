@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button_buscarEjercicio = new System.Windows.Forms.Button();
@@ -60,6 +60,16 @@
             this.menuStrip2.TabIndex = 22;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.AutoSize = false;
+            this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
+            this.cerrarSesionToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(122, 50);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click_1);
+            // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
@@ -70,21 +80,12 @@
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(12, 60);
             // 
-            // cerrarSesionToolStripMenuItem
-            // 
-            this.cerrarSesionToolStripMenuItem.AutoSize = false;
-            this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
-            this.cerrarSesionToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
-            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(122, 50);
-            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(566, 116);
+            this.label6.Location = new System.Drawing.Point(609, 88);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(225, 31);
             this.label6.TabIndex = 208;
@@ -94,7 +95,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(569, 167);
+            this.label4.Location = new System.Drawing.Point(612, 139);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(20, 16);
             this.label4.TabIndex = 206;
@@ -105,7 +106,7 @@
             this.button_buscarEjercicio.BackColor = System.Drawing.Color.LightGreen;
             this.button_buscarEjercicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_buscarEjercicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.button_buscarEjercicio.Location = new System.Drawing.Point(695, 166);
+            this.button_buscarEjercicio.Location = new System.Drawing.Point(738, 138);
             this.button_buscarEjercicio.Name = "button_buscarEjercicio";
             this.button_buscarEjercicio.Size = new System.Drawing.Size(65, 23);
             this.button_buscarEjercicio.TabIndex = 205;
@@ -118,7 +119,7 @@
             // 
             this.txtIDEjercicioBuscar.BackColor = System.Drawing.Color.SlateGray;
             this.txtIDEjercicioBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDEjercicioBuscar.Location = new System.Drawing.Point(595, 167);
+            this.txtIDEjercicioBuscar.Location = new System.Drawing.Point(638, 139);
             this.txtIDEjercicioBuscar.Name = "txtIDEjercicioBuscar";
             this.txtIDEjercicioBuscar.Size = new System.Drawing.Size(94, 22);
             this.txtIDEjercicioBuscar.TabIndex = 204;
@@ -126,9 +127,9 @@
             // tablaEjercicio
             // 
             this.tablaEjercicio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaEjercicio.Location = new System.Drawing.Point(572, 194);
+            this.tablaEjercicio.Location = new System.Drawing.Point(606, 167);
             this.tablaEjercicio.Name = "tablaEjercicio";
-            this.tablaEjercicio.Size = new System.Drawing.Size(454, 282);
+            this.tablaEjercicio.Size = new System.Drawing.Size(468, 309);
             this.tablaEjercicio.TabIndex = 203;
             // 
             // label1
@@ -145,9 +146,9 @@
             // tablaRutina
             // 
             this.tablaRutina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablaRutina.Location = new System.Drawing.Point(79, 167);
+            this.tablaRutina.Location = new System.Drawing.Point(79, 169);
             this.tablaRutina.Name = "tablaRutina";
-            this.tablaRutina.Size = new System.Drawing.Size(454, 309);
+            this.tablaRutina.Size = new System.Drawing.Size(494, 309);
             this.tablaRutina.TabIndex = 215;
             this.tablaRutina.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tablaRutina_CellContentClick);
             // 

@@ -29,10 +29,7 @@ namespace OneByte
             depc.bdcargarDeporte();
         }
 
-        private void UsuarioAvanzadoOpcionalidadDeportes_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
 
         private void habilitarUsu_Click(object sender, EventArgs e)
@@ -112,7 +109,9 @@ namespace OneByte
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-
+            IniciodeSesion IniciodeSesion = new IniciodeSesion();
+            IniciodeSesion.Show();
+            this.Close();
         }
     }
 }

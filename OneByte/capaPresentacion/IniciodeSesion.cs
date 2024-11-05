@@ -32,8 +32,8 @@ namespace OneByte
             cmbRol.Items.Add("Seleccionador");
 
             // Asociar el evento Click del botón con el manejador
-            iniciarsesion.Click -= iniciarsesion_Click;
-            iniciarsesion.Click += iniciarsesion_Click;
+            //iniciarsesion.Click -= iniciarsesion_Click;
+            //iniciarsesion.Click += iniciarsesion_Click;
 
             
         }
@@ -47,7 +47,7 @@ namespace OneByte
             // Verificamos las credenciales
             if (con.User(nroDoc, contraseña, rol))
             {
-                IniciarSesionPorRol(rol, nroDoc); // Llamamos a la función para abrir el form según el rol
+                IniciarSesionPorRol(rol); // Llamamos a la función para abrir el form según el rol
             }
             else
             {
@@ -55,7 +55,7 @@ namespace OneByte
             }
 
         }
-        private void IniciarSesionPorRol(string rol, string nroDoc)
+        private void IniciarSesionPorRol(string rol)
         {
             Form formulario = null;
 
@@ -87,7 +87,7 @@ namespace OneByte
             {
                 this.Hide(); // Ocultamos el formulario de login
                 formulario.ShowDialog(); // Mostramos el formulario
-                this.Show(); // Mostramos nuevamente el formulario de login cuando se cierre el form del rol
+                //this.Show(); // Mostramos nuevamente el formulario de login cuando se cierre el form del rol
             }
         }
 
