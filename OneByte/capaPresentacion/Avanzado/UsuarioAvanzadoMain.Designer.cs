@@ -40,7 +40,7 @@
             this.toolStripVentanaPrincial = new System.Windows.Forms.ToolStripMenuItem();
             this.habilitarUsu = new System.Windows.Forms.ToolStripMenuItem();
             this.tablaDeporte = new System.Windows.Forms.DataGridView();
-            this.ListBox_GMuscularModificar = new System.Windows.Forms.CheckedListBox();
+            this.ListBox_GrupoMuscular = new System.Windows.Forms.CheckedListBox();
             this.textBox_descripcionEjercicio = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.button_guardarEjercicio = new System.Windows.Forms.Button();
@@ -152,7 +152,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(219, 598);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 504);
             this.menuStrip1.TabIndex = 192;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -185,23 +185,23 @@
             this.tablaDeporte.Size = new System.Drawing.Size(454, 252);
             this.tablaDeporte.TabIndex = 189;
             // 
-            // ListBox_GMuscularModificar
+            // ListBox_GrupoMuscular
             // 
-            this.ListBox_GMuscularModificar.BackColor = System.Drawing.Color.SlateGray;
-            this.ListBox_GMuscularModificar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ListBox_GMuscularModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ListBox_GMuscularModificar.ForeColor = System.Drawing.Color.Black;
-            this.ListBox_GMuscularModificar.FormattingEnabled = true;
-            this.ListBox_GMuscularModificar.Items.AddRange(new object[] {
+            this.ListBox_GrupoMuscular.BackColor = System.Drawing.Color.SlateGray;
+            this.ListBox_GrupoMuscular.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ListBox_GrupoMuscular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ListBox_GrupoMuscular.ForeColor = System.Drawing.Color.Black;
+            this.ListBox_GrupoMuscular.FormattingEnabled = true;
+            this.ListBox_GrupoMuscular.Items.AddRange(new object[] {
             "Hombro",
             "Brazo",
             "Pierna",
             "Espalda",
             "Pectorales"});
-            this.ListBox_GMuscularModificar.Location = new System.Drawing.Point(929, 240);
-            this.ListBox_GMuscularModificar.Name = "ListBox_GMuscularModificar";
-            this.ListBox_GMuscularModificar.Size = new System.Drawing.Size(98, 102);
-            this.ListBox_GMuscularModificar.TabIndex = 212;
+            this.ListBox_GrupoMuscular.Location = new System.Drawing.Point(929, 273);
+            this.ListBox_GrupoMuscular.Name = "ListBox_GrupoMuscular";
+            this.ListBox_GrupoMuscular.Size = new System.Drawing.Size(98, 102);
+            this.ListBox_GrupoMuscular.TabIndex = 212;
             // 
             // textBox_descripcionEjercicio
             // 
@@ -221,9 +221,9 @@
             this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label18.Location = new System.Drawing.Point(735, 162);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(123, 20);
+            this.label18.Size = new System.Drawing.Size(126, 20);
             this.label18.TabIndex = 210;
-            this.label18.Text = "Crear Deporte";
+            this.label18.Text = "Crear Ejercicio";
             // 
             // button_guardarEjercicio
             // 
@@ -242,7 +242,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(837, 198);
+            this.label3.Location = new System.Drawing.Point(839, 198);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 16);
             this.label3.TabIndex = 208;
@@ -252,7 +252,7 @@
             // 
             this.txtNombreDeporte.BackColor = System.Drawing.Color.SlateGray;
             this.txtNombreDeporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreDeporte.Location = new System.Drawing.Point(814, 217);
+            this.txtNombreDeporte.Location = new System.Drawing.Point(837, 217);
             this.txtNombreDeporte.Name = "txtNombreDeporte";
             this.txtNombreDeporte.Size = new System.Drawing.Size(110, 22);
             this.txtNombreDeporte.TabIndex = 207;
@@ -261,11 +261,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(737, 198);
+            this.label2.Location = new System.Drawing.Point(731, 198);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 16);
+            this.label2.Size = new System.Drawing.Size(96, 16);
             this.label2.TabIndex = 206;
-            this.label2.Text = "ID del deporte";
+            this.label2.Text = "ID del ejercicio";
             // 
             // txtIDDeporte
             // 
@@ -273,7 +273,7 @@
             this.txtIDDeporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIDDeporte.Location = new System.Drawing.Point(735, 217);
             this.txtIDDeporte.Name = "txtIDDeporte";
-            this.txtIDDeporte.Size = new System.Drawing.Size(73, 22);
+            this.txtIDDeporte.Size = new System.Drawing.Size(94, 22);
             this.txtIDDeporte.TabIndex = 205;
             // 
             // label5
@@ -282,18 +282,18 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(733, 254);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 16);
+            this.label5.Size = new System.Drawing.Size(96, 16);
             this.label5.TabIndex = 213;
-            this.label5.Text = "ID del deporte";
+            this.label5.Text = "ID del ejercicio";
             // 
             // UsuarioAvanzadoMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
-            this.ClientSize = new System.Drawing.Size(1064, 598);
+            this.ClientSize = new System.Drawing.Size(1064, 504);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.ListBox_GMuscularModificar);
+            this.Controls.Add(this.ListBox_GrupoMuscular);
             this.Controls.Add(this.textBox_descripcionEjercicio);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.button_guardarEjercicio);
@@ -339,7 +339,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripVentanaPrincial;
         private System.Windows.Forms.ToolStripMenuItem habilitarUsu;
         private System.Windows.Forms.DataGridView tablaDeporte;
-        private System.Windows.Forms.CheckedListBox ListBox_GMuscularModificar;
+        private System.Windows.Forms.CheckedListBox ListBox_GrupoMuscular;
         private System.Windows.Forms.TextBox textBox_descripcionEjercicio;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button button_guardarEjercicio;
