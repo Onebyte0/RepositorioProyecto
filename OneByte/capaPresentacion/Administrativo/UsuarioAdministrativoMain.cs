@@ -153,6 +153,14 @@ namespace OneByte.capaPresentacion
                 }
             }
         }
+
+        private void cerrarsesion_Click(object sender, EventArgs e)
+        {
+            IniciodeSesion IniciodeSesion = new IniciodeSesion();
+            IniciodeSesion.Show();
+            this.Close();
+
+        }
     }
  }
     

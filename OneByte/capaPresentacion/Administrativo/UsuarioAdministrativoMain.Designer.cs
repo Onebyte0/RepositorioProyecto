@@ -68,7 +68,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button_eliminarUsuario = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarsesion = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tablaCliente)).BeginInit();
@@ -478,7 +478,7 @@
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2});
+            this.cerrarsesion});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
@@ -486,15 +486,16 @@
             this.menuStrip1.TabIndex = 178;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem2
+            // cerrarsesion
             // 
-            this.toolStripMenuItem2.AutoSize = false;
-            this.toolStripMenuItem2.BackColor = System.Drawing.Color.Salmon;
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem2.Margin = new System.Windows.Forms.Padding(0, 60, 0, 0);
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(195, 50);
-            this.toolStripMenuItem2.Text = "Cerrar Sesion";
+            this.cerrarsesion.AutoSize = false;
+            this.cerrarsesion.BackColor = System.Drawing.Color.Salmon;
+            this.cerrarsesion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarsesion.Margin = new System.Windows.Forms.Padding(0, 60, 0, 0);
+            this.cerrarsesion.Name = "cerrarsesion";
+            this.cerrarsesion.Size = new System.Drawing.Size(195, 50);
+            this.cerrarsesion.Text = "Cerrar Sesion";
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
             // 
             // menuStrip2
             // 
@@ -626,7 +627,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button_eliminarUsuario;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem cerrarsesion;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.Label label11;
     }
